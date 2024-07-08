@@ -1,5 +1,8 @@
+import Choose from "@/components/coaching/Choose";
 import Image from "next/image";
 
 export default function Home() {
-  return <div></div>;
+  return  <div>
+     <Choose/>
+  </div>;
 }

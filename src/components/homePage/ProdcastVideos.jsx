@@ -25,7 +25,7 @@ const ProdcastVideos = () => {
                                         <PlayIcon />
                                     </div>
                                 </div>
-                                <p className='text-lightBlack text-2xl1 font-bold leading-120 pb-[10px] pt-4'>{data.title}</p>
+                                <p className='text-lightBlack  text-2xl1 font-bold leading-120 pb-[10px] pt-4'>{data.title}</p>
                                 <p className='text-2xl leading-130 font-medium text-lightBlack pb-5'>{data.description}</p>
                                 <Link href="#" className='text-lightBlack underline text-base font-bold leading-150'>Read More</Link>
                             </div>
@@ -34,7 +34,7 @@ const ProdcastVideos = () => {
                 ))}
                 <div className="flex gap-4">
                     <CommonButton text='BE A GUEST' />
-                    <CommonButton text='BE A GUEST' />
+                    <CommonButton text='BE A GUEST' classesbtn='after:bg-transparent bg-transparent border border-lightBlack !text-lightBlack' />
                 </div>
             </div>
         </div>

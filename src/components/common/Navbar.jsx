@@ -29,7 +29,7 @@ const Navbar = () => {
           <Image src='/assets/images/podcast/svg/navLogo.svg' alt="Logo" width={215} height={39} />
         </Link>
         <ul
-          className={`flex items-center  z-20 relative sm:gap-[32px] gap-6 xl:gap-10 duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
+          className={`flex items-center  z-20 relative sm:gap-[32px] gap-4 xl:gap-10 duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
             }`}
         >
           <li className="duration-300 transition-all">
@@ -63,7 +63,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <button className="border border-orange border-solid py-3 px-5 text-orange font-bold text-lg leading-normal ms-2" onClick={showNav}>
+            <button className="border border-orange border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
             Newsletter
             </button>
           </li>

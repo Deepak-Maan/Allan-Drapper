@@ -34,9 +34,9 @@ module.exports = {
         80: "80%",
         50: "50%",
       },
-      fontWeight:{
+      fontWeight: {
         450: '450'
-      }
+      },
     },
   },
   plugins: [],

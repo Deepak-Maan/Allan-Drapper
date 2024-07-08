@@ -1,7 +1,9 @@
-import Archivement from "@/components/meetAllan/Archivement";
+import Companies from "@/components/Portfolio/Companies";
+import Investments from "@/components/Portfolio/Investments";
 
 export default function Home() {
   return <>
-<Archivement/>
+  <Companies/>
+  <Investments/>
   </>;
 }

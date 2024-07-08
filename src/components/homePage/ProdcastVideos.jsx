@@ -4,14 +4,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { PlayIcon } from '../common/Icons'
 import { H2 } from '../common/Heading'
+import CommonButton from '../common/CommonButton'
 
 const ProdcastVideos = () => {
     return (
         <div>
             <div className="container  mx-auto px-3 max-w-[1164px]">
-                <H2 heading="Podcasts" className="after:bg-yellow flex justify-center after:left-1/2 after:-translate-x-1/2" />
+                <H2 heading="Podcasts" className="after:bg-yellow flex justify-center after:left-1/2 after:-translate-x-1/2 mb-[107px]" />
                 {ProdcastVideoData.map((data, index) => (
-                    <div key={index} className='w-full border border-offGray p-4 mb-6 mt-[107px] ' >
+                    <div key={index} className='w-full border border-offGray p-4 mb-6  ' >
                         <div className='flex flex-col md:flex-row gap-5'>
                             <Image className=' w-full md:w-[331px] h-[198px] object-cover' src={data.img} alt="course's thumbnail" width={331} height={198} />
                             <div>
@@ -31,6 +32,10 @@ const ProdcastVideos = () => {
                         </div>
                     </div>
                 ))}
+                <div className="flex gap-4">
+                    <CommonButton text='BE A GUEST' />
+                    <CommonButton text='BE A GUEST' />
+                </div>
             </div>
         </div>
     )

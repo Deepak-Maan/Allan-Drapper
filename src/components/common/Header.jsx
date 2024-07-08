@@ -1,10 +1,11 @@
 import React from 'react'
-import { H2 } from './Heading'
+import Commonbtn from './Commonbtn'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
     <div>
-        <H2 heading='naman'/>
+      <Navbar />
     </div>
   )
 }

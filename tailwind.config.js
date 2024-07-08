@@ -7,8 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
-      colors: {
+      backgroundImage: {
+        'principle': "url('/assets/images/meetAllan/webp/principleBg.png')",
+      },      colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
         offBlue: "#A3CCC4",

@@ -28,6 +28,7 @@ module.exports = {
       fontSize: {
         "2xl1": "28px",
         "4xl1": "42px",
+        "5xl1": "56px",
       },
       opacity: {
         80: "80%",

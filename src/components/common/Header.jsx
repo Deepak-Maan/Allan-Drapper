@@ -1,10 +1,10 @@
 import React from 'react'
-import { H2 } from './Heading'
+import Commonbtn from './Commonbtn'
 
 const Header = () => {
   return (
     <div>
-        <H2 heading='naman'/>
+<Commonbtn className='w-full' text='naman'/>
     </div>
   )
 }

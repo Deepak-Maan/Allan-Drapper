@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Arquitecta";
-  src: url("/public/assets/fonts/arquitecta/Arquitecta.otf");
+    font-family: "Arquitecta";
+    src: url("/public/assets/fonts/arquitecta/FontsFree-Net-Arquitecta.ttf");
 }
 
-body {
-  font-family: "Arquitecta";
+* {
+    font-family: 'Arquitecta', sans-serif;
 }

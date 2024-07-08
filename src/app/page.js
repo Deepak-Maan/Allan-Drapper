@@ -1,5 +1,8 @@
-import Image from "next/image";
+import Header from "@/components/common/Header";
+import Archivement from "@/components/meetAllan/Archivement";
 
 export default function Home() {
-  return <div></div>;
+  return <>
+<Header/>
+  </>;
 }

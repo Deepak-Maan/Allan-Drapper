@@ -29,6 +29,10 @@ module.exports = {
         "2xl1": "28px",
         "4xl1": "42px",
       },
+      opacity: {
+        80: "80%",
+        50: "50%",
+      },
     },
   },
   plugins: [],

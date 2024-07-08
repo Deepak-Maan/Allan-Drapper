@@ -1,10 +1,11 @@
 import React from 'react'
 import Commonbtn from './Commonbtn'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
     <div>
-<Commonbtn className='w-full' text='naman'/>
+      <Navbar />
     </div>
   )
 }

@@ -10,8 +10,8 @@ const Business = () => {
         return (
                 <div className='pt-[110px]'>
                         <div className='container max-w-[1140px] mx-auto px-3'>
-                                <div className='flex flex-col lg:flex-row gap-[32px] relative'>
-                                        <div className='pt-[55px]'>
+                                <div className='flex flex-col min-[1100px]:flex-row gap-[32px] relative'>
+                                        <div className='pt-[55px] order-2 lg:order-1'>
                                                 <H2 className="!text-4xl1 !max-w-[653px]" heading="I Have Several Business Ideas. What Should I Do?" />
                                                 <p className='pt-[32px] font-medium text-xl leading-130 mb-[71px]'>Published: 11 December, 2023</p>
                                                 <div className='mb-[60px]'>
@@ -38,7 +38,7 @@ const Business = () => {
                                                         <p className='opacity-80 text-lightBlack font-medium text-2xl leading-130 max-w-[775px] mb-4'>By fostering this mindset, you cultivate a culture of continuous improvement and innovation within your entrepreneurial journey. This approach enables you to refine your strategies, iterate on your ideas, and steer your business towards sustainable growth and success over time.</p>
                                                 </div>
                                         </div>
-                                        <div className='w-[330px] h-full p-[32px] border border-offGray '>
+                                        <div className='w-[330px] order-1 lg:order-2 h-full p-[32px] lg:sticky lg:top-0 border border-offGray '>
                                                 <h5 className='text-lightBlack font-bold text-2xl1 leading-120 mb-4'>Table of Contents</h5>
                                                 <div className='flex items-center gap-[10px] mb-6'>
                                                         <Image src={rightClick} alt='rightClick' />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { H2 } from '../common/Heading'
 import Image from 'next/image'
-import gainMan from '../../../public/assets/images/coaching/webp/gainMan.webp'
+import gainMan from '../../../public/assets/images/webp/coaching/gainMan.webp'
 
 const Gain = () => {
   return (

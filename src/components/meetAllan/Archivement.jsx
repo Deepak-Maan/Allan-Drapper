@@ -16,7 +16,7 @@ const Archivement = () => {
             <div className='max-w-[1164px] px-3 mx-auto py-12 sm:py-16 md:py-20 lg:pt-[150px] lg:pb-[93px]'>
                 <div className="flex flex-col-reverse md:flex-row items-center gap-5  justify-between">
                     <Image
-                        src="/assets/images/meetAllan/webp/archivementMen.png"
+                        src="/assets/images/webp/meetAllan/archivementMen.png"
                         alt="My Image"
                         width={464}
                         height={603}

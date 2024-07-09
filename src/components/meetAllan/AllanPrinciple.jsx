@@ -7,7 +7,7 @@ const AllanPrinciple = () => {
         <div className="bg-principle bg-no-repeat bg-cover bg-center">
             <div className="container max-w-[1164px] flex flex-col md:flex-row justify-center items-center md:justify-between mx-auto px-3 relative h-full md:h-[85vh] xl:min-h-[770px] 2xl:h-full">
                 <div className="flex flex-col md:flex-row justify-center items-center flex-wrap">
-                    {/* <div className="w-[120px] h-[280px] sm:w-[494px] sm:h-[494px] absolute left-[22%] lg:left-[8%] !bottom-0 bg-yellow rounded-full blur-[130px] z-0 opacity-70 lg:opacity-60 -translate-y-[20%] translate-x-1/2 sm:-translate-x-[15%]"></div> */}
+                    <div className="w-[120px] h-[280px] sm:w-[494px] sm:h-[494px] absolute left-[22%] lg:left-[8%] !bottom-0 bg-yellow rounded-full blur-[130px] z-0 opacity-70 lg:opacity-60 -translate-y-[20%] translate-x-1/2 sm:-translate-x-[15%]"></div>
                     <div>                    <Image
                         src="/assets/images/meetAllan/webp/principle.png"
                         alt="My Image"
@@ -18,7 +18,7 @@ const AllanPrinciple = () => {
 
                     <div className="pb-[30px] lg:pb-[80px] xl:pb-[138px] md:absolute right-2 pt-16 sm:pt-20 md:pt-[100px] lg:pt-[140px] xl:pt-[150px]">
                         <div className="w-full text-left mr-auto ml-0">
-                            <h2 className="text-gray font-bold leading-[101.1%] text-[clamp(32px,3.5vw,42px)] relative pb-4 sm:pb-5 md:pb-6 capitalize after:absolute after:bottom-0 after:w-16 after:h-[3px] sm:after:h-[5px] sm:tracking-[0.046em] inline-block after:left-0">
+                            <h2 className="text-gray font-bold leading-[101.1%] text-[clamp(32px,3.5vw,42px)] relative pb-4 sm:pb-5 md:pb-12 capitalize after:absolute after:bottom-0 after:w-16 after:h-[3px] sm:after:h-[5px] sm:tracking-[0.046em] inline-block after:left-0">
                                 Allan's Principles
                             </h2>
                         </div>

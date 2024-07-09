@@ -7,7 +7,7 @@ const LawMoney = () => {
     return (
         <div className='max-w-[1164px] mx-auto px-3 pt-12 sm:pt-16 md:pt-20 lg:pt-[120px]'>
             <div className="flex flex-col items-center md:items-start md:justify-start justify-center md:flex-row">
-                <div>
+                <div className=' sticky top-0'>
                     <H2 heading={"10 Laws That Govern Money"} />
                     <Image
                         src="/assets/images/meetAllan/webp/allanDraperBook.png"

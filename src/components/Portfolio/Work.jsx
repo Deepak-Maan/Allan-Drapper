@@ -7,6 +7,9 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
 import slider1 from "../../../public/assets/images/webp/portfolio/swiperFistphoto.png";
+import slider2 from "../../../public/assets/images/webp/portfolio/basebollPlayer.png";
+import slider3 from "../../../public/assets/images/webp/portfolio/blackSuitPeople.png";
+import CommonButton from "../common/CommonButton";
 
 const Work = () => {
   return (
@@ -27,26 +30,30 @@ const Work = () => {
                 clickable: true,
               }}
             modules={[Pagination]}
-            className="portfolioSwiper"
+            className="portfolioSwiper "
+            
           >
             <SwiperSlide >
                 <Image src={slider1} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider1} width={528} height={384} alt="sliderImage" />
+            <Image src={slider2} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider1} width={528} height={384} alt="sliderImage" />
+            <Image src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider1} width={528} height={384} alt="sliderImage" />
+            <Image src={slider2} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider1} width={528} height={384} alt="sliderImage" />
+            <Image src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
-            
+
           </Swiper>
-      </div>
+          <div className=" flex justify-center items-center">
+              <CommonButton text='APPLY' classesbtn=" mt-8 w-[105px]" />
+          </div>
+          </div>
     </>
   );
 };

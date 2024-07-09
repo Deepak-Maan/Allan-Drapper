@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'principle': "url('/assets/images/webp/meetAllan/principleBg.png')",
+        doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
+        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
+        hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
       },
@@ -36,6 +38,7 @@ module.exports = {
         "3xl1": "34px",
         "4xl1": "42px",
         "5xl1": "56px",
+        "6xl1": "72px",
       },
       opacity: {
         80: "80%",
@@ -44,6 +47,9 @@ module.exports = {
       fontWeight: {
         450: "450",
       },
+      boxShadow: {
+        worldCard: "0px 0px 20px 1px #00000012",
+      },
       textShadow: {
         'sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
         'skyblue': '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
@@ -51,7 +57,7 @@ module.exports = {
      
       },
       screens: {
-        "xs": "400px"
+        xs: "400px",
       },
     },
   },
@@ -69,8 +75,8 @@ module.exports = {
         },
       }
 
-      addUtilities(newUtilities, ['responsive', 'hover'])
-    }
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
   ],
-};
 
+};

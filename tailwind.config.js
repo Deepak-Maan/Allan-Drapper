@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        doYou: 'url(../../public/assets/images/podCast/webp/doYouBg.webp)'
+      },
       colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
@@ -37,6 +39,9 @@ module.exports = {
       fontWeight: {
         450: '450'
       },
+      boxShadow: {
+        worldCard: "0px 0px 20px 1px #00000012"
+      }
     },
   },
   plugins: [],

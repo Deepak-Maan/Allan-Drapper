@@ -62,11 +62,8 @@
 }
 .swiper-slide.swiper-slide-next {
   width: 587px !important;
-  height: 427px;
+  height: 427px !important;
 }
 .swiper-wrapper {
   align-items: center;
-}
-.dhsuh{
-    background-image: url('../../public/assets/images/webp/portfolio/bgPortfolio.png');
 }

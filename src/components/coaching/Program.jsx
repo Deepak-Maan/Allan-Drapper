@@ -1,9 +1,9 @@
 import React from 'react'
 import { H2 } from '../common/Heading'
 import Image from 'next/image'
-import oneOnOne from '../../../public/assets/images/coaching/svg/oneOnOne.svg'
-import groupPeople from '../../../public/assets/images/coaching/svg/groupPeople.svg'
-import laptopWork from '../../../public/assets/images/coaching/svg/laptopWork.svg'
+import oneOnOne from '../../../public/assets/images/svg/coaching/oneOnOne.svg'
+import groupPeople from '../../../public/assets/images/svg/coaching/groupPeople.svg'
+import laptopWork from '../../../public/assets/images/svg/coaching/laptopWork.svg'
 
 const Program = () => {
   return (

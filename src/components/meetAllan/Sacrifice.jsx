@@ -13,7 +13,7 @@ const Sacrifice = () => {
                     alt="My Image"
                     width={1140}
                     height={603}
-                    className="object-cover pt-8 md:pt-10 lg:pt-16 cursor-pointer"
+                    className="object-cover pt-8 md:pt-10 lg:pt-16"
                 />
             </div>
 

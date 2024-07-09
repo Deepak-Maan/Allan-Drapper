@@ -14,7 +14,7 @@ const LawMoney = () => {
                         alt="My Image"
                         width={534}
                         height={905}
-                        className="md:max-w-[400px] sm:max-w-[404px] sm:max-h-[600px] pt-10 lg:pt-10 lg:max-w-[534px] md:max-h-[600px] object-cover lg:max-h-[903px] xl:min-h-[905px] cursor-pointer"
+                        className="md:max-w-[400px] sm:max-w-[404px] sm:max-h-[600px] pt-10 lg:pt-10 lg:max-w-[534px] md:max-h-[600px] object-cover lg:max-h-[903px] xl:min-h-[905px] "
                     />
                 </div>
                 <div className='max-w-[588px]'>

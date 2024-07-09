@@ -13,7 +13,7 @@ const AllanPrinciple = () => {
                         alt="My Image"
                         width={752}
                         height={1103}
-                        className="sm:max-w-[400px] md:max-w-[600px]  md:absolute bottom-0 -left-[20%] lg:left-[-3%] xl:left-0  z-40 lg:max-w-[652px] xl:w-[752px] xl:h-[700px] sm:max-h-[500px] md:max-h-[600px] object-cover lg:h-[583px] cursor-pointer"
+                        className="sm:max-w-[400px] md:max-w-[600px]  md:absolute bottom-0 -left-[20%] lg:left-[-3%] xl:left-0  z-40 lg:max-w-[652px] xl:w-[752px] xl:h-[700px] sm:max-h-[500px] md:max-h-[600px] object-cover lg:h-[583px]"
                     /></div>
 
                     <div className="pb-12 sm:pb-8 lg:pb-[80px] xl:pb-[138px] md:absolute right-2 pt-8 sm:pt-20 md:pt-[100px] lg:pt-[140px] xl:pt-[150px]">

@@ -13,7 +13,7 @@ const Archivement = () => {
                         alt="My Image"
                         width={464}
                         height={603}
-                        className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[500px] object-cover lg:max-h-[603px] cursor-pointer"
+                        className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[500px] object-cover lg:max-h-[603px] "
                     />
                     <div>
                         <H2 heading={"Allan's Top Achievements"} />

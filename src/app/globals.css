@@ -75,3 +75,26 @@
 .footerLinks {
     @apply font-medium text-base sm:text-2xl text-gray leading-130
 }
+
+
+::-webkit-scrollbar-track {
+    border-radius: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #F58505;
+    border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
+    background: transparent;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  

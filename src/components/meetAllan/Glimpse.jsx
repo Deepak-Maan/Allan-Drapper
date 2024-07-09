@@ -10,13 +10,13 @@ const Glimpse = () => {
                     <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                         <div class="col-span-1 !gap-4">
                             <Image
-                                src="/assets/images/meetAllan/webp/meninCity.png"
+                                src="/assets/images/webp/meetAllan/meninCity.webp"
                                 alt="My Image"
                                 width={534}
                                 height={905}
                                 className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[452px] mb-4 lg:mb-6  md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[255px] object-cover h-auto" />
                             <Image
-                                src="/assets/images/meetAllan/webp/brothers.png"
+                                src="/assets/images/webp/meetAllan/brothers.webp"
                                 alt="My Image"
                                 width={534}
                                 height={905}
@@ -24,7 +24,7 @@ const Glimpse = () => {
                         </div>
                         <div class="col-span-1">
                             <Image
-                                src="/assets/images/meetAllan/webp/kidPlay.png"
+                                src="/assets/images/webp/meetAllan/kidPlay.webp"
                                 alt="My Image"
                                 width={534}
                                 height={905}
@@ -33,20 +33,20 @@ const Glimpse = () => {
                         <div class="col-span-1 xs:col-span-2 lg:col-span-1">
                             <div class="grid grid-rows-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/meetAllan/webp/jointFamily.png"
+                                    src="/assets/images/webp/meetAllan/jointFamily.webp"
                                     alt="My Image"
                                     width={534}
                                     height={905}
                                     className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[452px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[255px] object-cover h-auto" />
                                 <div class="grid grid-cols-2 gap-4 lg:gap-6 col-span-1">
                                     <Image
-                                        src="/assets/images/meetAllan/webp/player.png"
+                                        src="/assets/images/webp/meetAllan/player.webp"
                                         alt="My Image"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto" />
                                     <Image
-                                        src="/assets/images/meetAllan/webp/couple.png"
+                                        src="/assets/images/webp/meetAllan/couple.webp"
                                         alt="My Image"
                                         width={534}
                                         height={905}

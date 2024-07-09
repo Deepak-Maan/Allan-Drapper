@@ -5,8 +5,9 @@ const Glimpse = () => {
     return (
         <section>
             <div className='max-w-[1164px] px-3 mx-auto  pt-12 sm:pt-16 md:pt-20 lg:pt-[152px]'>
-                <H2 heading={"A Glimpse into Our Togetherness"} className={"text-center"} />
-                <div className=" pt-12 pb-12 sm:pb-16 md:pb-24 lg:pb-[147px]">
+                <div className="pb-14">
+                    <H2 heading={"A Glimpse into Our Togetherness"} className={"text-center "} /></div>
+                <div className="  pb-12 sm:pb-16 md:pb-24 lg:pb-[147px]">
                     <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                         <div class="col-span-1 !gap-4">
                             <Image

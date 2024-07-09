@@ -6,7 +6,7 @@ import { BooksData } from '../common/Helper';
 const BookAllan = () => {
     return (
         <div className='max-w-[1164px] mx-auto px-3 xl:px-0 py-12 sm:py-16 md:py-20 md:pb-12 lg:pb-[60px] lg:pt-[120px]'>
-            <div className='pb-12'>
+            <div className='mb-[68px]'>
                 <H2 heading={"Book Recommendations By Allan"} className={"text-center mx-auto"} />
             </div>
 

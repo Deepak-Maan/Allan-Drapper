@@ -42,8 +42,8 @@ const Opinions = () => {
     return (
         <div className='bg-gray'>
             <div className="max-w-[1164px] px-3 mx-auto pt-12 sm:pt-16 md:pt-20 lg:pt-24">
-                <H2 heading={"Allan’s Unpopular Opinions"} className={"text-center"} />
-                <div className="flex flex-row flex-wrap items-center md:justify-start md:items-start justify-center pt-[61px] pb-2 sm:pb-5 md:pb-10 lg:pb-[54px]">
+                <div className='mb-[61px]'><H2 heading={"Allan’s Unpopular Opinions"} className={"text-center"} /></div>
+                <div className="flex flex-row flex-wrap items-center md:justify-start md:items-start justify-center  pb-2 sm:pb-5 md:pb-10 lg:pb-[54px]">
                     {cardData.map((card) => (
                         <div key={card.id} className="w-full sm:w-1/2 lg:w-1/3 pb-10">
                             <Image

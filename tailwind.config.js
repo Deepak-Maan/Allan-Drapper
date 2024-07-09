@@ -13,6 +13,7 @@ module.exports = {
         hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
+        'podcastHeaderBg' : "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)"
       },
       colors: {
         yellow: "#EEE916",

@@ -8,9 +8,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'principle': "url('/assets/images/meetAllan/webp/principleBg.png')",
-        'hustle': "url('/public/assets/images/portfolio/webp/bgImage.png')",
-      },      colors: {
+        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
+        hustle: "url('/assets/images/portfolio/webp/bgPortfolio.png')",
+      },
+      colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
         offBlue: "#A3CCC4",
@@ -18,6 +19,7 @@ module.exports = {
         skuBlue: "#0C8CE9",
         orange: "#F58505",
         lightBlack: "#040707",
+        lightGrey: "#E2E4E4",
       },
       lineHeight: {
         130: "130%",
@@ -37,9 +39,9 @@ module.exports = {
         80: "80%",
         50: "50%",
       },
-      fontWeight:{
-        450: '450'
-      }
+      fontWeight: {
+        450: "450",
+      },
     },
   },
   plugins: [],

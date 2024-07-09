@@ -60,3 +60,13 @@
   height: 12px !important;
   background: orange !important;
 }
+<<<<<<< HEAD
+=======
+.swiper-slide.swiper-slide-next {
+  width: 587px !important;
+  height: 427px !important;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+>>>>>>> d1d3484e7a54d4658bd26d77745d7a23c01ff346

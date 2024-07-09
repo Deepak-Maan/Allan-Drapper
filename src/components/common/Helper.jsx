@@ -95,13 +95,13 @@ export const WhyShouldcardData = [
     LineColor: 'after:bg-orange'
   },
   {
-    title: 'Invested In Others Ideas',
-    amount: '$5M',
-    LineColor: 'after:bg-yellow'
+    title: 'Podcast Downloads',
+    amount: '65K+',
+    LineColor: 'after:bg-offBlue'
   },
   {
-    title: 'Businesses Invested In',
-    amount: '29+',
-    LineColor: 'after:bg-orange'
+    title: 'Impressions Monthly',
+    amount: '40.2k',
+    LineColor: 'after:bg-lightBlack'
   },
 ];

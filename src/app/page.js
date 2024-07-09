@@ -1,12 +1,15 @@
 import Header from "@/components/common/Header";
 import ProdcastVideos from "@/components/homePage/ProdcastVideos";
-import Archivement from "@/components/meetAllan/Archivement";
+import Companies from "@/components/Portfolio/Companies";
+import Investments from "@/components/Portfolio/Investments";
 
 export default function Home() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <ProdcastVideos />
+      <Companies />
+      <Investments />
     </>
   );
 }

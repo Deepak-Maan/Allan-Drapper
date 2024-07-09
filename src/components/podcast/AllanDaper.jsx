@@ -3,6 +3,7 @@ import { H2 } from '../common/Heading'
 import Image from 'next/image'
 import { AllanDaperImg } from '../common/Helper'
 import WhyShould from './WhyShould'
+import AllanBrands from './AllanBrands'
 
 const AllanDaper = () => {
     return (
@@ -33,6 +34,7 @@ const AllanDaper = () => {
                     ))}
                 </div>
                 <WhyShould/>
+                <AllanBrands/>
             </div>
         </div>
     )

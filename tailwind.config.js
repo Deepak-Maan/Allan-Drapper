@@ -7,12 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
+        grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
+      },
       colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
         offBlue: "#A3CCC4",
         offGray: "#686C6B",
+        darkGray: "#1D1D1D",
         skuBlue: "#0C8CE9",
         orange: "#F58505",
         lightBlack: "#040707",
@@ -35,7 +39,7 @@ module.exports = {
         50: "50%",
       },
       fontWeight: {
-        450: '450'
+        450: "450",
       },
     },
   },

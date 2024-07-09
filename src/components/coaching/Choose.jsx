@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import choosePeople from '../../../public/assets/images/coaching/webp/choosePeople.webp'
-import triangleBox from '../../../public/assets/images/coaching/svg/chooseTriangleBox.svg'
+import choosePeople from '../../../public/assets/images/webp/coaching/choosePeople.webp'
+import triangleBox from '../../../public/assets/images/svg/coaching/chooseTrianglebox.svg'
 import { H2 } from '../common/Heading'
 
 const Choose = () => {

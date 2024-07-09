@@ -8,10 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'principle': "url('/assets/images/webp/meetAllan/principleBg.png')",
-        'hustle': "url('/assets/images/webp/portfolio/bgPortfolio.png')",
-      },
-     colors: {
+        doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
+        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
+        hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
       },
@@ -24,7 +23,6 @@ module.exports = {
         skuBlue: "#0C8CE9",
         orange: "#F58505",
         lightBlack: "#040707",
-        lightGrey: "#E2E4E4",
         black2: "#141414",
       },
       lineHeight: {
@@ -48,11 +46,15 @@ module.exports = {
       fontWeight: {
         450: "450",
       },
+      boxShadow: {
+        worldCard: "0px 0px 20px 1px #00000012",
+      },
       textShadow: {
-        'custom-sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        "custom-sky":
+          "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
       },
       screens: {
-        "xs": "400px"
+        xs: "400px",
       },
     },
   },
@@ -60,15 +62,15 @@ module.exports = {
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        '.text-shadow-custom-sky': {
-          textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        ".text-shadow-custom-sky": {
+          textShadow:
+            "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
         },
-      }
+      };
 
-      addUtilities(newUtilities, ['responsive', 'hover'])
-    }
-  ],
-    variants: {
-      extend: {},
+      addUtilities(newUtilities, ["responsive", "hover"]);
     },
-}
+  ],
+
+  plugins: [],
+};

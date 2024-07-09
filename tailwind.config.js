@@ -12,14 +12,20 @@ module.exports = {
         'hustle': "url('/assets/images/webp/portfolio/bgPortfolio.png')",
       },
      colors: {
+        whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
+        grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
+      },
+      colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
         offBlue: "#A3CCC4",
         offGray: "#686C6B",
+        darkGray: "#1D1D1D",
         skuBlue: "#0C8CE9",
         orange: "#F58505",
         lightBlack: "#040707",
         lightGrey: "#E2E4E4",
+        black2: "#141414",
       },
       lineHeight: {
         130: "130%",
@@ -62,4 +68,7 @@ module.exports = {
       addUtilities(newUtilities, ['responsive', 'hover'])
     }
   ],
-};
+    variants: {
+      extend: {},
+    },
+}

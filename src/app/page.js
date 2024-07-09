@@ -1,3 +1,4 @@
+import GrabPdf from "@/components/common/GrabPdf";
 import Companies from "@/components/Portfolio/Companies";
 import Hustle from "@/components/Portfolio/Hustle";
 import Investments from "@/components/Portfolio/Investments";
@@ -9,5 +10,6 @@ export default function Home() {
   <Investments/>
   <Work/>
   <Hustle/>
+  <GrabPdf/>
   </>;
 }

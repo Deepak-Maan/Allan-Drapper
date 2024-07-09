@@ -67,3 +67,8 @@
 .swiper-wrapper {
   align-items: center;
 }
+    
+
+.footerLinks {
+    @apply font-medium text-base sm:text-2xl text-gray leading-130
+}

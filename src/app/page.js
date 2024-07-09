@@ -2,6 +2,7 @@ import Header from "@/components/common/Header";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
 import AllanStory from "@/components/meetAllan/AllanStory";
 import Archivement from "@/components/meetAllan/Archivement";
+import BookAllan from "@/components/meetAllan/BookAllan";
 import Glimpse from "@/components/meetAllan/Glimpse";
 import LawMoney from "@/components/meetAllan/LawMoney";
 import Opinion from "@/components/meetAllan/Opinion";
@@ -17,5 +18,6 @@ export default function Home() {
     <Glimpse/>
     <Opinion/>
     <LawMoney/>
+    <BookAllan/>
   </>;
 }

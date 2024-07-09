@@ -28,6 +28,89 @@ export const ProdcastVideoData = [
 ];
 // ---=========================Allan_meet======================================== //
 
+// Helper.js or appropriate file
+export const BooksData = [
+  {
+    category: "Business Leadership/Management",
+    items: [
+      {
+        src: "/assets/images/webp/meetAllan/greatBook.png",
+        title: "Good to Great",
+        author: "-Jim Collins"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/effectiveBook.png",
+        title: "Seven Habits of Highly Effective People",
+        author: "-Steven Covey"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/deliveringBook.png",
+        title: "Delivering Happiness",
+        author: "-Tony Hsieh"
+      }
+    ]
+  },
+  {
+    category: "Personal Improvement",
+    items: [
+      {
+        src: "/assets/images/webp/meetAllan/deepBook.png",
+        title: "Deep Work",
+        author: "-Cal Newport"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/simonBook.png",
+        title: "Start with Why",
+        author: "-Simon Sinek"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/purposeBook.png",
+        title: "Procrastinate on Purpose",
+        author: "-Rory Vaden"
+      }
+    ]
+  },
+  {
+    category: "Inspirational/Motivational",
+    items: [
+      {
+        src: "/assets/images/webp/meetAllan/dogBook.png",
+        title: "Shoe Dog",
+        author: "-Phil Knight"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/morrieBook.png",
+        title: "Tuesday with Morrie",
+        author: "-Mitch Albom"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/elonMusk.png",
+        title: "Elon Musk",
+        author: "-Walter Isaacson"
+      }
+    ]
+  },
+  {
+    category: "Wealth Building",
+    items: [
+      {
+        src: "/assets/images/webp/meetAllan/flowBook.png",
+        title: "Cashflow Quadrant",
+        author: "-Robert Kiyosaki"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/richBook.png",
+        title: "Think and Grow Rich",
+        author: "-Napoleon Hill"
+      },
+      {
+        src: "/assets/images/webp/meetAllan/richBook.png",
+        title: "Think and Grow Rich",
+        author: "-Napoleon Hill"
+      }
+    ]
+  }
+];
 
 // Exported from Helper.js
 export const LawItem = ({ number, text, containerClass, numberClass, textClass }) => (
@@ -88,4 +171,3 @@ const cardData = [
 ];
 
 export default cardData;
-// archivement section

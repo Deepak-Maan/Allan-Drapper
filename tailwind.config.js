@@ -28,6 +28,7 @@ module.exports = {
       },
       fontSize: {
         "2xl1": "28px",
+        "3xl1": "34px",
         "4xl1": "42px",
         "5xl1": "56px",
       },
@@ -39,7 +40,10 @@ module.exports = {
         450: '450'
       },
       textShadow: {
-        'custom-sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        'sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        'skyblue': '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
+        'yellow': '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
+     
       },
       screens: {
         "xs": "400px"
@@ -49,8 +53,14 @@ module.exports = {
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        '.text-shadow-custom-sky': {
+        '.text-shadow-sky': {
           textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        },
+        '.text-shadow-skyblue': {
+          textShadow: '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
+        },
+        '.text-shadow-yellow': {
+          textShadow: '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
         },
       }
 

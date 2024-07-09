@@ -7,7 +7,7 @@ const Archivement = () => {
 <<<<<<< HEAD
   return (
     <div>
-        <H2  heading="Logo Design" />
+        <H2 heading="Logo Design" />
     </div>
   )
 =======

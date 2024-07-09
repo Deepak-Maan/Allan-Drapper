@@ -8,15 +8,22 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'principle': "url('/assets/images/webp/meetAllan/principleBg.png')",
-      }, colors: {
+        doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
+        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
+        hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
+        whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
+        grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
+      },
+      colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
         offBlue: "#A3CCC4",
         offGray: "#686C6B",
+        darkGray: "#1D1D1D",
         skuBlue: "#0C8CE9",
         orange: "#F58505",
         lightBlack: "#040707",
+        black2: "#141414",
       },
       lineHeight: {
         130: "130%",
@@ -30,31 +37,40 @@ module.exports = {
         "2xl1": "28px",
         "4xl1": "42px",
         "5xl1": "56px",
+        "6xl1": "72px",
       },
       opacity: {
         80: "80%",
         50: "50%",
       },
       fontWeight: {
-        450: '450'
+        450: "450",
+      },
+      boxShadow: {
+        worldCard: "0px 0px 20px 1px #00000012",
       },
       textShadow: {
-        'custom-sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        "custom-sky":
+          "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
       },
       screens: {
-        "xs": "400px"
+        xs: "400px",
       },
     },
   },
+
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        '.text-shadow-custom-sky': {
-          textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        ".text-shadow-custom-sky": {
+          textShadow:
+            "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
         },
-      }
+      };
 
-      addUtilities(newUtilities, ['responsive', 'hover'])
-    }
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
   ],
+
+  plugins: [],
 };

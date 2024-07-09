@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: "Arquitecta";
-    src: url("/public/assets/fonts/arquitecta/Arquitecta.otf");
+    src: url("/public/assets/fonts/arquitecta/FontsFree-Net-Arquitecta.ttf");
 }
 
 * {
-    font-family: "Arquitecta";
+    font-family: 'Arquitecta', sans-serif;
 }

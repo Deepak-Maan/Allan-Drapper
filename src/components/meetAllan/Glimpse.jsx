@@ -14,7 +14,7 @@ const Glimpse = () => {
                                 alt="My Image"
                                 width={534}
                                 height={905}
-                                className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[452px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[255px] object-cover h-auto" />
+                                className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[452px] mb-4 lg:mb-6  md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[255px] object-cover h-auto" />
                             <Image
                                 src="/assets/images/meetAllan/webp/brothers.png"
                                 alt="My Image"

@@ -9,10 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
-        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
+        principle: "url('/assets/images/webp/meetAllan/principleBg.png')",
         hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
+        'podcastHeaderBg' : "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)"
       },
       colors: {
         yellow: "#EEE916",
@@ -35,6 +36,7 @@ module.exports = {
       },
       fontSize: {
         "2xl1": "28px",
+        "3xl1": "34px",
         "4xl1": "42px",
         "5xl1": "56px",
         "6xl1": "72px",
@@ -50,27 +52,32 @@ module.exports = {
         worldCard: "0px 0px 20px 1px #00000012",
       },
       textShadow: {
-        "custom-sky":
-          "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
+        'sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        'skyblue': '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
+        'yellow': '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
+
       },
       screens: {
         xs: "400px",
       },
     },
   },
-
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        ".text-shadow-custom-sky": {
-          textShadow:
-            "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
+        '.text-shadow-sky': {
+          textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
         },
-      };
+        '.text-shadow-skyblue': {
+          textShadow: '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
+        },
+        '.text-shadow-yellow': {
+          textShadow: '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
+        },
+      }
 
       addUtilities(newUtilities, ["responsive", "hover"]);
     },
   ],
 
-  plugins: [],
 };

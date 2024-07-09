@@ -10,8 +10,7 @@ module.exports = {
       backgroundImage: {
         doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
         principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
-        hustle: "url('/assets/images/portfolio/webp/bgImage.png')",
-        'principle': "url('/assets/images/webp/meetAllan/principleBg.png')",
+        hustle: "url('/assets/images/webp/portfolio/bgPortfolio.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
       },
@@ -55,7 +54,8 @@ module.exports = {
         'sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
         'skyblue': '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
         'yellow': '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
-     
+        "custom-sky":
+          "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
       },
       screens: {
         xs: "400px",

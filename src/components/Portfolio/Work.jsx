@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
-import slider1 from "../../../public/assets/images/portfolio/webp/swiperFistPhoto.png"
+import slider1 from "../../../public/assets/images/webp/portfolio/swiperFistphoto.png";
 
 const Work = () => {
   return (

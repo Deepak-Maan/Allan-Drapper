@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
-        hustle: "url('/assets/images/portfolio/webp/bgPortfolio.png')",
+        'principle': "url('/assets/images/webp/meetAllan/principleBg.png')",
+        'hustle': "url('/assets/images/webp/portfolio/bgPortfolio.png')",
       },
-      colors: {
+     colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
         offBlue: "#A3CCC4",
@@ -42,7 +42,24 @@ module.exports = {
       fontWeight: {
         450: "450",
       },
+      textShadow: {
+        'custom-sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+      },
+      screens: {
+        "xs": "400px"
+      },
     },
   },
-  plugins: [],
+
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-shadow-custom-sky': {
+          textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        },
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    }
+  ],
 };

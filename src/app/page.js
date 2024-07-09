@@ -1,3 +1,5 @@
+import Footer from "@/components/common/Footer";
+import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
 import AllanStory from "@/components/meetAllan/AllanStory";
@@ -19,5 +21,7 @@ export default function Home() {
     <Opinion/>
     <LawMoney/>
     <BookAllan/>
+    <GrabPdf/>
+    <Footer/>
   </>;
 }

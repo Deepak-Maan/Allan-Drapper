@@ -25,3 +25,7 @@
 * {
     font-family: arquitecta, sans-serif;
 }
+
+.footerLinks {
+    @apply font-medium text-base sm:text-2xl text-gray leading-130
+}

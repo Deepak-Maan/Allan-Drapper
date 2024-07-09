@@ -137,6 +137,13 @@ export const SwiperCards = [
     linefifth: 'nuggets to help you grow and succeed.',
     name: 'Andy N.'
   },
+  {
+    linefirst: 'Learn to Earn!',
+    linesecond: ' Own a Business or thinking about it!? You Have',
+    linethird: 'to listen to this podcast!!  Great information for',
+    linefourth: 'free!!  You have to learn to earn!',
+    name: 'Hayleigh A.'
+  },
 ];
 // ============================= allan's brand data =============================//
 export const AllanBrand = [

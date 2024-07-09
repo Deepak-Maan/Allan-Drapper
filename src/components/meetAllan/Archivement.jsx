@@ -4,13 +4,13 @@ import Image from "next/image";
 import { Bluesquare } from '../common/Icons';
 
 const Archivement = () => {
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
   return (
     <div>
         <H2 heading="Logo Design" />
     </div>
   )
-=======
+=========
     return (
         <section>
             <div className='max-w-[1164px] px-3 mx-auto py-12 sm:py-16 md:py-20 lg:pt-[150px] lg:pb-[93px]'>
@@ -50,7 +50,7 @@ const Archivement = () => {
                 </div></div>
         </section>
     )
->>>>>>> origin/meet
+>>>>>>>>> Temporary merge branch 2
 }
 
 export default Archivement

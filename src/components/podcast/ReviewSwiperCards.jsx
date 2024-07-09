@@ -1,38 +1,32 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import 'swiper/swiper-bundle.css';
-import SwiperCore, { Pagination, Autoplay } from 'swiper';
+import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { SwiperCards } from '../common/Helper'; 
+import { SwiperCards } from '../common/Helper';  // assuming SwiperCards is correctly exported
 import { BigInvertedComaIcon, StartIcon } from '../common/Icons';
-
-SwiperCore.use([Pagination, Autoplay]);
-
+import 'swiper/css/pagination';
 const ReviewSwiperCards = () => {
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
-        setIsMounted(true); 
+        setIsMounted(true);
     }, []);
 
     if (!isMounted) {
-        return null; 
+        return null;
     }
 
     return (
         <Swiper
             spaceBetween={0}
             slidesPerView={2}
+            navigation
             pagination={{ clickable: true }}
-            autoplay={{  
-                delay: 300,  
-                disableOnInteraction: true,  
-            }}
-            className='max-w-[1030px] !pt-20 !pb-8 mx-auto'
-        >
+            className='!pt-20 !pb-8 px-4 mx-auto'>
             {SwiperCards.map((card, index) => (
                 <SwiperSlide key={index}>
-                    <div className='shadow-worldCard bg-white pl-6 pt-6 pr-5 pb-5 max-w-[487px] min-h-[312px] mx-auto flex flex-col justify-between'>
+                    <div className='shadow-worldCard bg-white pl-6 pt-6 pr-5 pb-5 max-w-[487px] mx-auto min-h-[312px] flex flex-col justify-between'>
                         <div>
                             <div className='flex items-center gap-1'>
                                 <StartIcon />

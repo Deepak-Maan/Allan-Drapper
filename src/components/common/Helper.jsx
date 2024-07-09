@@ -141,7 +141,7 @@ export const SwiperCards = [
 // ============================= allan's brand data =============================//
 export const AllanBrand = [
   {
-    src: "/assets/images/portfolio/svg/proof.svg",
+    src: "/assets/images/svg/portfolio/proof.svg",
     width: 100,
     height: 100
   },
@@ -156,7 +156,7 @@ export const AllanBrand = [
     height: 96
   },
   {
-    src: "/assets/images/portfolio/svg/lizard.svg",
+    src: "/assets/images/svg/portfolio/lizard.svg",
     width: 118,
     height: 100
   }

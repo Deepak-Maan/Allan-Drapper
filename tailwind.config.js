@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        doYou: 'url(../../public/assets/images/podCast/webp/doYouBg.webp)'
+        doYou: 'url(../../public/assets/images/webp/podCast/doYouBg.webp)',
+        'principle': "url('/assets/images/meetAllan/webp/principleBg.png')",
+        'hustle': "url('/public/assets/images/portfolio/webp/bgImage.png')",
       },
       colors: {
         yellow: "#EEE916",
@@ -31,6 +33,7 @@ module.exports = {
         "2xl1": "28px",
         "4xl1": "42px",
         "5xl1": "56px",
+        "6xl1": "72px",
       },
       opacity: {
         80: "80%",

@@ -68,17 +68,17 @@ export const podcasts = [
 export const AllanDaperImg = [
   {
     id: 1,
-    src: '/assets/images/podcast/webp/allanDaperMan.webp',
+    src: '/assets/images/webp/podcast/allanDaperMan.webp',
     alt: 'Allan Daper Man',
   },
   {
     id: 2,
-    src: '/assets/images/podcast/webp/allanDaperFamily.webp',
+    src: '/assets/images/webp/podcast/allanDaperFamily.webp',
     alt: 'family',
   },
   {
     id: 3,
-    src: '/assets/images/podcast/webp/allanDaperManBlackTshirt.webp',
+    src: '/assets/images/webp/podcast/allanDaperManBlackTshirt.webp',
     alt: 'family',
   },
 ];
@@ -103,5 +103,81 @@ export const WhyShouldcardData = [
     title: 'Impressions Monthly',
     amount: '40.2k',
     LineColor: 'after:bg-lightBlack'
+  },
+];
+export const SwiperCards = [
+  {
+    linefirst: 'Learn to Earn!',
+    linesecond: ' Own a Business or thinking about it!? You Have',
+    linethird: 'to listen to this podcast!!  Great information for',
+    linefourth: 'free!!  You have to learn to earn!',
+    name: 'Hayleigh A.'
+  },
+  {
+    linefirst: 'A Must Listen For Entrepreneurs',
+    linesecond: 'I am very impressed with the quality of the',
+    linethird: 'conversations Allan has with his guests. If you’re a',
+    linefourth: 'start-up entrepreneur, this podcast is filled with',
+    linefifth: 'nuggets to help you grow and succeed.',
+    name: 'Andy N.'
+  },
+  {
+    linefirst: 'Learn to Earn!',
+    linesecond: ' Own a Business or thinking about it!? You Have',
+    linethird: 'to listen to this podcast!!  Great information for',
+    linefourth: 'free!!  You have to learn to earn!',
+    name: 'Hayleigh A.'
+  },
+  {
+    linefirst: 'A Must Listen For Entrepreneurs',
+    linesecond: 'I am very impressed with the quality of the',
+    linethird: 'conversations Allan has with his guests. If you’re a',
+    linefourth: 'start-up entrepreneur, this podcast is filled with',
+    linefifth: 'nuggets to help you grow and succeed.',
+    name: 'Andy N.'
+  },
+];
+// ============================= allan's brand data =============================//
+export const AllanBrand = [
+  {
+    src: "/assets/images/portfolio/svg/proof.svg",
+    width: 100,
+    height: 100
+  },
+  {
+    src: "/assets/images/podcast/svg/ranaHub.svg",
+    width: 260,
+    height: 75
+  },
+  {
+    src: "/assets/images/podcast/svg/eBD.svg",
+    width: 175,
+    height: 96
+  },
+  {
+    src: "/assets/images/portfolio/svg/lizard.svg",
+    width: 118,
+    height: 100
+  }
+];
+// -----------------------------coaching -----------------------------------//
+import oneOnOne from '../../../public/assets/images/coaching/svg/oneOnOne.svg'
+import groupPeople from '../../../public/assets/images/coaching/svg/groupPeople.svg'
+import laptopWork from '../../../public/assets/images/coaching/svg/laptopWork.svg'
+export const chooseDate = [
+  {
+    svg: oneOnOne,
+    name: "One-on-One Coaching",
+    detail: "Personalized coaching to tackle your business challenges and create a success roadmap.",
+  },
+  {
+    svg: groupPeople,
+    name: "Group Coaching",
+    detail: "Access online courses and workshops on business growth and personal development. Learn and apply practical lessons.",
+  },
+  {
+    svg: laptopWork,
+    name: "Online Courses & Workshops",
+    detail: "Explore diverse online courses for business growth and personal development. Learn, apply, succeed.",
   },
 ];

@@ -52,7 +52,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link href="/" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/podcast" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
               Speaking
             </Link>
           </li>

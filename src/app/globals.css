@@ -3,10 +3,25 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Arquitecta";
-    src: url("/public/assets/fonts/arquitecta/Arquitecta.otf");
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/Arquitecta.otf");
+}
+
+@font-face {
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/ArquitectaBlack.otf");
+}
+
+@font-face {
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/ArquitectaBold.otf");
+}
+
+@font-face {
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/ArquitectaMedium.otf");
 }
 
 * {
-    font-family: "Arquitecta";
+    font-family: arquitecta, sans-serif;
 }

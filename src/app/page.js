@@ -1,3 +1,4 @@
+import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
 import ProdcastVideos from "@/components/homePage/ProdcastVideos";
@@ -12,6 +13,7 @@ export default function Home() {
       <ProdcastVideos />
       <WhoAllan />
       <GrabPdf />
+      <Footer />
       {/* <Companies />
       <Investments /> */}
     </>

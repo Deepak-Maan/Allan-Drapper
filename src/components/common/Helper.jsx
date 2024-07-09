@@ -172,27 +172,7 @@ export const AllanBrand = [
     height: 100
   }
 ];
-// -----------------------------coaching -----------------------------------//
-import oneOnOne from '../../../public/assets/images/coaching/svg/oneOnOne.svg'
-import groupPeople from '../../../public/assets/images/coaching/svg/groupPeople.svg'
-import laptopWork from '../../../public/assets/images/coaching/svg/laptopWork.svg'
-export const chooseDate = [
-  {
-    svg: oneOnOne,
-    name: "One-on-One Coaching",
-    detail: "Personalized coaching to tackle your business challenges and create a success roadmap.",
-  },
-  {
-    svg: groupPeople,
-    name: "Group Coaching",
-    detail: "Access online courses and workshops on business growth and personal development. Learn and apply practical lessons.",
-  },
-  {
-    svg: laptopWork,
-    name: "Online Courses & Workshops",
-    detail: "Explore diverse online courses for business growth and personal development. Learn, apply, succeed.",
-  },
-];
+
 // ---=========================Allan_meet======================================== //
 
 // Helper.js or appropriate file
@@ -301,43 +281,6 @@ export const Laws = [
 ];
 
 
-// cardData.js
-
-const cardData = [
-  {
-    id: 1,
-    image: "/assets/images/svg/meetAllan/startNow.svg",
-    title: "Start Now",
-    description: "Don't wait until you know 100% of what you need, get started already.",
-  },
-  {
-    id: 2,
-    image: "/assets/images/svg/meetAllan/debt.svg",
-    title: "Good vs Bad Debt",
-    description: "Not all debt is bad debt. Know the difference",
-  },
-  {
-    id: 3,
-    image: "/assets/images/svg/meetAllan/cutTies.svg",
-    title: "Cut Ties",
-    description:
-      "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
-  },
-  {
-    id: 4,
-    image: "/assets/images/svg/meetAllan/college.svg",
-    title: "College Myth",
-    description: "In most cases, college is a waste of time and money.",
-  },
-  {
-    id: 5,
-    image: "/assets/images/svg/meetAllan/payFirst.svg",
-    title: "Pay Yourself First",
-    description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
-  },
-];
-
-// archivement section
 
 
 // companies section

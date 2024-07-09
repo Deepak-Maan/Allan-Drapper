@@ -1,21 +1,14 @@
-import Header from "@/components/common/Header";
-import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
-import AllanStory from "@/components/meetAllan/AllanStory";
-import Archivement from "@/components/meetAllan/Archivement";
-import Glimpse from "@/components/meetAllan/Glimpse";
-import LawMoney from "@/components/meetAllan/LawMoney";
-import Opinion from "@/components/meetAllan/Opinion";
-import Sacrifice from "@/components/meetAllan/Sacrifice";
+import Choose from "@/components/coaching/Choose";
+import Gain from "@/components/coaching/Gain";
+import Program from "@/components/coaching/Program";
+import Business from "@/components/several/Business";
+
 
 export default function Home() {
   return <>
-  <Header/>
-    <Archivement />
-    <AllanStory />
-    <AllanPrinciple/>
-    <Sacrifice/>
-    <Glimpse/>
-    <Opinion/>
-    <LawMoney/>
+  <Choose/>
+  <Gain/>
+  <Program/>
+  <Business/>
   </>;
 }

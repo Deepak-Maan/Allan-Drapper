@@ -16,17 +16,17 @@ import Business from "@/components/several/Business";
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <ProdcastVideos />
       <WhoAllan />
       <GrabPdf />
       <Footer />
-      <Choose />
-      <Program />
-      <Gain />
-      <Business />
-      <Companies />
-      <Investments />
+      {/* <Choose /> */}
+      {/* <Program /> */}
+      {/* <Gain /> */}
+      {/* <Business /> */}
+      {/* <Companies /> */}
+      {/* <Investments /> */}
     </>
   );
 }

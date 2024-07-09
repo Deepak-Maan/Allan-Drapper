@@ -1,9 +1,6 @@
 import VideoEpisode145 from "../../../public/assets/images/webp/homePage/collageThumbnail.png"
 import VideoEpisode146 from "../../../public/assets/images/webp/homePage/videoThumbnail146.png"
 import VideoEpisode147 from "../../../public/assets/images/webp/homePage/videoThumbnail147.png"
-import oneOnOne from '../../../public/assets/images/svg/coachingoneOnOne.svg'
-import groupPeople from '../../../public/assets/images/svg/coaching/groupPeople.svg'
-import laptopWork from '../../../public/assets/images/svg/coaching/laptopWork.svg'
 import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
 import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
 import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
@@ -150,13 +147,6 @@ export const SwiperCards = [
     linefourth: 'start-up entrepreneur, this podcast is filled with',
     linefifth: 'nuggets to help you grow and succeed.',
     name: 'Andy N.'
-  },
-  {
-    linefirst: 'Learn to Earn!',
-    linesecond: ' Own a Business or thinking about it!? You Have',
-    linethird: 'to listen to this podcast!!  Great information for',
-    linefourth: 'free!!  You have to learn to earn!',
-    name: 'Hayleigh A.'
   },
 ];
 // ============================= allan's brand data =============================//

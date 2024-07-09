@@ -1,9 +1,9 @@
 import React from 'react'
 import { H2 } from '../common/Heading'
 import Image from 'next/image'
-import slick from '../../../public/assets/images/webp/portfolio/svg/slickBarrier.svg'
-import paramify from '../../../public/assets/images/webp/portfolio/svg/paramify.svg'
-import sky from '../../../public/assets/images/webp/portfolio/svg/skyBlue.svg'
+import slick from '../../../public/assets/images/portfolio/svg/slickBarrier.svg'
+import paramify from '../../../public/assets/images/portfolio/svg/paramify.svg'
+import sky from '../../../public/assets/images/portfolio/svg/skyBlue.svg'
 
 const Investments = () => {
   return (

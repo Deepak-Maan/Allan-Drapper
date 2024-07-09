@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'principle': "url('/assets/images/meetAllan/webp/principleBg.png')",
+        'hustle': "url('/public/assets/images/portfolio/webp/bgImage.png')",
       },      colors: {
         yellow: "#EEE916",
         gray: "#E2E4E4",
@@ -30,6 +31,7 @@ module.exports = {
         "2xl1": "28px",
         "4xl1": "42px",
         "5xl1": "56px",
+        "6xl1": "72px",
       },
       opacity: {
         80: "80%",

@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='bg-darkGray'>
             <div className="container mx-auto px-3 max-w-[1164px]">
-                <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-1 lg:grid-cols-2 pt-[80px] pb-[31px]">
                     <div className=''>
                         <Image src="/assets/images/webp/homePage/allanFooterImage.png" width={386} height={245} alt="allan's image" />
                     </div>

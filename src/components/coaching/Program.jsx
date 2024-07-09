@@ -10,7 +10,7 @@ const Program = () => {
     <div className='bg-gray py-[95px]'>
       <div className='container max-w-[1140px] px-3 mx-auto'>
       <H2 className="!text-4xl1 text-center" heading="Coaching Programs"/>
-           <div className='grid grid-cols-3 gap-[93px] pt-[61px]'>
+           <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-[93px] pt-[61px]'>
                 <div className='flex flex-col'>
                   <Image src={oneOnOne} alt='oneOnOne' width={64} height={64} className='mb-6'/>
                   <h3 className='mb-[10px] text-lightBlack font-bold text-2xl1 leading-120'>One-on-One Coaching</h3>

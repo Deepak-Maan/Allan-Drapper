@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 import 'swiper/swiper-bundle.css';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { SwiperCards } from '../common/Helper';
-import { BigInvertedComaIcon, StartIcon } from '../common/Icons';
+import { SwiperCards } from './Helper';
+import { BigInvertedComaIcon, StartIcon } from './Icons';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 

@@ -1,25 +1,13 @@
-import Header from "@/components/common/Header";
-import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
-import AllanStory from "@/components/meetAllan/AllanStory";
-import Archivement from "@/components/meetAllan/Archivement";
-import BookAllan from "@/components/meetAllan/BookAllan";
-import Glimpse from "@/components/meetAllan/Glimpse";
-import LawMoney from "@/components/meetAllan/LawMoney";
-import Opinion from "@/components/meetAllan/Opinion";
-import Sacrifice from "@/components/meetAllan/Sacrifice";
+import Companies from "@/components/Portfolio/Companies";
+import Hustle from "@/components/Portfolio/Hustle";
+import Investments from "@/components/Portfolio/Investments";
+import Work from "@/components/Portfolio/Work";
 
 export default function Home() {
   return <>
-  <Header/>
-    <Archivement />
-    <AllanStory />
-    <AllanPrinciple/>
-    <Sacrifice/>
-    <Glimpse/>
-    <Opinion/>
-    <LawMoney/>
-    <BookAllan/>
-    <GrabPdf/>
-    <Footer/>
+  <Companies/>
+  <Investments/>
+  <Work/>
+  <Hustle/>
   </>;
 }

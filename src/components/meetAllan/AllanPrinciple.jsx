@@ -5,7 +5,7 @@ import { Happiness, Scary, Someone, Thinking } from "../common/Icons";
 const AllanPrinciple = () => {
     return (
         <div className="bg-principle bg-no-repeat bg-cover bg-center">
-            <div className="container max-w-[1164px] flex flex-col md:flex-row justify-center items-center md:justify-between mx-auto px-3 relative h-full md:h-[85vh] xl:min-h-[770px]">
+            <div className="container max-w-[1164px] flex flex-col md:flex-row justify-center items-center md:justify-between mx-auto px-3 relative h-full md:h-[85vh] xl:min-h-[770px] 2xl:h-full">
                 <div className="flex flex-col md:flex-row justify-center items-center flex-wrap">
                     {/* <div className="w-[120px] h-[280px] sm:w-[494px] sm:h-[494px] absolute left-[22%] lg:left-[8%] !bottom-0 bg-yellow rounded-full blur-[130px] z-0 opacity-70 lg:opacity-60 -translate-y-[20%] translate-x-1/2 sm:-translate-x-[15%]"></div> */}
                     <div>                    <Image

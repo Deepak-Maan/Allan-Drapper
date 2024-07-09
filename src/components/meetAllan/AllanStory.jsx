@@ -5,7 +5,7 @@ import Image from "next/image";
 const AllanStory = () => {
     return (
         <div>
-            <div className='max-w-[1164px] px-3 mx-auto pb-12 sm:py-16 md:py-20  lg:pt-[63px] lg:pb-[94px]'>
+            <div className='max-w-[1164px] px-3 mx-auto pb-12 sm:pb-16 md:pb-20  lg:pt-[63px] lg:pb-[94px]'>
                 <div className="flex flex-col md:flex-row items-center justify-between gap-5">
                     <div>
                         <H2 heading={"Who is Allan Draper ?"} />

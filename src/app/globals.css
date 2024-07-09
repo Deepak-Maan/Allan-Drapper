@@ -3,79 +3,74 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "arquitecta";
-  src: url("/assets/fonts/arquitecta/Arquitecta.otf");
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/Arquitecta.otf");
 }
 
 @font-face {
-  font-family: "arquitecta";
-  src: url("/assets/fonts/arquitecta/ArquitectaBlack.otf");
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/ArquitectaBlack.otf");
 }
 
 @font-face {
-  font-family: "arquitecta";
-  src: url("/assets/fonts/arquitecta/ArquitectaBold.otf");
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/ArquitectaBold.otf");
 }
 
 @font-face {
-  font-family: "arquitecta";
-  src: url("/assets/fonts/arquitecta/ArquitectaMedium.otf");
+    font-family: "arquitecta";
+    src: url("/assets/fonts/arquitecta/ArquitectaMedium.otf");
 }
 
 * {
-<<<<<<< HEAD
-  font-family: "Arquitecta", sans-serif;
-}
-
-.swiper-pagination-bullet {
-  width: 16px !important;
-  height: 16px !important;
-  display: inline-block;
-  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
-  background: white !important;
-  opacity: 1 !important;
-}
-
-.swiper-backface-hidden .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center !important;
-}
-.swiper-pagination {
-  position: unset !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 2px !important;
-  margin-top: 48px !important;
-}
-
-.swiper-pagination-bullet {
-  width: 8px !important;
-  height: 8px !important;
-  background: lightGrey !important;
-}
-
-.swiper-pagination-bullet-active {
-  width: 12px !important;
-  height: 12px !important;
-  background: orange !important;
-}
-<<<<<<< HEAD
-=======
-.swiper-slide.swiper-slide-next {
-  width: 587px !important;
-  height: 427px !important;
-}
-.swiper-wrapper {
-  align-items: center;
-}
->>>>>>> d1d3484e7a54d4658bd26d77745d7a23c01ff346
-=======
     font-family: arquitecta, sans-serif;
 }
 
 .footerLinks {
     @apply font-medium text-base sm:text-2xl text-gray leading-130
 }
->>>>>>> e966f23ff56ed70b7a2d5c38efa6aa552376f1fe
+
+.swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: white !important;
+    opacity: 1 !important;
+}
+
+.swiper-backface-hidden .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.swiper-pagination {
+    position: unset !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 2px !important;
+    margin-top: 48px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background: lightGrey !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 12px !important;
+    height: 12px !important;
+    background: orange !important;
+}
+
+.swiper-slide.swiper-slide-next {
+    width: 587px !important;
+    height: 427px !important;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}

@@ -243,5 +243,4 @@ const cardData = [
   },
 ];
 
-export default cardData;
 // archivement section

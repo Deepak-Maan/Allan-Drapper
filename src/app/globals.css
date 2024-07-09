@@ -23,6 +23,7 @@
 }
 
 * {
+<<<<<<< HEAD
   font-family: "Arquitecta", sans-serif;
 }
 
@@ -70,3 +71,11 @@
   align-items: center;
 }
 >>>>>>> d1d3484e7a54d4658bd26d77745d7a23c01ff346
+=======
+    font-family: arquitecta, sans-serif;
+}
+
+.footerLinks {
+    @apply font-medium text-base sm:text-2xl text-gray leading-130
+}
+>>>>>>> e966f23ff56ed70b7a2d5c38efa6aa552376f1fe

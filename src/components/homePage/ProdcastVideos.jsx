@@ -11,7 +11,7 @@ const ProdcastVideos = () => {
                 <ProdcastVideoMap />
                 <div className="flex gap-4">
                     <CommonButton text='BE A GUEST' />
-                    <CommonButton text='BE A GUEST' classesbtn='after:bg-transparent bg-transparent border border-lightBlack !text-lightBlack' />
+                    <CommonButton text='BE A GUEST' classesbtn='after:bg-transparent bg-white !hover:!text-yellow hover:border-yellow border border-lightBlack !text-lightBlack' />
                 </div>
             </div>
         </>

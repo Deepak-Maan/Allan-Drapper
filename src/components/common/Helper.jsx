@@ -1,6 +1,7 @@
 import VideoEpisode145 from "../../../public/assets/images/webp/homePage/collageThumbnail.png"
 import VideoEpisode146 from "../../../public/assets/images/webp/homePage/videoThumbnail146.png"
 import VideoEpisode147 from "../../../public/assets/images/webp/homePage/videoThumbnail147.png"
+
 // =============================ProdcastVideo data =============================//
 export const ProdcastVideoData = [
   {
@@ -29,37 +30,37 @@ export const ProdcastVideoData = [
 export const podcasts = [
   {
     id: 1,
-    src: '/assets/images/podcast/svg/applePodCast.svg',
+    src: '/assets/images/svg/podcast/applePodCast.svg',
     title: 'Apple Podcasts',
     buttonText: 'Listen',
   },
   {
     id: 2,
-    src: '/assets/images/podcast/svg/spotifyIcon.svg',
+    src: '/assets/images/svg/podcast/spotifyIcon.svg',
     title: 'Spotify',
     buttonText: 'Listen',
   },
   {
     id: 3,
-    src: '/assets/images/podcast/svg/podCastAddict.svg',
+    src: '/assets/images/svg/podcast/podCastAddict.svg',
     title: 'Podcast Addict',
     buttonText: 'Listen',
   },
   {
     id: 4,
-    src: '/assets/images/podcast/svg/googlePodCasts.svg',
+    src: '/assets/images/svg/podcast/googlePodCasts.svg',
     title: 'Google Podcasts',
     buttonText: 'Listen',
   },
   {
     id: 5,
-    src: '/assets/images/podcast/svg/amazonMusic.svg',
+    src: '/assets/images/svg/podcast/amazonMusic.svg',
     title: 'Amazon Music',
     buttonText: 'Listen',
   },
   {
     id: 6,
-    src: '/assets/images/podcast/svg/iHeartRadio.svg',
+    src: '/assets/images/svg/podcast/iHeartRadio.svg',
     title: 'iheart Radio',
     buttonText: 'Listen',
   },
@@ -145,12 +146,12 @@ export const AllanBrand = [
     height: 100
   },
   {
-    src: "/assets/images/podcast/svg/ranaHub.svg",
+    src: "/assets/images/svg/podcast/ranaHub.svg",
     width: 260,
     height: 75
   },
   {
-    src: "/assets/images/podcast/svg/eBD.svg",
+    src: "/assets/images/svg/podcast/eBD.svg",
     width: 175,
     height: 96
   },
@@ -181,3 +182,66 @@ export const chooseDate = [
     detail: "Explore diverse online courses for business growth and personal development. Learn, apply, succeed.",
   },
 ];
+// ---=========================Allan_meet======================================== //
+
+
+// Exported from Helper.js
+export const LawItem = ({ number, text, containerClass, numberClass, textClass }) => (
+  <div className={`flex sm:gap-3.5 gap-2 p-4 mt-3 items-start border ${containerClass}`}>
+    <span className={`md:w-[34px] md:min-w-[34px] md:h-[37px] min-w-[24px] h-6 flex justify-center items-center font-bold ${numberClass}`}>{number}</span>
+    <p className={`font-bold leading-120 ${textClass}`}>{text}</p>
+  </div>
+);
+
+export const Laws = [
+  "In order to accumulate wealth you have to first believe that you are worthy of it.",
+  "You must give away at least 10% of everything you make",
+  "You must save at least 10% of everything you make and never spend it (investing is not spending)",
+  "You must take risk.",
+  "You must increase your ability to earn by creating passive income",
+  "You must diversify your assets with a mix of high risk/high reward, medium risk/medium reward and low risk/low reward.",
+  "You must buy low and sell high (“Be greedy when others are fearful and fearful when others are greedy.” -Warren Buffet)",
+  "You must be able to put off short term satisfaction in exchange for long-term growth (and you must care less about what others think your financial status is than what it actually is)",
+  "You must have multiple streams of income",
+  "You must use debt wisely to make incremental growth"
+];
+
+
+// cardData.js
+
+const cardData = [
+  {
+    id: 1,
+    image: "/assets/images/svg/meetAllan/startNow.svg",
+    title: "Start Now",
+    description: "Don't wait until you know 100% of what you need, get started already.",
+  },
+  {
+    id: 2,
+    image: "/assets/images/svg/meetAllan/debt.svg",
+    title: "Good vs Bad Debt",
+    description: "Not all debt is bad debt. Know the difference",
+  },
+  {
+    id: 3,
+    image: "/assets/images/svg/meetAllan/cutTies.svg",
+    title: "Cut Ties",
+    description:
+      "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
+  },
+  {
+    id: 4,
+    image: "/assets/images/svg/meetAllan/college.svg",
+    title: "College Myth",
+    description: "In most cases, college is a waste of time and money.",
+  },
+  {
+    id: 5,
+    image: "/assets/images/svg/meetAllan/payFirst.svg",
+    title: "Pay Yourself First",
+    description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
+  },
+];
+
+export default cardData;
+// archivement section

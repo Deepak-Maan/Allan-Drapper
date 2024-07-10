@@ -1,186 +1,103 @@
-"use client";
-import React, { useState } from "react";
-import CommonInput from "../common/CommonInput";
-import CommonButton from "../common/CommonButton";
+"use client"
+import React, { useState } from 'react';
+import CommonInput from '../common/CommonInput';
+import CommonButton from '../common/CommonButton';
+import { EMAIL } from '@/utils/Regex';
 
 const FormValidation = () => {
-  const [formData, setFormData] = useState({
-    fullName: "",
-    email: "",
-    phone: "",
-    message: "",
-    optIn: false,
-  });
-
-  const [errors, setErrors] = useState({
-    fullName: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const validate = () => {
-    let valid = true;
-    let newErrors = {};
-
-    // Full Name Validation
-    if (!formData.fullName.trim()) {
-      newErrors.fullName = "Full Name is required";
-      valid = false;
-    }
-
-    // Email Validation
-    if (!formData.email.trim() || !formData.email.includes('@')) {
-      newErrors.email = "Invalid Email Address";
-      valid = false;
-    }
-
-    // Phone Validation
-    if (!formData.phone.trim() || formData.phone.length !== 10) {
-      newErrors.phone = "Invalid Phone Number";
-      valid = false;
-    }
-
-    // Message Validation
-    if (!formData.message.trim()) {
-      newErrors.message = "Message is required";
-      valid = false;
-    }
-
-    setErrors(newErrors);
-    return valid;
-  };
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    const inputValue = type === "checkbox" ? checked : value;
-
-    if (name === "phone" && inputValue.length > 10) return; // Restrict phone input to 10 digits
-
-    setFormData({
-      ...formData,
-      [name]: inputValue,
-    });
-
-    // Clear error message for the field being edited if valid
-    let newErrors = { ...errors };
-    if (name === "fullName" && value.trim()) {
-      newErrors.fullName = "";
-    }
-    if (name === "email" && value.includes('@')) {
-      newErrors.email = "";
-    }
-    if (name === "phone" && value.length === 10) {
-      newErrors.phone = "";
-    }
-    if (name === "message" && value.trim()) {
-      newErrors.message = "";
-    }
-    setErrors(newErrors);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (validate()) {
-      console.log(formData);
-      // Clear form fields
-      setFormData({
-        fullName: "",
-        email: "",
-        phone: "",
-        message: "",
-        optIn: false,
-      });
-      setErrors({
-        fullName: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
-    }
-  };
-
-  return (
-    <div className="lg:my-[120px] md:my-20 sm:my-16 my-12">
-      <div className="max-w-[1148px] mx-auto px-3">
-        <form onSubmit={handleSubmit}>
-          <div className="bg-gray py-[88px] px-[110px]">
-            <div className="px-9 py-[41px] bg-white w-full">
-              <div className="flex items-center gap-4 w-full">
-                <div className="w-full">
-                  <CommonInput
-                    name="fullName"
-                    type="text"
-                    value={formData.fullName}
-                    onChange={handleChange}
-                    className="max-w-[414px]"
-                  />
-                  {errors.fullName && (
-                    <p className="text-red-500">{errors.fullName}</p>
-                  )}
+    const [fullName, setFullName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phoneNumber, setPhoneNumber] = useState('');
+    const [message, setMessage] = useState('');
+    const [newsletterOptIn, setNewsletterOptIn] = useState(false);
+    const [errors, setErrors] = useState({});
+    const handleSubmit = (e) => {
+        e.preventDefault(); 
+        let errors = {};
+        const emailregex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+        if (!emailregex.test(email)) {
+          errors.email = 'Email address is invalid';
+        } else {
+          delete errors.email; 
+        }
+        if (!fullName) {
+          errors.fullName = 'Full Name is required';
+        } else {
+          delete errors.fullName; 
+        }
+        if (!/^\d{10}$/.test(phoneNumber)) {
+          errors.phoneNumber = 'Phone Number must be 10 digits';
+        } else {
+          delete errors.phoneNumber; 
+        }
+        setErrors(errors);
+        if (Object.keys(errors).length === 0) {
+          console.log('Form submitted successfully');
+          console.log({ fullName, email, phoneNumber, message, newsletterOptIn });
+        }
+      };
+    return (
+        <div className='lg:my-[120px] md:my-20 sm:my-16 my-12'>
+            <div className='max-w-[1148px] mx-auto px-3'>
+                <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px]'>
+                    <form className='lg:px-9 p-5 sm:p-8 lg:py-[41px] bg-white w-full' onSubmit={handleSubmit}>
+                        <div className='flex items-center md:flex-row flex-col gap-3 sm:gap-4 w-full'>
+                            <div className='w-full'>
+                                <CommonInput
+                                    name="Full Name"
+                                    type='text'
+                                    className='md:max-w-[414px]'
+                                    value={fullName}
+                                    onChange={(e) => setFullName(e.target.value)}
+                                />
+                                {errors.fullName && <span className="text-red-500">{errors.fullName}</span>}
+                            </div>
+                            <div className='w-full'>
+                                <CommonInput
+                                    name="Email Address"
+                                    type='email'
+                                    className='md:max-w-[414px]'
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                                {errors.email && <span className="text-red-500">{errors.email}</span>}
+                            </div>
+                        </div>
+                        <div className='sm:pt-4 pt-3'>
+                            <CommonInput
+                                name="Phone Number"
+                                type='tel'
+                                value={phoneNumber}
+                                onChange={(e) => setPhoneNumber(e.target.value)}
+                            />
+                            {errors.phoneNumber && <span className="text-red-500">{errors.phoneNumber}</span>}
+                        </div>
+                        <div className='flex flex-col gap-[6.5px] mt-3 sm:mt-4'>
+                            <p className='font-medium text-lg sm:text-xl md:text-2xl'>Message</p>
+                            <textarea
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                className='w-full sm:max-h-[149px] min-h-[100px] max-h-[100px] sm:min-h-[149px] resize-none border border-solid border-black20 outline-none p-2 font-normal text-lg sm:text-xl md:text-2xl'
+                            ></textarea>
+                        </div>
+                        <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 mt-3 sm:mt-5'>Opt In</p>
+                        <label className="inline-flex items-center mt-1.5 sm:mt-[10.5px]">
+                            <input
+                                type="checkbox"
+                                className="form-checkbox"
+                                checked={newsletterOptIn}
+                                onChange={(e) => setNewsletterOptIn(e.target.checked)}
+                            />
+                            <span className="ml-3 cursor-pointer text-lg sm:text-xl md:text-2xl font-medium text-black leading-130">Newsletter and Updates</span>
+                        </label>
+                        <div className='sm:pt-8 pt-5 md:pt-[46px]'>
+                            <CommonButton text='CONNECT' type='submit' />
+                        </div>
+                    </form>
                 </div>
-                <div className="w-full">
-                  <CommonInput
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="max-w-[414px]"
-                  />
-                  {errors.email && (
-                    <p className="text-red-500">{errors.email}</p>
-                  )}
-                </div>
-              </div>
-              <div className="pt-4">
-                <CommonInput
-                  name="phone"
-                  type="number"
-                  value={formData.phone}
-                  onChange={handleChange}
-                />
-                {errors.phone && (
-                  <p className="text-red-500">{errors.phone}</p>
-                )}
-              </div>
-              <div className="flex flex-col gap-[6.5px] mt-4">
-                <p className="font-medium text-lg sm:text-xl md:text-2xl">
-                  Message
-                </p>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  className="w-full max-h-[149px] min-h-[149px] resize-none border border-solid border-black20 outline-none p-2 font-normal text-lg sm:text-xl md:text-2xl"
-                ></textarea>
-                {errors.message && (
-                  <p className="text-red-500">{errors.message}</p>
-                )}
-              </div>
-              <p className="font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 mt-5">
-                Opt In
-              </p>
-              <label className="inline-flex items-center mt-[10.5px]">
-                <input
-                  type="checkbox"
-                  name="optIn"
-                  checked={formData.optIn}
-                  onChange={handleChange}
-                  className="form-checkbox"
-                />
-                <span className="ml-3 cursor-pointer text-lg sm:text-xl md:text-2xl font-medium text-black leading-130">
-                  Newsletter and Updates
-                </span>
-              </label>
-              <div className="pt-[46px]">
-                <CommonButton text="CONNECT" type="submit" />
-              </div>
             </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default FormValidation;

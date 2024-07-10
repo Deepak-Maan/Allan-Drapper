@@ -16,27 +16,27 @@ const Archivement = () => {
                         className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[500px] object-cover lg:max-h-[603px] "
                     />
                     <div>
-                        <H2 heading={"Allan's Top Achievements"} />
+                        <H2 heading={"Allan's Top Achievements"} className={"after:bg-yellow "} />
                         <div className="flex gap-3 mb-4 mt-8">
                             <span><Bluesquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 fonr-bold'>Married for 16 years, 3 amazing children</p>
+                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold'>Married for 16 years, 3 amazing children</p>
 
                         </div>
                         <div className="flex gap-3 mb-4 ">
                             <span><Bluesquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 fonr-bold max-w-[544px]'>Has built several multimillion dollar companies from scratch in industries like home services, digital marketing, real estate, legal services.</p>
+                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold max-w-[544px]'>Has built several multimillion dollar companies from scratch in industries like home services, digital marketing, real estate, legal services.</p>
 
                         </div>
                         <div className="flex gap-3 mb-4 ">
                             <span><Bluesquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 fonr-bold'>
+                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold'>
                                 Built a multimillion dollar company in less than a year</p>
 
                         </div>
                         <div className="flex gap-3 mb-4 ">
                             <span><Bluesquare /></span>
 
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 fonr-bold'>
+                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold'>
                                 20 business partners, many of who are millionaires</p>
                         </div>
                     </div>

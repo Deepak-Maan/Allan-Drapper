@@ -26,43 +26,43 @@ const Navbar = () => {
     <>
       <nav className="max-w-[1264px] w-full mx-auto px-3 py-[14.5px] flex items-center justify-between">
         <Link className="relative z-10" href="/">
-          <Image src='/assets/images/svg/podcast/pageLogo.svg' alt="Logo" width={215} height={39} />
+          <Image src="/assets/images/svg/podcast/pageLogo.svg" alt="Logo" width={215} height={39} />
         </Link>
         <ul
-          className={`flex items-center  z-20 relative sm:gap-[32px] lg:gap-5 xl:gap-10 lg:max-h-[80px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
+          className={`flex items-center  z-20 relative gap-6 lg:gap-5 xl:gap-10 lg:max-h-[80px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
             }`} >
           <li className="duration-300 transition-all">
-            <Link href="/" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/meetAllan" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white">
               Meet Allan
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link href="/" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/portfolio" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white">
               My Brands
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link href="/" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/podcast" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white">
               Podcast
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link href="/" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/coaching" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white">
               Coaching
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link href="/podcast" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/speaking" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white">
               Speaking
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link href="/" onClick={closeNav} className="font-450 leading-140 text-xl text-white">
+            <Link href="/connect" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white">
               Connect
             </Link>
           </li>
           <li>
-            <button className="border border-orange border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
+            <button className="border border-orange hover:border-yellow hover:text-yellow duration-300 ease-in-out border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
               Newsletter
             </button>
           </li>

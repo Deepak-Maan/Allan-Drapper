@@ -7,7 +7,7 @@ const Gain = () => {
   return (
     <div className='pt-[156px]'>
       <div className='container mx-auto px-3'>
-         <div className='flex items-center justify-center gap-[88px]'>
+         <div className='flex items-center flex-col lg:flex-row gap-[88px] mb-[82px]'>
                 <div>
                         <div className='border border-offGray p-4 max-w-[588px] mb-3'>
                                 <div className='flex items-center gap-[14px] '>
@@ -60,9 +60,11 @@ const Gain = () => {
                                                 <p className='opacity-80 pl-12 text-lightBlack font-medium text-2xl leading-130'>Utilize digital marketing, social media, and traditional marketing channels to maximize your reach.</p>
                         </div>
                 </div>
-                <div className=''>
-                <H2 className="!text-4xl1 capitalize flex" heading="What You Will Gain from Allan's Coaching"/>
-                <Image src={gainMan} alt='gainMan' className='pt-[60px] max-w-[464px] min-h-[603px]'/>
+                <div className='flex flex-col justify-center lg:justify-start'>
+                <H2 className="!text-4xl1 capitalize flex text-center lg:text-start" heading="What You Will Gain from Allan's Coaching"/>
+                <div className='flex justify-center lg:justify-start'>
+                        <Image src={gainMan} alt='gainMan' className='pt-[60px] md:max-w-[464px] md:h-[603px]'/>
+                </div>
                 </div>
          </div>
       </div>

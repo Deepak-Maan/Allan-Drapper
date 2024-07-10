@@ -3,6 +3,7 @@ import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
 import Appearnce from "@/components/homePage/Appearnce";
 import HomeHeader from "@/components/homePage/HomeHeader";
+import MyBrands from "@/components/homePage/MyBrands";
 import ProdcastVideos from "@/components/homePage/ProdcastVideos";
 import WhoAllan from "@/components/homePage/WhoAllan";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
@@ -22,6 +23,7 @@ export default function Home() {
       <Appearnce />
       <ProdcastVideos />
       <WhoAllan />
+      <MyBrands />
       <GrabPdf />
       <Footer />
       {/* <Choose /> */}

@@ -5,7 +5,7 @@ import { FacebookLogo, GooglePlayIcon, InstagramLogo, LinkedinLogo, PodcastLogo,
 
 const Footer = () => {
     return (
-        <div className='bg-darkGray'>
+        <div className='bg-darkGray mt-[-1px]'>
             <div className="container mx-auto px-3 pt-20 pb-8 max-w-[1164px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className='lg:pb-0 pb-8'>

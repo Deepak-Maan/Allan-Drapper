@@ -74,29 +74,32 @@
 
 
 .footerLinks {
-    @apply font-medium text-base sm:text-2xl text-gray leading-130
+    @apply font-medium text-base sm:text-2xl duration-300 hover:text-orange text-gray leading-130
 }
 
-  
+
 /* --------------scrollbar------------------- */
 ::-webkit-scrollbar-track {
     border-radius: 12px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #F58505;
     border-radius: 30px;
-  }
-  
-  ::-webkit-scrollbar {
+}
+
+::-webkit-scrollbar {
     width: 8px;
     height: 4px;
     background: transparent;
-  }
-  
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-  
+}
+
+.headingUnderline {
+    @apply relative after:absolute after:flex after:w-14 after:h-[2px] after:left-1/2 after:-translate-x-1/2 after:-bottom-4
+}

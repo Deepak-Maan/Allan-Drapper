@@ -5,7 +5,7 @@ import { FacebookLogo, GooglePlayIcon, InstagramLogo, LinkedinLogo, PodcastLogo,
 
 const Footer = () => {
     return (
-        <div className='bg-darkGray'>
+        <div className='bg-darkGray mt-[-1px]'>
             <div className="container mx-auto px-3 pt-20 pb-8 max-w-[1164px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className='lg:pb-0 pb-8'>
@@ -29,21 +29,21 @@ const Footer = () => {
                         <div>
                             <ul className='max-w-[158px] ml-auto'>
                                 <li className='text-white text-lg sm:text-xl font-bold leading-150 mb-6 uppercase'>Social</li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><InstagramLogo />Instagram</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><FacebookLogo />Facebok</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><LinkedinLogo />Linkedin</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><YoutubeLogo />Youtube</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><TwitterLogo />Twitter</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><InstagramLogo />Instagram</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><FacebookLogo />Facebok</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><LinkedinLogo />Linkedin</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><YoutubeLogo />Youtube</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><TwitterLogo />Twitter</Link></li>
                             </ul>
                         </div>
                         <div>
                             <ul className='max-w-[180px] ml-auto'>
                                 <li className='text-white text-lg sm:text-xl font-bold leading-150 mb-6 uppercase'>Listen On </li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><PodcastLogo />Apple Podcast</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><Image src="/assets/images/svg/spotifyLogo.svg" height={35} width={35} alt='spotify logo' />Spotify</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><GooglePlayIcon />Google Play</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><Image src="/assets/images/svg/pandoraLogo.svg" height={35} width={35} alt='spotify logo' />Pandora</Link></li>
-                                <li className='pb-[10px]'><Link className='footerLinks flex gap-2' href=""><StitcherIcon />Stitcher</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><PodcastLogo />Apple Podcast</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><Image src="/assets/images/svg/spotifyLogo.svg" height={35} width={35} alt='spotify logo' />Spotify</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><GooglePlayIcon />Google Play</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><Image src="/assets/images/svg/pandoraLogo.svg" height={35} width={35} alt='spotify logo' />Pandora</Link></li>
+                                <li className='pb-[10px]'><Link className='footerLinks flex items-center gap-2' href=""><StitcherIcon />Stitcher</Link></li>
                             </ul>
                         </div>
                     </div>

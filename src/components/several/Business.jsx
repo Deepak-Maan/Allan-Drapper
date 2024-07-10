@@ -8,11 +8,11 @@ import Image from 'next/image'
 
 const Business = () => {
         return (
-                <div className='pt-[110px] pb-[120px]'>
+                <div className='pt-[110px]'>
                         <div className='container max-w-[1140px] mx-auto px-3'>
                                 <div className='flex flex-col min-[1100px]:flex-row gap-[32px] relative'>
                                         <div className='pt-[55px] order-2 lg:order-1'>
-                                                <H2 className="!text-4xl1 !max-w-[653px]" heading="I Have Several Business Ideas. What Should I Do?" />
+                                                <H2 className="!text-5xl1 !max-w-[653px] !leading-110" heading="I Have Several Business Ideas. What Should I Do?" />
                                                 <p className='pt-[32px] font-medium text-xl leading-130 mb-[71px]'>Published: 11 December, 2023</p>
                                                 <div className='mb-[60px]'>
                                                         <Image src={evaluateMan} alt='analyzeMan' className=' w-full md:max-w-[758px] md:h-[393px]' />

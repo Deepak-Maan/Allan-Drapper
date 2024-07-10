@@ -12,6 +12,10 @@ import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
 import bugbuxt from '../../../public/assets/images/svg/portfolio/bugbuxt.svg';
 import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
 import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
+// related//
+import dad from '../../../public/assets/images/webp/several/dad.webp'
+import leadership from '../../../public/assets/images/webp/several/leadership.webp'
+import several from '../../../public/assets/images/webp/several/several.webp'
 
 // =============================ProdcastVideo data =============================//
 export const ProdcastVideoData = [
@@ -304,3 +308,36 @@ export const images = [
   { src: podcast, width: 100, height: 100, alt: 'podcast' },
   { src: real, width: 163, height: 96, alt: 'real' }
 ];
+
+
+// ========================= SEVERAL================================ //
+export const relatedSliderList = [
+  {
+
+    image: leadership,
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: dad,
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: several,
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: several,
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  }
+]

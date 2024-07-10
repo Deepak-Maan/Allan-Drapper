@@ -8,8 +8,8 @@ import laptopWork from '../../../public/assets/images/svg/coaching/laptopWork.sv
 const Program = () => {
   return (
     <div className='bg-gray py-[95px]'>
-      <div className='container max-w-[1140px] px-3 mx-auto'>
-      <H2 className="!text-4xl1 text-center" heading="Coaching Programs"/>
+      <div className='container max-w-[1172px] px-4 mx-auto'>
+      <H2 className="!text-4xl1 text-center after:left-1/2 after:-translate-x-1/2 after:!bg-lightBlack after:opacity-80 " heading="Coaching Programs"/>
            <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-[93px] pt-[61px]'>
                 <div className='flex flex-col'>
                   <Image src={oneOnOne} alt='oneOnOne' width={64} height={64} className='mb-6'/>

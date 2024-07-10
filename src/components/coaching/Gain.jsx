@@ -6,7 +6,7 @@ import gainMan from '../../../public/assets/images/webp/coaching/gainMan.webp'
 const Gain = () => {
   return (
     <div className='pt-[156px]'>
-      <div className='container mx-auto px-3'>
+      <div className='container max-w-[1172px] px-4 mx-auto'>
          <div className='flex items-center flex-col lg:flex-row gap-[88px] mb-[82px]'>
                 <div>
                         <div className='border border-offGray p-4 max-w-[588px] mb-3'>
@@ -61,9 +61,9 @@ const Gain = () => {
                         </div>
                 </div>
                 <div className='flex flex-col justify-center lg:justify-start'>
-                <H2 className="!text-4xl1 capitalize flex text-center lg:text-start" heading="What You Will Gain from Allan's Coaching"/>
+                <H2 className="!text-4xl1 capitalize flex text-center lg:text-start max-w-[398px] " heading="What You Will Gain from Allan's Coaching"/>
                 <div className='flex justify-center lg:justify-start'>
-                        <Image src={gainMan} alt='gainMan' className='pt-[60px] md:max-w-[464px] md:h-[603px]'/>
+                        <Image src={gainMan} alt='gainMan' className='pt-[60px] md:max-w-[504px] md:h-[643px]'/>
                 </div>
                 </div>
          </div>

@@ -22,7 +22,7 @@ import Sacrifice from "@/components/meetAllan/Sacrifice";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Header /> */}
       <HomeHeader />
       <Appearnce />

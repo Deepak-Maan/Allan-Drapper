@@ -16,9 +16,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (navBar) {
-      document.body.classList.add("overflow-hidden");
+      document.body.classList.add("overflow_hidden");
     } else {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("overflow_hidden");
     }
   }, [navBar]);
 

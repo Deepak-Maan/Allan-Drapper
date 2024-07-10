@@ -31,6 +31,7 @@ module.exports = {
         orange: "#F58505",
         lightBlack: "#040707",
         black2: "#141414",
+        black20: '#00000033'
       },
       lineHeight: {
         130: "130%",

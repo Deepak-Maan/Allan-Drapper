@@ -100,13 +100,4 @@
     margin: 0;
   }
   
-  /* speaking swiper */
-  .swiper-pagination-bullet {
-    background: #FFD700 !important; /* Change this color to whatever you prefer */
-    opacity: 1;
-    padding-top: 200px !important;
-}
-
-.swiper-pagination-bullet-active {
-    background: #FF6347; /* Change this color to whatever you prefer */
-}
+ 

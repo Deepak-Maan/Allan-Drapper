@@ -34,7 +34,7 @@ const ReviewSwiperCards = () => {
             }}
             loop={true}
             modules={[Pagination, Autoplay]}
-            className='md:!pt-20 !pt-10 sm:!pt-16 !pb-5 sm:!pb-8 px-4 mx-auto'
+            className='md:!pt-20 !pt-10 sm:!pt-16 !pb-5 sm:!pb-8 px-4 mx-auto reviews'
             breakpoints={{
                 320: {
                     slidesPerView: 1,
@@ -49,7 +49,7 @@ const ReviewSwiperCards = () => {
         >
             {SwiperCards.map((card, index) => (
                 <SwiperSlide key={index}>
-                    <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 max-w-[650px] lg:max-w-[487px] w-full mx-auto min-h-[257px] sm:min-h-[240px] md:min-h-[312px] flex flex-col justify-between'>
+                    <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 max-w-[650px] lg:max-w-[487px] w-full mx-auto min-h-[230px] sm:min-h-[240px] md:min-h-[312px] flex flex-col justify-between'>
                         <div>
                             <div className='flex items-center gap-1'>
                                 <StartIcon />

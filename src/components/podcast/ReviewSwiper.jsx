@@ -10,7 +10,7 @@ const ReviewSwiper = () => {
                 <H2 heading="Podcast Reviews" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2" />
                 <ReviewSwiperCards />
                 <Image
-                    src="/assets/images/webp/podCast/podcastReviewBigImg.webp" width={1140} height={588} className='w-full max-h-[588px] h-full pt-5 sm:pt-12 md:pt-16 lg:pt-20' />
+                    src="/assets/images/webp/podCast/podcastReviewBigImg.webp" width={1140} height={588} className='w-full max-h-[588px] h-full pt-5 sm:pt-12 object-cover md:pt-16 lg:pt-20' />
             </div>
         </div>
     )

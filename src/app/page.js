@@ -1,6 +1,7 @@
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
+import HomeHeader from "@/components/homePage/HomeHeader";
 import ProdcastVideos from "@/components/homePage/ProdcastVideos";
 import WhoAllan from "@/components/homePage/WhoAllan";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       {/* <Header /> */}
+      <HomeHeader />
       <ProdcastVideos />
       <WhoAllan />
       <GrabPdf />

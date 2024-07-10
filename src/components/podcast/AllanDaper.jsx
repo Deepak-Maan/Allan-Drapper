@@ -9,19 +9,19 @@ const AllanDaper = () => {
     return (
         <div className='lg:pt-[76px] md:py-20 sm:py-16 py-12 lg:pb-28 bg-gray'>
             <div className='lg:pb-3 container  mx-auto px-3 max-w-[1164px]'>
-                <H2 heading="Allan Draper" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2 mb-[57px]" />
+                <H2 heading="Allan Draper" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2 mb-8 sm:mb-10 md:mb-[57px]" />
                 <div className='flex flex-row justify-center items-center flex-wrap gap-3 sm:gap-6'>
                     <div className='flex items-center border-r border-solid border-black h-[18px]'>
-                        <p className='font-medium text-2xl leading-130 text-lightBlack opacity-80 pr-3 lg:pr-6'>ANGEL INVESTOR</p>
+                        <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 pr-3 lg:pr-6'>ANGEL INVESTOR</p>
                     </div>
                     <div className='flex items-center border-r border-solid border-black h-[18px]'>
-                        <p className='font-medium text-2xl leading-130 text-lightBlack opacity-80 px-3 lg:px-6'>SERIAL ENTREPRENEUR</p>
+                        <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 px-3 lg:px-6'>SERIAL ENTREPRENEUR</p>
                     </div>
                     <div className='flex items-center border-r border-solid border-black h-[18px]'>
-                        <p className='font-medium text-2xl leading-130 text-lightBlack opacity-80 px-3 lg:px-6'>FAMILY MAN</p>
+                        <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 px-3 lg:px-6'>FAMILY MAN</p>
                     </div>
                     <div className='flex items-center'>
-                        <p className='font-medium text-2xl leading-130 text-lightBlack opacity-80 pl-3 lg:pl-6'>VISIONARY</p>
+                        <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 pl-3 lg:pl-6'>VISIONARY</p>
                     </div>
                 </div>
                 <div className='flex flex-wrap flex-row -mx-3 md:mt-6 justify-center md:justify-start'>

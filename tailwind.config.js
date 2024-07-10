@@ -13,7 +13,13 @@ module.exports = {
         hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
-        'podcastHeaderBg': "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)"
+        'podcastHeaderBg': "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)",
+        'connectHeaderBg': "url(../../public/assets/images/webp/podCast/connectBgHeader.png)",
+        'libraryHeaderBg': "url(../../public/assets/images/webp/podCast/libraryBgHeader.png)",
+        'speakingHeaderBg': "url(../../public/assets/images/webp/podCast/speakingBgHeader.png)",
+        'coachingHeaderBg': "url(../../public/assets/images/webp/podCast/coachingBgHeader.png)",
+        'portFolioHeaderBg': "url(../../public/assets/images/webp/podCast/portFolioBgHeader.png)",
+        'meetAllanHeaderBg': "url(../../public/assets/images/webp/podCast/meetAllanBgHeader.png)",
       },
       colors: {
         yellow: "#EEE916",

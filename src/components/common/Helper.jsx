@@ -172,9 +172,7 @@ export const AllanBrand = [
     height: 100
   }
 ];
-
 // ---=========================Allan_meet======================================== //
-
 
 export const BooksData = [
   {

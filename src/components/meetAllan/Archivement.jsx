@@ -10,7 +10,7 @@ const Archivement = () => {
                 <div className="flex flex-col-reverse md:flex-row items-center gap-5  justify-between">
                     <Image
                         src="/assets/images/webp/meetAllan/archivementMen.webp"
-                        alt="My Image"
+                        alt="ArchivementMen"
                         width={464}
                         height={603}
                         className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[500px] object-cover lg:max-h-[603px] "

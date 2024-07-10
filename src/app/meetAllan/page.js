@@ -24,7 +24,7 @@ const page = () => {
       btntext='TALK TO ALLAN'
       signature='!flex justify-center md:justify-start'
     />
-   <Archivement/>
+    <Archivement />
     <AllanStory />
     <AllanPrinciple />
     <Sacrifice />

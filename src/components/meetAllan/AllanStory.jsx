@@ -14,7 +14,7 @@ const AllanStory = () => {
                     </div>
                     <Image
                         src="/assets/images/webp/meetAllan/allanStory.webp"
-                        alt="My Image"
+                        alt="AllanStory"
                         width={611}
                         height={594}
                         className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[594px] object-cover lg:min-w-[611px]  !xl:min-h-[594px]"

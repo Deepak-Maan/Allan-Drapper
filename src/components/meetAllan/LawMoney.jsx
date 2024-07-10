@@ -12,7 +12,7 @@ const LawMoney = () => {
                     <div className='mb-10'> <H2 heading={"10 Laws That Govern Money"} /></div>
                     <Image
                         src="/assets/images/webp/meetAllan/allanDraperBook.webp"
-                        alt="My Image"
+                        alt="Books"
                         width={534}
                         height={905}
                         className="md:max-w-[400px] xl:pt-10 sm:max-w-[404px] sm:max-h-[600px] lg:max-w-[534px] md:max-h-[600px] object-cover lg:max-h-[903px] xl:min-h-[905px] "
@@ -25,7 +25,7 @@ const LawMoney = () => {
                             number={index + 1}
                             text={law}
                             containerClass="border-offGray"
-                            numberClass="bg-lightBlack bg-opacity-80 text-2xl md:text-2xl1  text-white leading-120 mt-1"
+                            numberClass="bg-lightBlack bg-opacity-80 text-lg  md:text-2xl1  text-white leading-120 mt-1"
                             textClass="text-lightBlack text-2xl md:text-2xl1  text-lg text-opacity-80"
                         />
                     ))}

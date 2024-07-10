@@ -11,7 +11,7 @@ const AllanPrinciple = () => {
                     <div>
                         <Image
                             src="/assets/images/webp/meetAllan/principle.webp"
-                            alt="My Image"
+                            alt="Principle"
                             width={752}
                             height={1103}
                             className="sm:max-w-[400px] md:max-w-[600px]  md:absolute bottom-0 -left-[14%] lg:left-[-3%] xl:left-0 relative z-40 lg:max-w-[652px] xl:w-[752px] xl:min-h-[755px] sm:max-h-[500px] md:max-h-[600px] object-cover lg:h-[583px]"

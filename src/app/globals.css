@@ -76,3 +76,7 @@
 .footerLinks {
     @apply font-medium text-base sm:text-2xl text-gray leading-130
 }
+
+.headingUnderline {
+    @apply relative after:absolute after:flex after:w-14 after:h-[2px] after:left-1/2 after:-translate-x-1/2 after:-bottom-4
+}

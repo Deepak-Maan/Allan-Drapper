@@ -28,7 +28,7 @@ const WhyShould = () => {
                         </div>
                     </div>
                     <div className='w-full lg:w-[46%] px-3 mt-6 lg:mt-0'>
-                        <div className='flex lg:gap-6 lg:flex-row  gap-4 justify-center lg:justify-start'>
+                        <div className='flex lg:gap-6 lg:flex-row  gap-4 justify-center lg:justify-between'>
                             <div className='flex flex-col gap-4 lg:gap-6 max-w-[236px]'>
                                 <WhyshouldCards cards={firstHalf} />
                             </div>

@@ -30,7 +30,7 @@ const Work = () => {
                 clickable: true,
               }}
             modules={[Pagination]}
-            className="portfolioSwiper "
+            className="portfolioSwiper"
             
           >
             <SwiperSlide >

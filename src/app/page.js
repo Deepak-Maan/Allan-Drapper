@@ -4,6 +4,7 @@ import Program from "@/components/coaching/Program";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
+import Navbar from "@/components/common/Navbar";
 import Appearnce from "@/components/homePage/Appearnce";
 import HomeHeader from "@/components/homePage/HomeHeader";
 import MyBrands from "@/components/homePage/MyBrands";
@@ -21,6 +22,7 @@ import Sacrifice from "@/components/meetAllan/Sacrifice";
 export default function Home() {
   return (
     <>
+      <Navbar />
       {/* <Header /> */}
       <HomeHeader />
       <Appearnce />

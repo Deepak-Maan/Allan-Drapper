@@ -97,7 +97,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-@media (min-width: 1023.9px) {
+@media (max-width: 1023.9px) {
   .overflow_hidden {
     overflow: hidden;
   }
@@ -116,4 +116,7 @@ input::-webkit-inner-spin-button {
 }
 .footerLinks {
   @apply font-medium text-base sm:text-2xl text-gray leading-130;
+}
+.navLinkHover{
+    @apply relative after:absolute after:w-0 after:h-[1.5px] after:bg-white after:left-[50%] after:bottom-[1.5px] after:rounded-md hover:after:w-full hover:after:left-0 after:duration-300 after:ease-in-out;
 }

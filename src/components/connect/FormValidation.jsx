@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import CommonInput from '../common/CommonInput';
 import CommonButton from '../common/CommonButton';
-import { EMAIL } from '@/utils/Regex';
+import { EMAIL, PHONENUMBER } from '@/utils/Regex';
 
 const FormValidation = () => {
     const [fullName, setFullName] = useState('');
@@ -12,30 +12,30 @@ const FormValidation = () => {
     const [newsletterOptIn, setNewsletterOptIn] = useState(false);
     const [errors, setErrors] = useState({});
     const handleSubmit = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         let errors = {};
-        const emailregex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+        const emailregex = EMAIL;
         if (!emailregex.test(email)) {
-          errors.email = 'Email address is invalid';
+            errors.email = 'Email address is invalid';
         } else {
-          delete errors.email; 
+            delete errors.email;
         }
         if (!fullName) {
-          errors.fullName = 'Full Name is required';
+            errors.fullName = 'Full Name is required';
         } else {
-          delete errors.fullName; 
+            delete errors.fullName;
         }
-        if (!/^\d{10}$/.test(phoneNumber)) {
-          errors.phoneNumber = 'Phone Number must be 10 digits';
+        if (!PHONENUMBER.test(phoneNumber)) {
+            errors.phoneNumber = 'Phone Number must be 10 digits';
         } else {
-          delete errors.phoneNumber; 
+            delete errors.phoneNumber;
         }
         setErrors(errors);
         if (Object.keys(errors).length === 0) {
-          console.log('Form submitted successfully');
-          console.log({ fullName, email, phoneNumber, message, newsletterOptIn });
+            console.log('Form submitted successfully');
+            console.log({ fullName, email, phoneNumber, message, newsletterOptIn });
         }
-      };
+    };
     return (
         <div className='lg:my-[120px] md:my-20 sm:my-16 my-12'>
             <div className='max-w-[1148px] mx-auto px-3'>
@@ -66,7 +66,7 @@ const FormValidation = () => {
                         <div className='sm:pt-4 pt-3'>
                             <CommonInput
                                 name="Phone Number"
-                                type='tel'
+                                type='number'
                                 value={phoneNumber}
                                 onChange={(e) => setPhoneNumber(e.target.value)}
                             />

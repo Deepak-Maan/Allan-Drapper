@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const CommonHeader = (header) => {
     return (
-        <div className={`${header.background} bg-cover bg-center bg-no-repeat lg:min-h-[500px]`}>
+        <div className={`${header.background} bg-cover bg-center bg-no-repeat lg:min-h-[500px] max-w-[1920px] mx-auto`}>
             <Navbar />
             <div className={`max-w-[1164px] mx-auto px-3 ${header.paddingYclass}`}>
                 <div className={`${header.content}`}>
@@ -19,7 +19,7 @@ const CommonHeader = (header) => {
                 </div>
                 <span className={`${header.signature} hidden mt-10`}>
                     <Image 
-                    src="/assets/images/svg/meetAllan/sign.svg" width={308} height={79}/>
+                    src="/assets/images/svg/meetAllan/sign.svg" width={308} height={79} alt='sign'/>
                 </span>
             </div>
         </div>

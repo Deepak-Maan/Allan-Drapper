@@ -1,6 +1,6 @@
+import CommonHeader from "@/components/common/CommonHeader";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
-import Header from "@/components/common/Header";
 import ScrollToTop from "@/components/common/ScrollToTop";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
 import AllanStory from "@/components/meetAllan/AllanStory";
@@ -13,17 +13,17 @@ import Sacrifice from "@/components/meetAllan/Sacrifice";
 
 export default function Home() {
   return <>
-  <Header/>
+    <CommonHeader />
     <Archivement />
     <AllanStory />
-    <AllanPrinciple/>
-    <Sacrifice/>
-    <Glimpse/>
-    <Opinion/>
-    <LawMoney/>
-    <BookAllan/>
-    <GrabPdf/>
-    <Footer/>
-    <ScrollToTop/>
+    <AllanPrinciple />
+    <Sacrifice />
+    <Glimpse />
+    <Opinion />
+    <LawMoney />
+    <BookAllan />
+    <GrabPdf />
+    <Footer />
+    <ScrollToTop />
   </>;
 }

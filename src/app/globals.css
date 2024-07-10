@@ -49,6 +49,9 @@
     gap: 2px !important;
     margin-top: 48px !important;
 }
+.reviews .swiper-pagination {
+    margin-top: 32px !important;
+}
 
 .swiper-pagination-bullet {
     width: 8px !important;
@@ -70,7 +73,11 @@
 .swiper-wrapper {
     align-items: center;
 } */
-
+@media (max-width:639.9px) {
+    .reviews .swiper-pagination {
+        margin-top: 20px !important;
+    }
+}
 
 .footerLinks {
     @apply font-medium text-base sm:text-2xl text-gray leading-130

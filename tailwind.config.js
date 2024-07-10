@@ -13,7 +13,13 @@ module.exports = {
         hustle: "url('/public/assets/images/portfolio/webp/bgImage.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
-        'podcastHeaderBg' : "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)"
+        'podcastHeaderBg': "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)",
+        'connectHeaderBg': "url(../../public/assets/images/webp/podCast/connectBgHeader.webp)",
+        'libraryHeaderBg': "url(../../public/assets/images/webp/podCast/libraryBgHeader.webp)",
+        'speakingHeaderBg': "url(../../public/assets/images/webp/podCast/speakingBgHeader.webp)",
+        'coachingHeaderBg': "url(../../public/assets/images/webp/podCast/coachingBgHeader.webp)",
+        'portFolioHeaderBg': "url(../../public/assets/images/webp/podCast/portFolioBgHeader.webp)",
+        'meetAllanHeaderBg': "url(../../public/assets/images/webp/podCast/meetAllanBgHeader.webp)",
       },
       colors: {
         yellow: "#EEE916",
@@ -63,7 +69,9 @@ module.exports = {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
+    function ({
+      addUtilities
+    }) {
       const newUtilities = {
         '.text-shadow-sky': {
           textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',

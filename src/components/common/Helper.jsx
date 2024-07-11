@@ -341,3 +341,72 @@ export const relatedSliderList = [
     link: "#"
   }
 ]
+// ========================= library================================ //
+export const libraryData = [
+  {
+
+    image: dad,
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget  lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: several,
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: leadership,
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance ",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: leadership,
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: dad,
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: several,
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },  
+  {
+
+    image: dad,
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: several,
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: leadership,
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  
+  
+  
+]

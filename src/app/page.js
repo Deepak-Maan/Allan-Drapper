@@ -6,6 +6,7 @@ import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
 import Business from "@/components/several/Business";
+import Library from "@/components/several/Library";
 import Related from "@/components/several/Related";
 
 
@@ -20,5 +21,6 @@ export default function Home() {
   <Business/>
   <GrabPdf/>
   <Footer/>
+  <Library/>
   </>;
 }

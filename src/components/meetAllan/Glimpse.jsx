@@ -29,7 +29,7 @@ const Glimpse = () => {
                                 alt="KidsPlay"
                                 width={534}
                                 height={905}
-                                className="w-full h-full md:h-[479px] xl:h-[479px] object-cover " />
+                                className="w-full h-full md:h-[509px] xl:h-[479px] object-cover " />
                         </div>
                         <div className="col-span-1 xs:col-span-2 lg:col-span-1">
                             <div className="grid grid-rows-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-6">

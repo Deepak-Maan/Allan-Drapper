@@ -52,10 +52,10 @@ const Opinions = () => {
                                 height={64}
                                 className="pb-4 md:pb-6"
                             />
-                            <p className="text-2xl md:text-2xl1  font-bold mb-2.5 leading-120 text-lightBlack">
+                            <p className="text-2xl md:text-2xl1  font-bold mb-2.5 !leading-120 text-lightBlack">
                                 {card.title}
                             </p>
-                            <p className="text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 mb-0 font-medium leading-130 sm:max-w-[325px]">
+                            <p className="text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 mb-0 font-medium !leading-130 sm:max-w-[325px]">
                                 {card.description}
                             </p>
                         </div>

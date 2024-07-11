@@ -6,7 +6,7 @@ import { LawItem, Laws } from '../common/Helper';
 const LawMoney = () => {
     return (
         <div className='max-w-[1164px] mx-auto px-3 pt-12 sm:pt-16 md:pt-20 xl:pt-[120px]'>
-            <div className="flex flex-col items-center md:items-start xl:gap-4 md:justify-start justify-center md:flex-row">
+            <div className="flex flex-col items-center md:items-start xl:gap-4 md:justify-start justify-center md:flex-row xl:pb-8">
                 <div className=' md:sticky md:top-0'>
 
                     <div className='mb-10'> <H2 heading={"10 Laws That Govern Money"} /></div>
@@ -25,8 +25,8 @@ const LawMoney = () => {
                             number={index + 1}
                             text={law}
                             containerClass="border-offGray"
-                            numberClass="bg-lightBlack bg-opacity-80 text-lg  md:text-2xl1  text-white leading-120 mt-1"
-                            textClass="text-lightBlack text-2xl md:text-2xl1  text-lg text-opacity-80"
+                            numberClass="bg-lightBlack bg-opacity-80 text-lg  md:text-2xl1  text-white !leading-120 mt-1"
+                            textClass="text-lightBlack md:text-2xl lg:text-2xl1  text-lg text-opacity-80"
                         />
                     ))}
                 </div>

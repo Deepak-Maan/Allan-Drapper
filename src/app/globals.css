@@ -100,4 +100,13 @@
     margin: 0;
   }
   
- 
+ /* swiper speaking */
+/* Ensure you have this in your global styles (e.g., globals.css) */
+.swiper-pagination-bullet {
+    background: #000; /* Change to your desired color */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 4px;
+}

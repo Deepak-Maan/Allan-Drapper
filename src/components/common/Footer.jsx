@@ -18,12 +18,12 @@ const Footer = () => {
                         <div>
                             <ul className='max-w-[158px] ml-auto'>
                                 <li className='text-white text-lg sm:text-xl font-bold leading-150 pb-6 uppercase'>Home</li>
-                                <li className='pb-6'><Link className='footerLinks' href="">Meet Allan</Link></li>
-                                <li className='pb-6'><Link className='footerLinks' href="">My Brands</Link></li>
-                                <li className='pb-6'><Link className='footerLinks' href="">Podcast</Link></li>
-                                <li className='pb-6'><Link className='footerLinks' href="">Coaching</Link></li>
-                                <li className='pb-6'><Link className='footerLinks' href="">Speaking</Link></li>
-                                <li className='pb-6'><Link className='footerLinks' href="">Connect</Link></li>
+                                <li className='pb-6'><Link className='footerLinks' href="/meet-allan">Meet Allan</Link></li>
+                                <li className='pb-6'><Link className='footerLinks' href="#">My Brands</Link></li>
+                                <li className='pb-6'><Link className='footerLinks' href="/podcast">Podcast</Link></li>
+                                <li className='pb-6'><Link className='footerLinks' href="/coaching">Coaching</Link></li>
+                                <li className='pb-6'><Link className='footerLinks' href="/speaking">Speaking</Link></li>
+                                <li className='pb-6'><Link className='footerLinks' href="/connect">Connect</Link></li>
                             </ul>
                         </div>
                         <div>

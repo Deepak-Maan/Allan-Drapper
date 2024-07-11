@@ -16,7 +16,7 @@ const Work = () => {
     <>
       <div className="sm:pb-12 overflow-hidden">
           <div className=" max-w-[594px] mx-auto sm:pb-16 pb-4">
-            <H2 className="text-center" heading="Work with Allan" />
+            <H2 className="text-center after:left-1/2 after:-translate-x-1/2" heading="Work with Allan" />
             <p className=" font-medium text-center text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 pt-9 max-w-[470px] mx-auto">
               My companies are always hiring. Send me your info and let me know what
               type of work you are looking for.
@@ -51,7 +51,7 @@ const Work = () => {
               }}
 
             modules={[Pagination]}
-            className="portfolioSwiper mx-auto"
+            className="portfolioSwiper mx-auto !pt-5"
             
             
           >

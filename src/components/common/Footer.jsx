@@ -5,14 +5,14 @@ import { FacebookLogo, GooglePlayIcon, InstagramLogo, LinkedinLogo, PodcastLogo,
 
 const Footer = () => {
     return (
-        <div className='bg-darkGray mt-[-1px]'>
+        <div className='bg-black2 mt-[-1px]'>
             <div className="container mx-auto px-3 pt-20 pb-8 max-w-[1164px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className='lg:pb-0 pb-8'>
                         <Link href="/">
                             <Image className='pb-8' src="/assets/images/svg/podCast/pageLogo.svg" width={264} height={48} alt="page logo " />
                         </Link>
-                        <Image src="/assets/images/webp/homePage/allanFooterImage.png" width={386} height={245} alt="allan's image" />
+                        <Image src="/assets/images/webp/homePage/allanFooterImage.webp" width={386} height={245} alt="allan's image" />
                     </div>
                     <div className='flex justify-between'>
                         <div>

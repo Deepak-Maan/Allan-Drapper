@@ -11,8 +11,8 @@ module.exports = {
         doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
         principle: "url('/assets/images/webp/meetAllan/principleBg.webp')",
         hustle: "url('/assets/images/webp/portfolio/bgPortfolio.png')",
-        whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
-        grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
+        whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.webp')",
+        grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.webp')",
         podcastHeaderBg:
           "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)",
         connectHeaderBg:

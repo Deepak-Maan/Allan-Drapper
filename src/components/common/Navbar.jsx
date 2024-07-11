@@ -32,7 +32,7 @@ const Navbar = () => {
           className={`flex items-center  z-20 relative gap-6 lg:gap-5 xl:gap-10 duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
             }`} >
           <li className="duration-300 transition-all">
-            <Link href="/meetAllan" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white navLinkHover">
+            <Link href="/meet-allan" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white navLinkHover">
               Meet Allan
             </Link>
           </li>

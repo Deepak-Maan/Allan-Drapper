@@ -120,6 +120,17 @@ input::-webkit-inner-spin-button {
     input[type="checkbox"]:checked {
         background-size: 20px;
     }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+    }
+}
+
+.footerLinks {
+    @apply font-medium text-base sm:text-2xl text-gray leading-130;
 }
 
 .navLinkHover {
@@ -180,19 +191,6 @@ input::-webkit-inner-spin-button {
     @apply relative after:absolute after:flex after:w-14 after:h-[2px] after:left-1/2 after:-translate-x-1/2 after:-bottom-4;
 }
 
-.swiper-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    transition-property: transform;
-    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
-    box-sizing: content-box;
-    margin-left: -3% !important;
-    margin-left: 0% !important;
-}
-
 @media (min-width:576px) {
     .swiper-pagination {
         position: unset !important;
@@ -201,5 +199,26 @@ input::-webkit-inner-spin-button {
         align-items: center !important;
         gap: 2px !important;
         margin-top: 48px !important;
+    }
+}
+
+@media (max-width: 1023.9px) {
+    .overflow_hidden {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 639.9px) {
+    .reviews .swiper-pagination {
+        margin-top: 20px !important;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    input[type="checkbox"]:checked {
+        background-size: 20px;
     }
 }

@@ -33,7 +33,7 @@ const ScrollToTop = () => {
     };
 
     return (
-        <div className={`fixed z-50 bottom-4 right-4 transition-all duration-300 ${showScrollTop ? "scale-100 translate-y-0" : "scale-0 translate-y-10"}`}>
+        <div className={`fixed z-50 bottom-4 2xl:right-[calc((100vw-1536px)/2)] right-4 transition-all duration-300 ${showScrollTop ? "scale-100 translate-y-0" : "scale-0 translate-y-10"}`}>
             <div
                 onClick={scrollTopHandler}
                 className="flex items-center justify-center overflow-hidden transition-all duration-500 rounded-full cursor-pointer h-9 w-9 sm:h-10 sm:w-10 bg-orange hover:shadow-lg hover:shadow-orange-300"

@@ -193,6 +193,7 @@ input::-webkit-inner-spin-button {
     @apply relative after:absolute after:flex after:w-14 after:h-[2px] after:left-1/2 after:-translate-x-1/2 after:-bottom-4;
 }
 
+
 @media (min-width:576px) {
     .swiper-pagination {
         position: unset !important;

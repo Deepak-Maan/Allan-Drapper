@@ -1,6 +1,7 @@
 import CommonHeader from "@/components/common/CommonHeader";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
+import ScrollToTop from "@/components/common/ScrollToTop";
 import FormValidation from "@/components/connect/FormValidation";
 import React from "react";
 
@@ -13,6 +14,7 @@ const page = () => {
     <FormValidation/>
 <GrabPdf/>
     <Footer/>
+    <ScrollToTop/>
   </>;
 };
 

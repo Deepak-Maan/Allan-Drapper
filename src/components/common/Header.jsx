@@ -1,5 +1,4 @@
 import React from 'react'
-import Commonbtn from './CommonButton'
 import Navbar from './Navbar'
 
 const Header = () => {

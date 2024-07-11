@@ -48,7 +48,7 @@
     justify-content: center !important;
     align-items: center !important;
     gap: 2px !important;
-    margin-top: 10px !important;
+    margin-top: 20px !important;
 }
 
 .swiper-pagination-bullet {
@@ -66,6 +66,7 @@
 .swiper-slide.swiper-slide-next {
     transform: scale(1.1) !important;
     object-fit: cover !important;
+    transition: all linear 300ms !important;
 }
 
 .swiper-wrapper {
@@ -199,7 +200,13 @@ input::-webkit-inner-spin-button {
         justify-content: center !important;
         align-items: center !important;
         gap: 2px !important;
-        margin-top: 58px !important;
+        margin-top: 68px !important;
+    }
+}
+@media (min-width: 768px) {
+    .swiper-slide.swiper-slide-next {
+        transform: scale(1.1) !important;
+        object-fit: cover !important;
     }
 }
 

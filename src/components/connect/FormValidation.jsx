@@ -56,7 +56,7 @@ const FormValidation = () => {
                 <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px]'>
                     <form className='lg:px-9 p-5 sm:p-8 lg:py-[41px] bg-white w-full' onSubmit={handleSubmit}>
                         <div className='flex items-center md:flex-row flex-col gap-3 sm:gap-4 w-full'>
-                            <div className='w-full'>
+                            <div className='w-full relative'>
                                 <CommonInput
                                     name="Full Name"
                                     type='text'
@@ -64,9 +64,9 @@ const FormValidation = () => {
                                     value={fullName}
                                     onChange={(e) => setFullName(e.target.value)}
                                 />
-                                {errors.fullName && <span className="text-red-500">{errors.fullName}</span>}
+                                {errors.fullName && <span className="text-red-500 absolute">{errors.fullName}</span>}
                             </div>
-                            <div className='w-full'>
+                            <div className='w-full relative '>
                                 <CommonInput
                                     name="Email Address"
                                     type='email'
@@ -75,17 +75,17 @@ const FormValidation = () => {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                 />
-                                {errors.email && <span className="text-red-500">{errors.email}</span>}
+                                {errors.email && <span className="text-red-500 absolute">{errors.email}</span>}
                             </div>
                         </div>
-                        <div className='sm:pt-4 pt-3'>
+                        <div className='sm:pt-4 pt-3 relative'>
                             <CommonInput
                                 name="Phone Number"
                                 type='number'
                                 value={phoneNumber}
                                 onChange={(e) => setPhoneNumber(e.target.value)}
                             />
-                            {errors.phoneNumber && <span className="text-red-500">{errors.phoneNumber}</span>}
+                            {errors.phoneNumber && <span className="text-red-500 absolute">{errors.phoneNumber}</span>}
                         </div>
                         <div className='flex flex-col gap-[6.5px] mt-3 sm:mt-4'>
                             <p className='font-medium text-lg sm:text-xl md:text-2xl'>Message</p>

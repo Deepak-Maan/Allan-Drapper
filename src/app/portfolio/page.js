@@ -13,7 +13,7 @@ const page = () => {
       <CommonHeader
         heading="My Brands"
         para="I have built multiple brands in different industries. I have built amazing teams and couldn’t have done it alone."
-        paddingYclass="pt-[100px] pb-[180px]"
+        paddingYclass="lg:pt-[100px] lg:pb-[180px] py-16 sm:py-20 md:py-28"
         paraclass="max-w-[536px] md:text-start md:mx-0"
         headingclass="md:text-start mx-0"
         background="bg-portFolioHeaderBg"

@@ -120,6 +120,17 @@ input::-webkit-inner-spin-button {
     input[type="checkbox"]:checked {
         background-size: 20px;
     }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+    }
+}
+
+.footerLinks {
+    @apply font-medium text-base sm:text-2xl text-gray leading-130;
 }
 
 .navLinkHover {
@@ -188,5 +199,26 @@ input::-webkit-inner-spin-button {
         align-items: center !important;
         gap: 2px !important;
         margin-top: 48px !important;
+    }
+}
+
+@media (max-width: 1023.9px) {
+    .overflow_hidden {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 639.9px) {
+    .reviews .swiper-pagination {
+        margin-top: 20px !important;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    input[type="checkbox"]:checked {
+        background-size: 20px;
     }
 }

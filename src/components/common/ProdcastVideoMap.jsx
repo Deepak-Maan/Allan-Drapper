@@ -23,7 +23,7 @@ const ProdcastVideoMap = () => {
                             </div>
                             <p className='text-lightBlack text-2xl sm:text-2xl1 font-semibold leading-120 pb-[10px] pt-4'>{data.title}</p>
                             <p className='text-lg sm:text-xl md:text-2xl lg:text-2xl leading-130 font-medium text-lightBlack pb-5'>{data.description}</p>
-                            <Link href="/blog-details" className='text-lightBlack underline text-base font-bold leading-150'>Read More</Link>
+                            <Link href="#" className='text-lightBlack underline text-base font-bold leading-150'>Read More</Link>
                         </div>
                     </div>
                 </div>

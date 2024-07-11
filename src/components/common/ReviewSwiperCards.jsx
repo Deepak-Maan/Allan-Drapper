@@ -34,7 +34,7 @@ const ReviewSwiperCards = () => {
             }}
             loop={true}
             modules={[Pagination, Autoplay]}
-            className='md:!pt-20 !pt-10 sm:!pt-16 !pb-5 sm:!pb-8 px-4 mx-auto reviews'
+            className='md:!pt-20 !pt-10 sm:!pt-16 !pb-5 sm:!pb-8 px-4 mx-auto reviews max-w-[1018px]'
             breakpoints={{
                 320: {
                     slidesPerView: 1,

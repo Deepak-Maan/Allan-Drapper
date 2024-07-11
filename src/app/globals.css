@@ -24,6 +24,7 @@
 
 * {
     font-family: arquitecta, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .swiper-pagination-bullet {
@@ -49,9 +50,6 @@
     gap: 2px !important;
     margin-top: 48px !important;
 }
-.reviews .swiper-pagination {
-    margin-top: 32px !important;
-}
 
 .swiper-pagination-bullet {
     width: 8px !important;
@@ -73,12 +71,47 @@
 .swiper-wrapper {
     align-items: center;
 } */
-@media (max-width:639.9px) {
-    .reviews .swiper-pagination {
-        margin-top: 20px !important;
-    }
-}
+
 
 .footerLinks {
-    @apply font-medium text-base sm:text-2xl text-gray leading-130
+    @apply font-medium text-base sm:text-2xl duration-300 hover:text-orange text-gray leading-130
+}
+
+
+/* --------------scrollbar------------------- */
+::-webkit-scrollbar-track {
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F58505;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
+    background: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.headingUnderline {
+    @apply relative after:absolute after:flex after:w-14 after:h-[2px] after:left-1/2 after:-translate-x-1/2 after:-bottom-4
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+    margin-left: -3% !important;
 }

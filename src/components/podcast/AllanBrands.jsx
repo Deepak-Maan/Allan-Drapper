@@ -11,7 +11,7 @@ const AllanBrands = () => {
                 <div className='flex items-center mt-11 flex-wrap justify-center lg:justify-start'>
                     {AllanBrand.map((card, index) => (
                         <div key={index} className='lg:w-1/4 sm:w-1/3 w-1/2 max-w-[284px] min-h-[120px] sm:min-h-[170px] flex items-center justify-center'>
-                            <Image src={card.src} width={card.width} height={card.height} />
+                            <Image src={card.src} width={card.width} height={card.height} alt='brandsImage' />
                         </div>
                     ))}
                 </div>

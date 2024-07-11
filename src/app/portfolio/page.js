@@ -18,7 +18,7 @@ const page = () => {
         headingclass="md:text-start mx-0"
         background="bg-portFolioHeaderBg"
         content="flex justify-between flex-col md:flex-row md:items-end"
-        button="!flex justify-center md:justify-start"
+        button="!flex justify-center md:justify-start !text-nowrap"
         btntext="PARTNER WITH ALLAN"
       />
       <Companies/>

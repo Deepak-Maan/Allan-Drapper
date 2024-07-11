@@ -52,7 +52,7 @@ const Work = () => {
 
         >
           <SwiperSlide >
-            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/swiperFistphoto.webp" width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/swiperFistPhoto.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
             <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/basebollPlayer.webp" width={528} height={384} alt="sliderImage" />

@@ -39,37 +39,37 @@ export const ProdcastVideoData = [
 export const podcasts = [
   {
     id: 1,
-    src: '/assets/images/svg/podcast/applePodCast.svg',
+    src: '/assets/images/svg/podCast/applePodCast.svg',
     title: 'Apple Podcasts',
     buttonText: 'Listen',
   },
   {
     id: 2,
-    src: '/assets/images/svg/podcast/spotifyIcon.svg',
+    src: '/assets/images/svg/podCast/spotifyIcon.svg',
     title: 'Spotify',
     buttonText: 'Listen',
   },
   {
     id: 3,
-    src: '/assets/images/svg/podcast/podCastAddict.svg',
+    src: '/assets/images/svg/podCast/podCastAddict.svg',
     title: 'Podcast Addict',
     buttonText: 'Listen',
   },
   {
     id: 4,
-    src: '/assets/images/svg/podcast/googlePodCasts.svg',
+    src: '/assets/images/svg/podCast/googlePodCasts.svg',
     title: 'Google Podcasts',
     buttonText: 'Listen',
   },
   {
     id: 5,
-    src: '/assets/images/svg/podcast/amazonMusic.svg',
+    src: '/assets/images/svg/podCast/amazonMusic.svg',
     title: 'Amazon Music',
     buttonText: 'Listen',
   },
   {
     id: 6,
-    src: '/assets/images/svg/podcast/iHeartRadio.svg',
+    src: '/assets/images/svg/podCast/iHeartRadio.svg',
     title: 'iheart Radio',
     buttonText: 'Listen',
   },
@@ -78,17 +78,17 @@ export const podcasts = [
 export const AllanDaperImg = [
   {
     id: 1,
-    src: '/assets/images/webp/podcast/allanDaperMan.webp',
+    src: '/assets/images/webp/podCast/allanDaperMan.webp',
     alt: 'Allan Daper Man',
   },
   {
     id: 2,
-    src: '/assets/images/webp/podcast/allanDaperFamily.webp',
+    src: '/assets/images/webp/podCast/allanDaperFamily.webp',
     alt: 'family',
   },
   {
     id: 3,
-    src: '/assets/images/webp/podcast/allanDaperManBlackTshirt.webp',
+    src: '/assets/images/webp/podCast/allanDaperManBlackTshirt.webp',
     alt: 'family',
   },
 ];
@@ -164,13 +164,13 @@ export const AllanBrand = [
     imagewidth: 'max-w-[70px] max-h-[70px] sm:max-w-[100px] sm:max-h-[100px]'
   },
   {
-    src: "/assets/images/svg/podcast/ranaHub.svg",
+    src: "/assets/images/svg/podCast/ranaHub.svg",
     width: 260,
     height: 75,
     imagewidth: 'max-w-[150px] max-h-[50px] sm:max-w-[260px] sm:max-h-[75px]'
   },
   {
-    src: "/assets/images/svg/podcast/eBD.svg",
+    src: "/assets/images/svg/podCast/eBD.svg",
     width: 175,
     height: 96,
     imagewidth: 'max-w-[120px] max-h-[70px] sm:max-w-[175px] sm:max-h-[96px]'

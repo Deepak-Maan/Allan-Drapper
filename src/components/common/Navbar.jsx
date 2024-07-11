@@ -26,7 +26,7 @@ const Navbar = () => {
     <>
       <nav className="max-w-[1264px] w-full mx-auto px-3 py-[14.5px] flex items-center justify-between lg:max-h-20">
         <Link className="relative z-10" href="/">
-          <Image alt='logo' src="/assets/images/svg/podcast/pageLogo.svg" width={215} height={39} />
+          <Image alt='logo' src="/assets/images/svg/podCast/pageLogo.svg" width={215} height={39} />
         </Link>
         <ul
           className={`flex items-center  z-20 relative gap-6 lg:gap-5 xl:gap-10 duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"

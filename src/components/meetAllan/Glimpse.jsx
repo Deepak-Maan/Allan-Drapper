@@ -11,7 +11,7 @@ const Glimpse = () => {
                     <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                         <div className="col-span-1 !gap-4">
                             <Image
-                                src="/assets/images/webp/meetAllan/meninCity.webp"
+                                src="/assets/images/webp/meetAllan/menInCity.webp"
                                 alt="menInCity"
                                 width={534}
                                 height={905}

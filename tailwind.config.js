@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
-        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
+        principle: "url('/assets/images/webp/meetAllan/principleBg.webp')",
         hustle: "url('/assets/images/webp/portfolio/bgPortfolio.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",

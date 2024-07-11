@@ -1,5 +1,4 @@
 import React from 'react'
-import Commonbtn from './CommonButton'
 import Navbar from './Navbar'
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
         <div className='flex flex-row flex-wrap -mx-3'>
           <div className='w-1/2 px-3'>
             <h1 className='font-bold text-5xl1 leading-110 text-white'>
-            Create Your Dream Life through Entrepreneurship
+              Create Your Dream Life through Entrepreneurship
             </h1>
           </div>
         </div>

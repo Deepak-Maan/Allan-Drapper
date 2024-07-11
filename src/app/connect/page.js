@@ -8,7 +8,7 @@ const page = () => {
   return <>
     <CommonHeader
     heading='Connect with Allan'
-    paddingYclass='pt-[139px] pb-[219px]'
+    paddingYclass='lg:pt-[139px] py-16 sm:py-20 md:py-28 lg:pb-[219px]'
     background='bg-connectHeaderBg'/>
     <FormValidation/>
 <GrabPdf/>

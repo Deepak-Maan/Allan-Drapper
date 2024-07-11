@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
-// import { Pagination, Autoplay } from 'swiper';
 import Image from 'next/image';
 import { H2 } from '../common/Heading';
 
@@ -14,19 +13,18 @@ const Memories = () => {
                 <div className="pb-8 sm:pb-9">
                     <H2 heading={"Our Speaking memories"} className={"text-center after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
                 </div>
-                <div className="pb-1 sm:pb-5 md:pb-8 xl:pt-5 lg:pb-5">
+                <div className="pb-1 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
                     <Swiper
                         spaceBetween={20}
                         slidesPerView={1}
                         loop={true}
-                        // modules={[Pagination, Autoplay]}
                         pagination={{
                             clickable: true,
-                            renderBullet: (index, className) => `<span class="${className} bg-yellow-500"></span>`,
+                            renderBullet: (index, className) => `<span className="${className} custom-bullet"></span>`,
                         }}
                         autoplay={{
                             delay: 3000,
-                            disableOnInteraction: false,
+                            disableOnInteraction: true,
                         }}
                         breakpoints={{
                             640: {
@@ -41,32 +39,32 @@ const Memories = () => {
                     >
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/singer.png"
+                                src="/assets/images/webp/speaking/singer.webp"
                                 alt="Singers"
                                 width={534}
                                 height={905}
-                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:h-[479px] object-cover"
+                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:h-[424px] object-cover"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="grid grid-rows-2 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/webp/speaking/twoPersonTalking.png"
+                                    src="/assets/images/webp/speaking/twoPersonTalking.webp"
                                     alt="MenTalking"
                                     width={534}
                                     height={905}
-                                    className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[452px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[255px] object-cover h-auto"
+                                    className="w-full min-h-[190px] sm:w-[288px] sm:h-[201px] md:w-[452px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                 />
                                 <div className="grid grid-cols-2 gap-4 lg:gap-6">
                                     <Image
-                                        src="/assets/images/webp/speaking/singerMen.png"
+                                        src="/assets/images/webp/speaking/singerMen.webp"
                                         alt="SingerMen"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[360px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                     />
                                     <Image
-                                        src="/assets/images/webp/speaking/aMenSinging.png"
+                                        src="/assets/images/webp/speaking/aMenSinging.webp"
                                         alt="menSinging"
                                         width={534}
                                         height={905}
@@ -77,41 +75,41 @@ const Memories = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/reporter.png"
+                                src="/assets/images/webp/speaking/reporter.webp"
                                 alt="Reporter"
                                 width={534}
                                 height={905}
-                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:h-[479px] object-cover"
+                                className="w-full h-full md:h-[505px] xl:min-w-[364px] lg:h-[456px] xl:h-[424px] object-cover"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/singer.png"
+                                src="/assets/images/webp/speaking/singer.webp"
                                 alt="Singer"
                                 width={534}
                                 height={905}
-                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:h-[479px] object-cover"
+                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:h-[424px] object-cover"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="grid grid-rows-2 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/webp/speaking/twoPersonTalking.png"
+                                    src="/assets/images/webp/speaking/twoPersonTalking.webp"
                                     alt="TwoPersontalking"
                                     width={534}
                                     height={905}
-                                    className="w-full min-h-[190px] sm:w-[358px] sm:h-[201px] md:w-[452px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[255px] object-cover h-auto"
+                                    className="w-full min-h-[190px] sm:w-[358px] sm:h-[201px] md:w-[452px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                 />
                                 <div className="grid grid-cols-2 gap-4 lg:gap-6">
                                     <Image
-                                        src="/assets/images/webp/speaking/singerMen.png"
+                                        src="/assets/images/webp/speaking/singerMen.webp"
                                         alt="singermen"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[358px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                     />
                                     <Image
-                                        src="/assets/images/webp/speaking/aMenSinging.png"
+                                        src="/assets/images/webp/speaking/aMenSinging.webp"
                                         alt="Mensinging"
                                         width={534}
                                         height={905}
@@ -122,11 +120,11 @@ const Memories = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/reporter.png"
+                                src="/assets/images/webp/speaking/reporter.webp"
                                 alt="reporter_Image"
                                 width={534}
                                 height={905}
-                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:h-[479px] object-cover"
+                                className="w-full h-full md:h-[505px] lg:h-[456px] xl:w-[364px] xl:h-[424px] object-cover"
                             />
                         </SwiperSlide>
                     </Swiper>

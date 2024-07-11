@@ -14,10 +14,10 @@ import CommonButton from "../common/CommonButton";
 const Work = () => {
   return (
     <>
-      <div className="pb-12">
-          <div className=" max-w-[594px] mx-auto pb-16">
+      <div className="sm:pb-12 overflow-hidden">
+          <div className=" max-w-[594px] mx-auto sm:pb-16 pb-4">
             <H2 className="text-center" heading="Work with Allan" />
-            <p className=" font-medium text-2xl text-lightBlack opacity-80 pt-9 max-w-[470px] mx-auto">
+            <p className=" font-medium text-center text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 pt-9 max-w-[470px] mx-auto">
               My companies are always hiring. Send me your info and let me know what
               type of work you are looking for.
             </p>
@@ -25,12 +25,34 @@ const Work = () => {
           <Swiper
                       loop={true}
             slidesPerView={3}
-            // spaceBetween={30}
+            spaceBetween={30}
             pagination={{
                 clickable: true,
               }}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                410: {
+                  slidesPerView: 1,
+                },
+                576: {
+                  slidesPerView: 1,
+                },
+                640: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 3,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
+
             modules={[Pagination]}
-            className="portfolioSwiper"
+            className="portfolioSwiper mx-auto"
+            
             
           >
             <SwiperSlide >

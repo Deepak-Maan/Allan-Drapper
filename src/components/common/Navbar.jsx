@@ -32,7 +32,7 @@ const Navbar = () => {
           className={`flex items-center  z-20 relative gap-6 lg:gap-5 xl:gap-10 duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
             }`} >
           <li className="duration-300 transition-all">
-            <Link href="/meetAllan" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white navLinkHover">
+            <Link href="/meet-allan" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white navLinkHover">
               Meet Allan
             </Link>
           </li>
@@ -62,9 +62,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <button className="border border-orange hover:border-yellow hover:text-yellow duration-300 ease-in-out border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
+            <Link href='/blogs' className="border border-orange hover:border-yellow hover:text-yellow duration-300 ease-in-out border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
               Newsletter
-            </button>
+            </Link>
           </li>
         </ul>
         <button aria-label="crossIcon" onClick={showNav} className="lg:hidden relative z-50">

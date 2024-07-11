@@ -157,5 +157,5 @@ input::-webkit-inner-spin-button {
     initial
   );
   box-sizing: content-box;
-  margin-left: -3% !important;
+  /* margin-left: -3% !important; */
 }

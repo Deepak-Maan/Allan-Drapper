@@ -1,3 +1,16 @@
+import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
+import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
+import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
+import give from '../../../public/assets/images/svg/portfolio/giveBack.svg';
+import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
+import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
+import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
+import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
+// import bugbuxt from '../../../public/assets/images/svg/portfolio/bugbuxt.svg';
+import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
+import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
+
+// =============================ProdcastVideo data =============================//
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
   {

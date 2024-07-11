@@ -1,14 +1,10 @@
 'use client'
 import { H2 } from "../common/Heading";
-import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
-import slider1 from "/assets/images/webp/portfolio/swiperFistphoto.webp";
-import slider2 from "/assets/images/webp/portfolio/basebollPlayer.webp";
-import slider3 from "/assets/images/webp/portfolio/blackSuitPeople.webp";
 import CommonButton from "../common/CommonButton";
 
 const Work = () => {
@@ -56,19 +52,19 @@ const Work = () => {
 
         >
           <SwiperSlide >
-            <Image className="!h-[384px] !w-[528px] object-cover" src={slider1} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/swiperFistphoto.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
-            <Image className="!h-[384px] !w-[528px] object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/basebollPlayer.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
-            <Image className="!h-[384px] !w-[528px] object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/blackSuitPeople.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
-            <Image className="!h-[384px] !w-[528px] object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/basebollPlayer.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
-            <Image className="!h-[384px] !w-[528px] object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src="/assets/images/webp/portfolio/blackSuitPeople.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
 
         </Swiper>

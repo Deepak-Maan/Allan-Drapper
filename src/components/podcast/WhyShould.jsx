@@ -12,7 +12,7 @@ const WhyShould = () => {
             <div className='pt-[50px]'>
                 <div className='flex flex-row flex-wrap -mx-3 justify-between'>
                     <div className='w-full lg:w-7/12 px-3'>
-                        <h3 className='font-bold text-3xl1 sm:text-4xl md:text-4xl1 text-center lg:text-start !leading-105 text-lightBlack lg:max-w-[616px]'>Why should you have Allan on your show?</h3>
+                        <h3 className='font-bold text-3xl1 sm:text-4xl md:text-4xl1 text-center lg:text-start !leading-105 text-lightBlack lg:max-w-[616px]'>Why Should You Have Allan On Your Show?</h3>
                         <p className='font-medium text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 mt-4 text-center lg:text-start lg:max-w-[616px]'>
                             Simply put, Allan has amassed real and diversified sustainable wealth in a multitude of industries and can actually speak to the processes that it takes to achieve it.
                             <span className='block py-1 sm:py-2 md:py-2.5'>He also has a relatable and heart warming story of incredibly humble beginning sleeping on the floor in a small town, to becoming an attorney, and then a pivotal moment where he took the ultimate risk, left his old life behind and bet on himself.</span>

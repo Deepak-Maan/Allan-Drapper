@@ -1,4 +1,3 @@
-import React from 'react'
 import { H2 } from '../common/Heading'
 import Image from "next/image";
 import { Bluesquare } from '../common/Icons';
@@ -7,7 +6,7 @@ const Archivement = () => {
     return (
         <section>
             <div className='max-w-[1164px] px-3 mx-auto py-12 sm:py-16 md:py-20 lg:pt-[150px] lg:pb-[93px]'>
-                <div className="flex flex-col-reverse md:flex-row items-center gap-5  justify-between">
+                <div className="flex flex-col-reverse md:flex-row items-center gap-5 justify-between">
                     <Image
                         src="/assets/images/webp/meetAllan/archivementMen.webp"
                         alt="ArchivementMen"

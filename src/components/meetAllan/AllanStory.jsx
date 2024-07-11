@@ -1,4 +1,3 @@
-import React from 'react'
 import { H2 } from '../common/Heading'
 import Image from "next/image";
 
@@ -17,7 +16,7 @@ const AllanStory = () => {
                         alt="AllanStory"
                         width={611}
                         height={594}
-                        className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[594px] object-cover lg:min-w-[611px]  !xl:min-h-[594px]"
+                        className="md:max-w-[400px] lg:max-w-[464px] md:max-h-[594px] object-cover lg:min-w-[611px] !xl:min-h-[594px]"
                     />
                 </div>
             </div>

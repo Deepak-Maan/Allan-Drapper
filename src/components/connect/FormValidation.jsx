@@ -11,32 +11,37 @@ const FormValidation = () => {
     const [message, setMessage] = useState('');
     const [newsletterOptIn, setNewsletterOptIn] = useState(false);
     const [errors, setErrors] = useState({});
+    console.log(fullName, email, phoneNumber)
+
     const handleSubmit = (e) => {
         e.preventDefault();
         let errors = {};
-        const emailregex = EMAIL;
-        if (!emailregex.test(email)) {
-            errors.email = 'Email address is invalid';
-        } else {
-            delete errors.email;
-        }
+
         if (!fullName) {
             errors.fullName = 'Full Name is required';
-        } else {
-            delete errors.fullName;
-        }
-        if (!PHONENUMBER.test(phoneNumber)) {
+        } else if (!EMAIL.test(email)) {
+            errors.email = 'Email address is invalid';
+        } else if (!PHONENUMBER.test(phoneNumber)) {
             errors.phoneNumber = 'Phone Number must be 10 digits';
-        } else {
-            delete errors.phoneNumber;
         }
+
         setErrors(errors);
+
         if (Object.keys(errors).length === 0) {
             console.log('Form submitted successfully');
             console.log({ fullName, email, phoneNumber, message, newsletterOptIn });
+
+            // Reset form fields to default values
+            setFullName('');
+            setEmail('');
+            setPhoneNumber('');
+            setMessage('');
+            setNewsletterOptIn(false);
         }
     };
+
     return (
+        <>
         <div className='lg:my-[120px] md:my-20 sm:my-16 my-12'>
             <div className='max-w-[1148px] mx-auto px-3'>
                 <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px]'>
@@ -56,6 +61,7 @@ const FormValidation = () => {
                                 <CommonInput
                                     name="Email Address"
                                     type='email'
+                                    id="email"
                                     className='md:max-w-[414px]'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
@@ -97,6 +103,7 @@ const FormValidation = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

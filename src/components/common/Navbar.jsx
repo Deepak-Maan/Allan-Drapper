@@ -24,12 +24,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="max-w-[1264px] w-full mx-auto px-3 py-[14.5px] flex items-center justify-between">
+      <nav className="max-w-[1264px] w-full mx-auto px-3 py-[14.5px] flex items-center justify-between lg:max-h-20">
         <Link className="relative z-10" href="/">
           <Image alt='logo' src="/assets/images/svg/podcast/pageLogo.svg" width={215} height={39} />
         </Link>
         <ul
-          className={`flex items-center  z-20 relative gap-6 lg:gap-5 xl:gap-10 lg:max-h-[80px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
+          className={`flex items-center  z-20 relative gap-6 lg:gap-5 xl:gap-10 duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-black ${navBar && "!left-0"
             }`} >
           <li className="duration-300 transition-all">
             <Link href="/meetAllan" onClick={closeNav} className="font-450 leading-140 text-2xl lg:text-xl text-white navLinkHover">
@@ -69,15 +69,15 @@ const Navbar = () => {
         </ul>
         <button aria-label="crossIcon" onClick={showNav} className="lg:hidden relative z-50">
           {navBar ? (
-            <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
+            <div className="flex lg:hidden flex-col relative z-50 justify-between w-6 h-6 cursor-pointer">
               <span className="bg-orange min-w-[11px] min-h-[2px] rounded-md relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 -translate-y-1 -bottom-[15px]"></span>
               <span className="bg-orange   min-w-[11px] min-h-[2px] rounded-md relative z-50 transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-0 bottom-[11px]"></span>
             </div>
           ) : (
             <div className="flex lg:hidden flex-col z-50 justify-between my-1 w-[21px] h-[15px] md:w-[28px] md:h-[18px] cursor-pointer relative">
-              <span className="bg-orange rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
-              <span className="bg-orange rounded-md w-full h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
-              <span className="bg-orange rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] ms-auto relative z-50 transition-all ease-linear duration-300"></span>
+              <span className="bg-orange rounded-md w-[11px] md:w-[14px] h-[3px] md:h-1 relative z-50 transition-all ease-linear duration-300"></span>
+              <span className="bg-orange rounded-md w-full h-[3px] md:h-1 relative z-50 transition-all ease-linear duration-300"></span>
+              <span className="bg-orange rounded-md w-[11px] md:w-[14px] h-[3px] md:h-1 ms-auto relative z-50 transition-all ease-linear duration-300"></span>
             </div>
           )}
         </button>

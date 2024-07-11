@@ -15,6 +15,7 @@ const Memories = () => {
                 </div>
                 <div className="pb-1 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
                     <Swiper
+                    className='memories'
                         spaceBetween={20}
                         slidesPerView={1}
                         loop={true}

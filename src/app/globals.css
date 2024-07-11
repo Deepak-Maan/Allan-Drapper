@@ -141,7 +141,9 @@ input::-webkit-inner-spin-button {
 ::-webkit-scrollbar-track {
     border-radius: 12px;
 }
-
+.memories .swiper-slide.swiper-slide-next {
+  transform: scaleY(1) !important;
+}
 ::-webkit-scrollbar-thumb {
     background: #F58505;
     border-radius: 30px;

@@ -15,7 +15,7 @@ const page = () => {
     <CommonHeader
       heading='Meet Allan'
       para='I have a unique ability to motivate people to make short-term sacrifices to build businesses and wealth. Are you next?'
-      paddingYclass='pt-[100px] pb-[61px]'
+      paddingYclass='lg:pt-[100px] py-16 sm:py-20 md:py-28 lg:pb-[61px]'
       paraclass='max-w-[536px] md:text-start md:mx-0'
       headingclass='md:text-start mx-0'
       background='bg-meetAllanHeaderBg'

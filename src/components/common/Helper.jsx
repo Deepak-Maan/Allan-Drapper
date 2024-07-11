@@ -345,3 +345,102 @@ export const ReviewData = [
     Customer: 'Jordan G'
   },
 ];
+export const relatedSliderList = [
+  {
+
+    image: "/assets/images/webp/several/leadership.webp",
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/dad.webp",
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/several.webp",
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/several.webp",
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  }
+]
+// ========================= library================================ //
+export const libraryData = [
+  {
+
+    image: "/assets/images/webp/several/dad.webp",
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget  lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/several.webp",
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/leadership.webp",
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance ",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/leadership.webp",
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/dad.webp",
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/several.webp",
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/dad.webp",
+    title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
+    description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/several.webp",
+    title: "I Have Several Business Ideas. What Should I Do?",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+  {
+
+    image: "/assets/images/webp/several/leadership.webp",
+    title: "Leadership Lessons From Legend… College Coaches",
+    description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
+    link: "#"
+  },
+
+
+
+]

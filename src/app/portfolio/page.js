@@ -1,6 +1,7 @@
 import CommonHeader from "@/components/common/CommonHeader";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
+import ScrollToTop from "@/components/common/ScrollToTop";
 import Companies from "@/components/Portfolio/Companies";
 import Hustle from "@/components/Portfolio/Hustle";
 import Investments from "@/components/Portfolio/Investments";
@@ -21,12 +22,13 @@ const page = () => {
         button="!flex justify-center md:justify-start !text-nowrap"
         btntext="PARTNER WITH ALLAN"
       />
-      <Companies/>
-      <Investments/>
-      <Work/>
-      <Hustle/>
-      <GrabPdf/>
-      <Footer/>
+      <Companies />
+      <Investments />
+      <Work />
+      <Hustle />
+      <GrabPdf />
+      <Footer />
+      <ScrollToTop />
     </div>
   );
 };

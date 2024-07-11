@@ -6,16 +6,19 @@ import FormValidation from "@/components/connect/FormValidation";
 import React from "react";
 
 const page = () => {
-  return <>
-    <CommonHeader
-    heading='Connect with Allan'
-    paddingYclass='lg:pt-[139px] py-16 sm:py-20 md:py-28 lg:pb-[219px]'
-    background='bg-connectHeaderBg'/>
-    <FormValidation/>
-<GrabPdf/>
-    <Footer/>
-    <ScrollToTop/>
-  </>;
+  return (
+    <>
+      <CommonHeader
+        heading="Connect with Allan"
+        paddingYclass="lg:pt-[139px] py-16 sm:py-20 md:py-28 lg:pb-[219px]"
+        background="bg-connectHeaderBg"
+      />
+      <FormValidation />
+      <GrabPdf />
+      <Footer />
+      <ScrollToTop />
+    </>
+  );
 };
 
 export default page;

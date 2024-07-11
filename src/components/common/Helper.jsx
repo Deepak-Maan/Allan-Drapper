@@ -9,7 +9,7 @@ import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
 import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
 import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
 import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
-import bugbuxt from '../../../public/assets/images/svg/portfolio/bugbuxt.svg';
+// import bugbuxt from '../../../public/assets/images/svg/portfolio/bugbuxt.svg';
 import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
 import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
 
@@ -327,7 +327,7 @@ export const images = [
   { src: jad, width: 87, height: 102, alt: 'jad' },
   { src: brown, width: 172, height: 96, alt: 'brown' },
   { src: wealth, width: 234, height: 103, alt: 'wealth' },
-  { src: bugbuxt, width: 178, height: 100, alt: 'bugbuxt' },
+  // { src: bugbuxt, width: 178, height: 100, alt: 'bugbuxt' },
   { src: podcast, width: 100, height: 100, alt: 'podcast' },
   { src: real, width: 163, height: 96, alt: 'real' }
 ];

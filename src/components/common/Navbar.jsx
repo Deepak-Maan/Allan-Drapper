@@ -62,9 +62,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <button className="border border-orange hover:border-yellow hover:text-yellow duration-300 ease-in-out border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
+            <Link href='/blogs' className="border border-orange hover:border-yellow hover:text-yellow duration-300 ease-in-out border-solid py-3 px-5 text-orange font-bold text-lg leading-normal xl:ms-2" onClick={showNav}>
               Newsletter
-            </button>
+            </Link>
           </li>
         </ul>
         <button aria-label="crossIcon" onClick={showNav} className="lg:hidden relative z-50">

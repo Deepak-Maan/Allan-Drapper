@@ -24,8 +24,8 @@ const BookAllan = () => {
                                         height={603}
                                         className="lg:w-[145px] w-28"
                                     />
-                                    <h4 className="font-bold text-2xl md:text-2xl1 text-lightblack opacity-80 sm:pt-6 pt-3 text-center max-w-[269px] leading-120">{book.title}</h4>
-                                    <p className="font-medium lg:text-2xl sm:text-lg text-base text-offGray text-center leading-130">{book.author}</p>
+                                    <h4 className="font-bold text-2xl md:text-2xl1 text-lightblack opacity-80 sm:pt-6 pt-3 text-center max-w-[269px] !leading-120">{book.title}</h4>
+                                    <p className="font-medium lg:text-2xl sm:text-lg text-base text-offGray text-center !leading-130">{book.author}</p>
                                 </div>
                             </div>
                         ))}

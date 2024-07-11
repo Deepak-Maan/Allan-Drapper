@@ -17,27 +17,27 @@ const Keynote = () => {
                     />
                     <div className='max-w-[580px]'>
                         <H2 heading={"Meet Allan Draper: Your Keynote Speaker Solution"} className={"after:bg-yellow "} />
-                        <p className='text-2xl font-medium leading-120 max-w-[560px] mt-8 lg:mt-12 mb-0 text-lightBlack opacity-80'>Confession: I'm just an ordinary achiever. Yet, extraordinary accomplishments include...</p>
+                        <p className='text-2xl font-medium !leading-120 max-w-[560px] mt-8 lg:mt-12 mb-0 text-lightBlack opacity-80'>Confession: I'm just an ordinary achiever. Yet, extraordinary accomplishments include...</p>
                         <div className="flex gap-3 my-3 lg:my-4 ">
                             <span><Bluesquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold'>Remarkable achievements include five 8+ figure businesses.</p>
+                            <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>Remarkable achievements include five 8+ figure businesses.</p>
 
                         </div>
                         <div className="flex gap-3 mb-3 lg:mb-4 ">
                             <span><Bluesquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold max-w-[544px]'>$100MM+ business empire grown.</p>
+                            <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold max-w-[544px]'>$100MM+ business empire grown.</p>
 
                         </div>
                         <div className="flex gap-3 mb-3 lg:mb-4 ">
                             <span><Bluesquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold'>
+                            <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>
                                 Network with A-listers like Shaquille O’Neal, Drew Brees, and David Melzer.</p>
 
                         </div>
                         <div className="flex gap-3 mb-3 lg:mb-4 ">
                             <span><Bluesquare /></span>
 
-                            <p className='text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 font-bold'>
+                            <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>
                                 400+ restaurants launched.</p>
                         </div>
                     </div>

@@ -181,6 +181,40 @@ export const AllanBrand = [
   }
 ];
 // ---=========================Allan_meet======================================== //
+// Card data
+export const cardData = [
+  {
+    id: 1,
+    image: "/assets/images/svg/meetAllan/startNow.svg",
+    title: "Start Now",
+    description: "Don't wait until you know 100% of what you need, get started already.",
+  },
+  {
+    id: 2,
+    image: "/assets/images/svg/meetAllan/debt.svg",
+    title: "Good vs Bad Debt",
+    description: "Not all debt is bad debt. Know the difference",
+  },
+  {
+    id: 3,
+    image: "/assets/images/svg/meetAllan/cutTies.svg",
+    title: "Cut Ties",
+    description:
+      "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
+  },
+  {
+    id: 4,
+    image: "/assets/images/svg/meetAllan/college.svg",
+    title: "College Myth",
+    description: "In most cases, college is a waste of time and money.",
+  },
+  {
+    id: 5,
+    image: "/assets/images/svg/meetAllan/payFirst.svg",
+    title: "Pay Yourself First",
+    description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
+  },
+];
 
 export const BooksData = [
   {
@@ -264,15 +298,7 @@ export const BooksData = [
     ]
   }
 ];
-
-// Exported from Helper.js
-export const LawItem = ({ number, text, containerClass, numberClass, textClass }) => (
-  <div className={`flex sm:gap-3.5 gap-2 p-4 mt-3 items-start border ${containerClass}`}>
-    <span className={`md:w-[34px] md:min-w-[34px] md:h-[37px] min-w-[24px] h-6 flex justify-center items-center font-bold ${numberClass}`}>{number}</span>
-    <p className={`font-bold leading-120 ${textClass}`}>{text}</p>
-  </div>
-);
-
+// meet allan money card data
 export const Laws = [
   "In order to accumulate wealth you have to first believe that you are worthy of it.",
   "You must give away at least 10% of everything you make",
@@ -285,9 +311,6 @@ export const Laws = [
   "You must have multiple streams of income",
   "You must use debt wisely to make incremental growth"
 ];
-
-
-
 
 // companies section
 

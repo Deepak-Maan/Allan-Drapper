@@ -10,7 +10,7 @@ const ProdcastVideoMap = () => {
             {ProdcastVideoData.map((data, index) => (
                 <div key={index} className='w-full border border-offGray p-4 mb-6  ' >
                     <div className='flex flex-col md:flex-row gap-5'>
-                        <Image className=' w-full md:w-[331px] h-[198px] object-cover' src={data.img} alt="course's thumbnail" width={331} height={198} />
+                        <Image className=' w-full md:w-[331px] max-h-[375px] h-full md:h-[198px] object-cover' src={data.img} alt="course's thumbnail" width={331} height={198} />
                         <div>
                             <div className="flex items-center justify-between">
                                 <div className="flex gap-4 items-center">

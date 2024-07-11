@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Appearnce from "@/components/homePage/Appearnce";
@@ -20,4 +21,12 @@ export default function Home() {
       <Footer />
     </>
   );
+=======
+import ScrollToTop from "@/components/common/ScrollToTop";
+export default function Home() {
+  return <>
+    <ScrollToTop />
+
+  </>;
+>>>>>>> 4af1aea97832d097534e9d7953b2df1be7014acc
 }

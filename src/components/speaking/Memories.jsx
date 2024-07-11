@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
-// import { Pagination, Autoplay } from 'swiper';
 import Image from 'next/image';
 import { H2 } from '../common/Heading';
 
@@ -19,14 +18,13 @@ const Memories = () => {
                         spaceBetween={20}
                         slidesPerView={1}
                         loop={true}
-                        // modules={[Pagination, Autoplay]}
                         pagination={{
                             clickable: true,
-                            renderBullet: (index, className) => `<span class="${className} bg-yellow-500"></span>`,
+                            renderBullet: (index, className) => `<span className="${className} custom-bullet"></span>`,
                         }}
                         autoplay={{
                             delay: 3000,
-                            disableOnInteraction: false,
+                            disableOnInteraction: true,
                         }}
                         breakpoints={{
                             640: {

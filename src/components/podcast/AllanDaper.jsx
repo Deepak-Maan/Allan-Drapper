@@ -7,6 +7,7 @@ import AllanBrands from './AllanBrands'
 
 const AllanDaper = () => {
     return (
+        <>
         <div className='lg:pt-[76px] md:py-20 sm:py-16 py-12 lg:pb-28 bg-gray'>
             <div className='lg:pb-3 container  mx-auto px-3 max-w-[1164px]'>
                 <H2 heading="Allan Draper" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2 mb-8 sm:mb-10 md:mb-[57px]" />
@@ -37,6 +38,7 @@ const AllanDaper = () => {
                 <AllanBrands/>
             </div>
         </div>
+        </>
     )
 }
 

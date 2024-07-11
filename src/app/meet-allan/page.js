@@ -11,7 +11,7 @@ import LawMoney from "@/components/meetAllan/LawMoney";
 import Opinion from "@/components/meetAllan/Opinion";
 import Sacrifice from "@/components/meetAllan/Sacrifice";
 const page = () => {
-  return <div>
+  return <>
     <CommonHeader
       heading='Meet Allan'
       para='I have a unique ability to motivate people to make short-term sacrifices to build businesses and wealth. Are you next?'
@@ -35,7 +35,7 @@ const page = () => {
     <GrabPdf />
     <Footer />
     <ScrollToTop />
-  </div>;
+  </>;
 };
 
 export default page;

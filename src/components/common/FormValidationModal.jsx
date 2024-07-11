@@ -5,7 +5,7 @@ const FormValidationModal = ({ show, onClose, message }) => {
     useEffect(() => {
         if (show) {
             Swal.fire({
-                title: message,
+                title: 'Thank You For Form Submission',
                 icon: 'success',
                 showConfirmButton: false,
                 timer: 2000  // Auto close after 2 seconds

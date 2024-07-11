@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Allan-Drapper",
   description: "Create Your Dream Life For the Creators. I will teach you how to build an extraordinary business and how to build wealth without sacrificing what matters most.",
-  metadataBase:new URL(""),
   openGraph:{
     title: "Allan-Drapper",
   description: "through Entrepreneurship For the Creators. I will teach you how to build an extraordinary business and how to build wealth without sacrificing what matters most.",

@@ -54,7 +54,7 @@ const FormValidation = () => {
                             <div className='flex items-center md:flex-row flex-col gap-3 sm:gap-4 w-full'>
                                 <div className='w-full'>
                                     <CommonInput
-                                        name="fullName"
+                                        name="FullName"
                                         type='text'
                                         className='md:max-w-[414px]'
                                         value={fullName}
@@ -64,7 +64,7 @@ const FormValidation = () => {
                                 </div>
                                 <div className='w-full'>
                                     <CommonInput
-                                        name="email"
+                                        name="Email Address"
                                         type='email'
                                         id="email"
                                         className='md:max-w-[414px]'
@@ -76,7 +76,7 @@ const FormValidation = () => {
                             </div>
                             <div className='sm:pt-4 pt-3'>
                                 <CommonInput
-                                    name="phoneNumber"
+                                    name="PhoneNumber"
                                     type='number'
                                     value={phoneNumber}
                                     onChange={(e) => setPhoneNumber(e.target.value)}

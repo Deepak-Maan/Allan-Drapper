@@ -177,7 +177,7 @@ input::-webkit-inner-spin-button {
   @apply relative after:absolute after:flex after:w-14 after:h-[2px] after:left-1/2 after:-translate-x-1/2 after:-bottom-4;
 }
 
-.swiper-wrapper {
+/* .swiper-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
@@ -190,4 +190,4 @@ input::-webkit-inner-spin-button {
   );
   box-sizing: content-box;
   margin-left: -3% !important;
-}
+} */

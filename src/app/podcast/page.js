@@ -2,6 +2,7 @@
 import CommonHeader from "@/components/common/CommonHeader";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
+import ScrollToTop from "@/components/common/ScrollToTop";
 import AllanDaper from "@/components/podcast/AllanDaper";
 import DoYou from "@/components/podcast/DoYou";
 import ReviewSwiper from "@/components/podcast/ReviewSwiper";
@@ -14,7 +15,7 @@ const page = () => {
 <CommonHeader
 heading='Welcome to The Allan Draper Show!'
 para='Allan has recorded hundreds of podcast episode with some of the successful and motivational entrepreneur in the world.'
-paddingYclass='lg:pt-[100px] py-28 lg:pb-[180px]'
+paddingYclass='lg:pt-[100px]  py-16 sm:py-20 md:py-28 lg:pb-[180px]'
 paraclass='max-w-[652px]'
 background='bg-podcastHeaderBg'/>
   <StopGoogling/>
@@ -24,6 +25,7 @@ background='bg-podcastHeaderBg'/>
   <AllanDaper/>
   <GrabPdf/>
   <Footer/>
+  <ScrollToTop/>
   </>
 };
 

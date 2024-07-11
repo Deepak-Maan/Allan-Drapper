@@ -71,7 +71,7 @@
     align-items: center;
 }
 
-*/ .footerLinks {
+.footerLinks {
     @apply font-medium text-base sm:text-2xl duration-300 hover:text-orange text-gray leading-130
 }
 

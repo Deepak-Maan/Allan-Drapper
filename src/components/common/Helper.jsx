@@ -172,10 +172,8 @@ export const AllanBrand = [
     height: 100
   }
 ];
-
 // ---=========================Allan_meet======================================== //
 
-// Helper.js or appropriate file
 export const BooksData = [
   {
     category: "Business Leadership/Management",

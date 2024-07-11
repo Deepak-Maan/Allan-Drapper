@@ -44,7 +44,7 @@ const GrabPdf = () => {
     };
 
     return (
-        <div className='bg-grabPdf bg-no-repeat bg-cover bg-darkGray py-[115px]'>
+        <div className='bg-grabPdf bg-no-repeat bg-cover bg-darkGray py-12 sm:py-16 md:py-20 lg:py-[115px]'>
             <div className="container mx-auto px-3">
                 <H2 heading="Grab Your Free PDF Now" className="text-white after:hidden text-center" />
                 <p className='text-white font-medium text-base leading-130 pt-3 max-w-[485px] text-center pb-8 mx-auto'>

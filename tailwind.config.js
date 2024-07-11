@@ -13,7 +13,20 @@ module.exports = {
         hustle: "url('/assets/images/webp/portfolio/bgPortfolio.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
-        'podcastHeaderBg' : "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)"
+        podcastHeaderBg:
+          "url(../../public/assets/images/webp/podCast/podCastBgHeader.webp)",
+        connectHeaderBg:
+          "url(../../public/assets/images/webp/podCast/connectBgHeader.webp)",
+        libraryHeaderBg:
+          "url(../../public/assets/images/webp/podCast/libraryBgHeader.webp)",
+        speakingHeaderBg:
+          "url(../../public/assets/images/webp/podCast/speakingBgHeader.webp)",
+        coachingHeaderBg:
+          "url(../../public/assets/images/webp/podCast/coachingBgHeader.webp)",
+        portFolioHeaderBg:
+          "url(../../public/assets/images/webp/podCast/portFolioBgHeader.webp)",
+        meetAllanHeaderBg:
+          "url(../../public/assets/images/webp/podCast/meetAllanBgHeader.webp)",
       },
       colors: {
         yellow: "#EEE916",
@@ -25,6 +38,7 @@ module.exports = {
         orange: "#F58505",
         lightBlack: "#040707",
         black2: "#141414",
+        black20: "#00000033",
       },
       lineHeight: {
         130: "130%",
@@ -52,33 +66,38 @@ module.exports = {
         worldCard: "0px 0px 20px 1px #00000012",
       },
       textShadow: {
-        'sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
-        'skyblue': '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
-        'yellow': '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
+        sky: "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
+        skyblue:
+          "-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505",
+        yellow:
+          "-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916",
         "custom-sky":
           "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
       },
       screens: {
         xs: "400px",
+        xxs: "510px",
       },
     },
   },
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        '.text-shadow-sky': {
-          textShadow: '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        ".text-shadow-sky": {
+          textShadow:
+            "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
         },
-        '.text-shadow-skyblue': {
-          textShadow: '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
+        ".text-shadow-skyblue": {
+          textShadow:
+            "-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505",
         },
-        '.text-shadow-yellow': {
-          textShadow: '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
+        ".text-shadow-yellow": {
+          textShadow:
+            "-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916",
         },
-      }
+      };
 
       addUtilities(newUtilities, ["responsive", "hover"]);
     },
   ],
 };
-

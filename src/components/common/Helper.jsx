@@ -148,6 +148,14 @@ export const SwiperCards = [
     linefifth: 'nuggets to help you grow and succeed.',
     name: 'Andy N.'
   },
+  {
+    linefirst: 'A Must Listen For Entrepreneurs',
+    linesecond: 'I am very impressed with the quality of the',
+    linethird: 'conversations Allan has with his guests. If you’re a',
+    linefourth: 'start-up entrepreneur, this podcast is filled with',
+    linefifth: 'nuggets to help you grow and succeed.',
+    name: 'Andy N.'
+  },
 ];
 // ============================= allan's brand data =============================//
 export const AllanBrand = [
@@ -179,17 +187,17 @@ export const BooksData = [
     category: "Business Leadership/Management",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/greatBook.png",
+        src: "/assets/images/webp/meetAllan/greatBook.webp",
         title: "Good to Great",
         author: "-Jim Collins"
       },
       {
-        src: "/assets/images/webp/meetAllan/effectiveBook.png",
+        src: "/assets/images/webp/meetAllan/effectiveBook.webp",
         title: "Seven Habits of Highly Effective People",
         author: "-Steven Covey"
       },
       {
-        src: "/assets/images/webp/meetAllan/deliveringBook.png",
+        src: "/assets/images/webp/meetAllan/deliveringBook.webp",
         title: "Delivering Happiness",
         author: "-Tony Hsieh"
       }
@@ -199,17 +207,17 @@ export const BooksData = [
     category: "Personal Improvement",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/deepBook.png",
+        src: "/assets/images/webp/meetAllan/deepBook.webp",
         title: "Deep Work",
         author: "-Cal Newport"
       },
       {
-        src: "/assets/images/webp/meetAllan/simonBook.png",
+        src: "/assets/images/webp/meetAllan/simonBook.webp",
         title: "Start with Why",
         author: "-Simon Sinek"
       },
       {
-        src: "/assets/images/webp/meetAllan/purposeBook.png",
+        src: "/assets/images/webp/meetAllan/purposeBook.webp",
         title: "Procrastinate on Purpose",
         author: "-Rory Vaden"
       }
@@ -219,17 +227,17 @@ export const BooksData = [
     category: "Inspirational/Motivational",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/dogBook.png",
+        src: "/assets/images/webp/meetAllan/dogBook.webp",
         title: "Shoe Dog",
         author: "-Phil Knight"
       },
       {
-        src: "/assets/images/webp/meetAllan/morrieBook.png",
+        src: "/assets/images/webp/meetAllan/morrieBook.webp",
         title: "Tuesday with Morrie",
         author: "-Mitch Albom"
       },
       {
-        src: "/assets/images/webp/meetAllan/elonMusk.png",
+        src: "/assets/images/webp/meetAllan/elonMusk.webp",
         title: "Elon Musk",
         author: "-Walter Isaacson"
       }
@@ -239,17 +247,17 @@ export const BooksData = [
     category: "Wealth Building",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/flowBook.png",
+        src: "/assets/images/webp/meetAllan/flowBook.webp",
         title: "Cashflow Quadrant",
         author: "-Robert Kiyosaki"
       },
       {
-        src: "/assets/images/webp/meetAllan/richBook.png",
+        src: "/assets/images/webp/meetAllan/richBook.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       },
       {
-        src: "/assets/images/webp/meetAllan/richBook.png",
+        src: "/assets/images/webp/meetAllan/nextDoor.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       }

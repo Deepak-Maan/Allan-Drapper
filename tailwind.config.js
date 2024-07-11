@@ -9,8 +9,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
-        principle: "url('/assets/images/meetAllan/webp/principleBg.png')",
-        hustle: "url('/assets/images/webp/portfolio/bgPortfolio.png')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.png')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.png')",
         podcastHeaderBg:
@@ -66,13 +64,10 @@ module.exports = {
         worldCard: "0px 0px 20px 1px #00000012",
       },
       textShadow: {
-        sky: "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
-        skyblue:
-          "-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505",
-        yellow:
-          "-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916",
-        "custom-sky":
-          "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
+        'sky': '-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4',
+        'skyblue': '-1px -1px 0 #F58505, 1px -1px 0 #F58505, -1px 1px 0 #F58505, 1px 1px 0 #F58505',
+        'yellow': '-1px -1px 0 #EEE916, 1px -1px 0 #EEE916, -1px 1px 0 #EEE916, 1px 1px 0 #EEE916',
+        "custom-sky": "-1px -1px 0 #a3ccc4, 1px -1px 0 #a3ccc4, -1px 1px 0 #a3ccc4, 1px 1px 0 #a3ccc4",
       },
       screens: {
         xs: "400px",
@@ -100,4 +95,4 @@ module.exports = {
       addUtilities(newUtilities, ["responsive", "hover"]);
     },
   ],
-};
+}

@@ -6,7 +6,7 @@ import { H2 } from '../common/Heading'
 
 const Choose = () => {
   return (
-    <div className='pt-[150px] pb-[156px]'>
+    <div className='py-12 sm:py-16 md:py-20 lg:pt-[150px] lg:pb-[156px]'>
         <div className='container max-w-[1172px] px-4 mx-auto'>
                 <div className='grid lg:grid-cols-2'>
                 <div className='flex justify-center lg:justify-start'>

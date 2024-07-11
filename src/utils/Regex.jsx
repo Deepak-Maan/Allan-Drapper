@@ -1,1 +1,2 @@
-export const EMAIL = " /\S+@\S+\.\S+/"
+export const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+export const PHONENUMBER = /^\d{10}$/;

@@ -7,7 +7,7 @@ import laptopWork from '../../../public/assets/images/svg/coaching/laptopWork.sv
 
 const Program = () => {
   return (
-    <div className='bg-gray py-[95px]'>
+    <div className='bg-gray py-12 sm:py-16 md:py-20 lg:py-[95px]'>
       <div className='container max-w-[1172px] px-4 mx-auto'>
       <H2 className="text-3xl1 sm:text-4xl md:text-4xl1 text-center after:left-1/2 after:-translate-x-1/2 after:!bg-lightBlack after:opacity-80 " heading="Coaching Programs"/>
            <div className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-[93px] pt-[61px]'>

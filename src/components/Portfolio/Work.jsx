@@ -25,7 +25,7 @@ const Work = () => {
           <Swiper
                       loop={true}
             slidesPerView={3}
-            spaceBetween={30}
+            spaceBetween={40}
             pagination={{
                 clickable: true,
               }}
@@ -56,24 +56,24 @@ const Work = () => {
             
           >
             <SwiperSlide >
-                <Image src={slider1} width={528} height={384} alt="sliderImage" />
+                <Image className="!h-[384px] !w-[528px] object-cover" src={slider1} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider2} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider3} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider2} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image src={slider3} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] !w-[528px] object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
 
           </Swiper>
-          <div className=" flex justify-center items-center">
-              <CommonButton text='APPLY' classesbtn=" mt-8 w-[105px]" />
+          <div className=" flex justify-center items-center mt-12">
+              <CommonButton text='APPLY' classesbtn=" w-[105px]" />
           </div>
           </div>
     </>

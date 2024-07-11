@@ -64,7 +64,8 @@
 }
 
 .swiper-slide.swiper-slide-next {
-    transform: scaleY(1.1) !important;
+    transform: scale(1.1) !important;
+    object-fit: cover !important;
 }
 
 .swiper-wrapper {
@@ -198,7 +199,7 @@ input::-webkit-inner-spin-button {
         justify-content: center !important;
         align-items: center !important;
         gap: 2px !important;
-        margin-top: 48px !important;
+        margin-top: 58px !important;
     }
 }
 

@@ -13,8 +13,9 @@ const Memories = () => {
                 <div className="pb-8 sm:pb-9">
                     <H2 heading={"Our Speaking memories"} className={"text-center after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
                 </div>
-                <div className="pb-1 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
+                <div className="pb-12 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
                     <Swiper
+                        className='memories'
                         spaceBetween={20}
                         slidesPerView={1}
                         loop={true}

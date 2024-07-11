@@ -10,7 +10,7 @@ const Library = () => {
                                         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                                                 {libraryData.map((obj, index) => (
                                                         <div key={index} className='border border-offGray bg-white lg:max-w-[364px] mx-auto w-full'>
-                                                                <Image src={obj.image} alt={obj.title} />
+                                                                <Image src={obj.image} width={364} height={214} alt={obj.title} />
                                                                 <div className='p-4'>
                                                                         <h4 className='text-lightBlack font-bold text-2xl md:text-2xl1 leading-120 mb-2'>{obj.title}</h4>
                                                                         <p className='opacity-80 max-w-[503px] mb-3 text-lightBlack font-medium text-lg sm:text-xl md:text-2xl leading-130'>{obj.description}</p>

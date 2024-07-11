@@ -1,23 +1,25 @@
-import Brand from "@/components/coaching/Brand";
-import Choose from "@/components/coaching/Choose";
-import Gain from "@/components/coaching/Gain";
-import Program from "@/components/coaching/Program";
-import Wellsay from "@/components/coaching/Wellsay";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
-import Business from "@/components/several/Business";
-import Related from "@/components/several/Related";
+import ScrollToTop from "@/components/common/ScrollToTop";
+import Appearnce from "@/components/homePage/Appearnce";
+import HomeHeader from "@/components/homePage/HomeHeader";
+import MyBrands from "@/components/homePage/MyBrands";
+import ProdcastVideos from "@/components/homePage/ProdcastVideos";
+import Review from "@/components/homePage/Review";
+import WhoAllan from "@/components/homePage/WhoAllan";
 
 export default function Home() {
-  return <>
-  <Choose/>
-  <Program/>
-  <Gain/>
-  <Brand/>  
-  <Wellsay/>
-  <GrabPdf/>
-  <Footer/>
-  <Business/>  
-  <Related/>
-  </>;
+  return (
+    <>
+      <HomeHeader />
+      <Appearnce />
+      <ProdcastVideos />
+      <WhoAllan />
+      <MyBrands />
+      <Review />
+      <GrabPdf />
+      <Footer />
+      <ScrollToTop />
+    </>
+  );
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Swal from 'sweetalert2';
 
 const FormValidationModal = ({ show, onClose, message }) => {
@@ -8,7 +8,7 @@ const FormValidationModal = ({ show, onClose, message }) => {
                 title: 'Thank You For Form Submission',
                 icon: 'success',
                 showConfirmButton: false,
-                timer: 2000  // Auto close after 2 seconds
+                timer: 2000
             }).then(() => onClose());
         }
     }, [show, onClose, message]);

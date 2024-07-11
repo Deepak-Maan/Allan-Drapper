@@ -5,12 +5,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Allan-Drapper",
-  description: "Create Your Dream Life For the Creators. I will teach you how to build an extraordinary business and how to build wealth without sacrificing what matters most.",
-  openGraph:{
+  description:
+    "Create Your Dream Life For the Creators. I will teach you how to build an extraordinary business and how to build wealth without sacrificing what matters most.",
+  openGraph: {
     title: "Allan-Drapper",
-  description: "through Entrepreneurship For the Creators. I will teach you how to build an extraordinary business and how to build wealth without sacrificing what matters most.",
-images:"./meta.webp"
-  }
+    description:
+      "through Entrepreneurship For the Creators. I will teach you how to build an extraordinary business and how to build wealth without sacrificing what matters most.",
+    images: "./meta.webp",
+  },
 };
 
 export default function RootLayout({ children }) {

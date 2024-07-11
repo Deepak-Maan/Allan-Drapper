@@ -1,6 +1,6 @@
-import VideoEpisode145 from "../../../public/assets/images/webp/homePage/collageThumbnail.png"
-import VideoEpisode146 from "../../../public/assets/images/webp/homePage/videoThumbnail146.png"
-import VideoEpisode147 from "../../../public/assets/images/webp/homePage/videoThumbnail147.png"
+import VideoEpisode145 from "../../../public/assets/images/webp/homePage/collageThumbnail.webp"
+import VideoEpisode146 from "../../../public/assets/images/webp/homePage/videoThumbnail146.webp"
+import VideoEpisode147 from "../../../public/assets/images/webp/homePage/videoThumbnail147.webp"
 import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
 import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
 import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
@@ -162,22 +162,26 @@ export const AllanBrand = [
   {
     src: "/assets/images/svg/portfolio/proof.svg",
     width: 100,
-    height: 100
+    height: 100,
+    imagewidth: 'max-w-[70px] max-h-[70px] sm:max-w-[100px] sm:max-h-[100px]'
   },
   {
     src: "/assets/images/svg/podcast/ranaHub.svg",
     width: 260,
-    height: 75
+    height: 75,
+    imagewidth: 'max-w-[150px] max-h-[50px] sm:max-w-[260px] sm:max-h-[75px]'
   },
   {
     src: "/assets/images/svg/podcast/eBD.svg",
     width: 175,
-    height: 96
+    height: 96,
+    imagewidth: 'max-w-[120px] max-h-[70px] sm:max-w-[175px] sm:max-h-[96px]'
   },
   {
     src: "/assets/images/svg/portfolio/lizard.svg",
     width: 118,
-    height: 100
+    height: 100,
+    imagewidth: 'max-w-[90px] max-h-[70px] sm:max-w-[118px] sm:max-h-[100px]'
   }
 ];
 // ---=========================Allan_meet======================================== //

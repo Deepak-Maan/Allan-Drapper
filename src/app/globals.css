@@ -124,8 +124,8 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.overflow_hidden {
-  @media (max-width: 1023.9px) {
+@media (max-width: 1023.9px) {
+  .overflow_hidden {
     overflow: hidden;
   }
 }
@@ -155,5 +155,9 @@ input::-webkit-inner-spin-button {
 }
 
 .memories .swiper-slide.swiper-slide-next {
+  transform: scaleY(1) !important;
+}
+
+.reviews .swiper-slide.swiper-slide-next {
   transform: scaleY(1) !important;
 }

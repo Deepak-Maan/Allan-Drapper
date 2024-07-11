@@ -1,7 +1,7 @@
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
   {
-    img: "/images/webp/homePage/collageThumbnail.webp",
+    img: "/assets/images/webp/homePage/collageThumbnail.webp",
     title: "Leadership Lessons From Legendary… College Coaches",
     description: "In today's episode, ESPN storyteller & interviewer Marty Smith chats with Allan about his new book, SIDELINE CEO: LEADERSHIP PRINCIPLES FROM…",
     episodeNumber: "S2 - Ep: 145",

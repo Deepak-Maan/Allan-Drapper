@@ -98,23 +98,13 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-@media (max-width: 1023.9px) {
-  .overflow_hidden {
-    overflow: hidden;
-  }
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
-@media (max-width: 639.9px) {
-  .reviews .swiper-pagination {
-    margin-top: 20px !important;
-  }
-  input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-  }
-  input[type="checkbox"]:checked {
-    background-size: 20px;
-  }
-}
+
 .footerLinks {
   @apply font-medium text-base sm:text-2xl text-gray leading-130;
 }
@@ -160,5 +150,21 @@ input::-webkit-inner-spin-button {
     initial
   );
   box-sizing: content-box;
-  margin-left: -3% !important;
+}
+@media (max-width: 1023.9px) {
+  .overflow_hidden {
+    overflow: hidden;
+  }
+}
+@media (max-width: 639.9px) {
+  .reviews .swiper-pagination {
+    margin-top: 20px !important;
+  }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+  input[type="checkbox"]:checked {
+    background-size: 20px;
+  }
 }

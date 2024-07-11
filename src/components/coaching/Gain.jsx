@@ -61,7 +61,7 @@ const Gain = () => {
                         </div>
                 </div>
                 <div className='flex flex-col justify-center lg:justify-start'>
-                <H2 className="text-3xl1 sm:text-4xl md:text-4xl1 capitalize flex text-center lg:text-start max-w-[398px] " heading="What You Will Gain from Allan's Coaching"/>
+                <H2 className="text-3xl1 sm:text-4xl md:text-4xl1 capitalize flex text-center lg:text-start max-w-[398px] !leading-105 " heading="What You Will Gain from Allan's Coaching"/>
                 <div className='flex justify-center lg:justify-start'>
                         <Image src={gainMan} alt='gainMan' className='pt-[60px] md:max-w-[504px] md:h-[643px]'/>
                 </div>

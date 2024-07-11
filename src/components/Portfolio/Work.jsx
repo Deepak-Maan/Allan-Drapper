@@ -6,9 +6,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
-import slider1 from "../../../public/assets/images/webp/portfolio/swiperFistphoto.png";
-import slider2 from "../../../public/assets/images/webp/portfolio/basebollPlayer.png";
-import slider3 from "../../../public/assets/images/webp/portfolio/blackSuitPeople.png";
+import slider1 from "../../../public/assets/images/webp/portfolio/swiperFistphoto.webp";
+import slider2 from "../../../public/assets/images/webp/portfolio/basebollPlayer.webp";
+import slider3 from "../../../public/assets/images/webp/portfolio/blackSuitPeople.webp";
 import CommonButton from "../common/CommonButton";
 
 const Work = () => {
@@ -16,7 +16,7 @@ const Work = () => {
     <>
       <div className="sm:pb-12 overflow-hidden">
           <div className=" max-w-[594px] mx-auto sm:pb-16 pb-4">
-            <H2 className="text-center" heading="Work with Allan" />
+            <H2 className="text-center after:left-1/2 after:-translate-x-1/2" heading="Work with Allan" />
             <p className=" font-medium text-center text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 pt-9 max-w-[470px] mx-auto">
               My companies are always hiring. Send me your info and let me know what
               type of work you are looking for.
@@ -51,7 +51,7 @@ const Work = () => {
               }}
 
             modules={[Pagination]}
-            className="portfolioSwiper mx-auto"
+            className="portfolioSwiper mx-auto !pt-5"
             
             
           >

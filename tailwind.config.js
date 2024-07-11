@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage: {
         doYou: "url(../../public/assets/images/webp/podCast/doYouBg.webp)",
         principle: "url('/assets/images/webp/meetAllan/principleBg.webp')",
-        hustle: "url('/assets/images/webp/portfolio/bgPortfolio.png')",
+        hustle: "url('/assets/images/webp/portfolio/bgPortfolio.webp')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.webp')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.webp')",
         podcastHeaderBg:

@@ -327,3 +327,33 @@ export const images = [
   { src: podcast, width: 100, height: 100, alt: 'podcast' },
   { src: real, width: 163, height: 96, alt: 'real' }
 ];
+
+// curtomer reviews
+export const ReviewData = [
+  {
+    Review: 'Allan’s super power is balancing high business acumen and precise decision making all while making you feel seen, heard, and important. He has helped change my life!',
+    CustomerProfession: 'Businessman',
+    Customer: 'Jordan G'
+  },
+  {
+    Review: 'I started looking into starting a pest control business at the end of 2023. I had absolutely no idea where to start, having never worked in the industry. I started watching everything...',
+    CustomerProfession: 'Businessman',
+    Customer: 'Ridge Bennett'
+  },
+  {
+    Review: 'Allan’s super power is balancing high business acumen and precise decision making all while making you feel seen, heard, and important. He has helped change my life!',
+    CustomerProfession: 'Businessman',
+    Customer: 'Jordan G'
+  },
+  {
+    Review: 'I started looking into starting a pest control business at the end of 2023. I had absolutely no idea where to start, having never worked in the industry. I started watching everything...',
+    CustomerProfession: 'Businessman',
+    Customer: 'Ridge Bennett'
+  },
+  {
+    Review: 'Allan’s super power is balancing high business acumen and precise decision making all while making you feel seen, heard, and important. He has helped change my life!',
+    CustomerProfession: 'Businessman',
+    Customer: 'Jordan G'
+  },
+
+];

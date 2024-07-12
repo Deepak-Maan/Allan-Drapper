@@ -1,12 +1,13 @@
 import React from 'react'
 import { libraryData } from '../common/Helper'
 import Image from 'next/image'
+import CommonButton from '../common/CommonButton'
 
 const Library = () => {
         return (
-                <div className='py-12 sm:py-16 md:py-20 lg:pt-[120px] lg:pb-[208px]'>
+                <div className='py-12 sm:py-16 md:py-20 lg:py-[120px]'>
                         <div className='container mx-auto max-w-[1172px] px-4'>
-                                <div className=''>
+                                <div className='flex flex-col'>
                                         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                                                 {libraryData.map((obj, index) => (
                                                         <div key={index} className='border border-offGray bg-white lg:max-w-[364px] mx-auto w-full'>
@@ -19,6 +20,7 @@ const Library = () => {
                                                         </div>
                                                 ))}
                                         </div>
+                                        <div className='flex justify-center mt-10'><CommonButton text='SEE MORE'/></div>
                                 </div>
                         </div>
                 </div>

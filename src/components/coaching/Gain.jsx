@@ -7,7 +7,7 @@ const Gain = () => {
   return (
     <div className='pt-12 sm:pt-16 md:pt-20 lg:pt-[156px]'>
       <div className='container max-w-[1172px] px-4 mx-auto'>
-         <div className='flex items-center flex-col lg:flex-row gap-[88px] mb-[82px]'>
+         <div className='flex items-center flex-col lg:flex-row gap-[88px]'>
                 <div className=' flex flex-col items-center'>
                         <div className='border border-offGray p-4 max-w-[588px] mb-3'>
                                 <div className='flex items-center gap-[14px] '>

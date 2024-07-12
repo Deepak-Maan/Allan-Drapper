@@ -9,7 +9,7 @@ const LawMoney = () => {
                 <div className='md:sticky md:top-0'>
                     <div className='mb-4 sm:mb-10 mx-auto text-center md:text-start'> <Heading heading={"10 Laws That Govern Money"} className={"max-md:after:left-1/2 max-md:after:-translate-x-1/2"} /></div>
                     <Image
-                        src="/assets/images/meetAllan/webp/allan-draper-Book.webp"
+                        src="/assets/images/meetAllan/webp/allan-draper-book.webp"
                         alt="Books"
                         width={534}
                         height={905}

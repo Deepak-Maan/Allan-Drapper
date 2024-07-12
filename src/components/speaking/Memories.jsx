@@ -25,8 +25,8 @@ const Memories = () => {
                             speed: 0,
                         }}
                         loop={true}
-                        modules={[Pagination, Autoplay]}
-                        className=' memories  max-w-[1164px]'
+                        modules={[Pagination, Autoplay]} S
+                        className='memories  max-w-[1164px]'
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,
@@ -130,7 +130,7 @@ const Memories = () => {
                             />
                         </SwiperSlide>
                     </Swiper>
-                    <div className="custom-pagination"></div>
+                    <div className="custom-pagination "></div>
                 </div>
             </div>
         </section>

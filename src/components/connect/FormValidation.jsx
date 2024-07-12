@@ -53,7 +53,7 @@ const FormValidation = () => {
     return (
         <div className='xl:my-[120px] lg:my-24 md:my-16 sm:py-14 my-12'>
             <div className='max-w-[1160px] mx-auto px-3'>
-                <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px] max-h-[838px]'>
+                <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px] xl:max-h-[838px]'>
                     <form className='lg:px-9 p-5 sm:p-8 lg:py-[41px] bg-white w-full' onSubmit={handleSubmit}>
                         <div className='flex items-center md:flex-row flex-col gap-2 sm:gap-3 md:gap-4 w-full'>
                             <div className='w-full relative'>

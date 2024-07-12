@@ -36,27 +36,27 @@ export const ProdcastVideoData = [
 // ============================= worldmost data =============================//
 export const PODCASTS = [
   {
-    src: '/assets/images/svg/podCast/applePodCast.svg',
+    src: '/assets/images/podCast/svg/apple-pod-cast.svg',
     title: 'Apple Podcasts',
   },
   {
-    src: '/assets/images/svg/podCast/spotifyIcon.svg',
+    src: '/assets/images/podCast/svg/spotify.svg',
     title: 'Spotify',
   },
   {
-    src: '/assets/images/svg/podCast/podCastAddict.svg',
+    src: '/assets/images/podCast/svg/pod-cast-addict.svg',
     title: 'Podcast Addict',
   },
   {
-    src: '/assets/images/svg/podCast/googlePodCasts.svg',
+    src: '/assets/images/podCast/svg/google-pod-casts.svg',
     title: 'Google Podcasts',
   },
   {
-    src: '/assets/images/svg/podCast/amazonMusic.svg',
+    src: '/assets/images/podCast/svg/amazon-music.svg',
     title: 'Amazon Music',
   },
   {
-    src: '/assets/images/svg/podCast/iHeartRadio.svg',
+    src: '/assets/images/podCast/svg/i-heart-radio.svg',
     title: 'iheart Radio',
     img: 'w-[82.43px] h-[50px]'
   },
@@ -64,15 +64,15 @@ export const PODCASTS = [
 // ============================= allandaper data =============================//
 export const ALLANDAPPERIMG = [
   {
-    src: '/assets/images/webp/podCast/allanDaperMan.webp',
+    src: '/assets/images/podCast/webp/allandaper-man.webp',
     alt: 'Allan Daper Man',
   },
   {
-    src: '/assets/images/webp/podCast/allanDaperFamily.webp',
+    src: '/assets/images/podCast/webp/allandaper-family.webp',
     alt: 'family',
   },
   {
-    src: '/assets/images/webp/podCast/allanDaperManBlackTshirt.webp',
+    src: '/assets/images/podCast/webp/allandaper-man-black-tshirt.webp',
     alt: 'family',
   },
 ];
@@ -131,12 +131,12 @@ export const ALLANBRAND = [
     height: 100,
   },
   {
-    src: "/assets/images/svg/podCast/ranaHub.svg",
+    src: "/assets/images/podCast/svg/rana-hub.svg",
     width: 260,
     height: 75,
   },
   {
-    src: "/assets/images/svg/podCast/eBD.svg",
+    src: "/assets/images/podCast/svg/ebd.svg",
     width: 175,
     height: 96,
   },
@@ -149,7 +149,7 @@ export const ALLANBRAND = [
 // ---=========================Allan_meet======================================== //
 export const cardData = [
   {
-    image: "/assets/images/svg/meetAllan/startNow.svg",
+    image: "/assets/images/svg/meetAllan/start-now.svg",
     title: "Start Now",
     description: "Don't wait until you know 100% of what you need, get started already.",
   },

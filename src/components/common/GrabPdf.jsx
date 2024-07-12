@@ -74,7 +74,7 @@ const GrabPdf = () => {
                             />
                             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                         </div>
-                        <CommonButton text='START NOW' classesbtn="w-full mt-8" />
+                        <CommonButton text='START NOW' className="w-full mt-8" />
                     </form>
                 </div>
             </div>

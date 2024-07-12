@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import Image from 'next/image';
-import {  Heading } from '../common/Heading';
+import { Heading } from '../common/Heading';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 const Memories = () => {
@@ -14,7 +14,7 @@ const Memories = () => {
                 <div className="pb-8 sm:pb-9">
                     <Heading heading={"Our Speaking memories"} className={"text-center capitalize after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
                 </div>
-                <div className="pb-12 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
+                <div className="pb-12 sm:pb-14 mx-auto md:pb-16 xl:pt-5 lg:pb-24 xl:pb-[120px]">
                     <Swiper
                         spaceBetween={24}
                         slidesPerView={2}

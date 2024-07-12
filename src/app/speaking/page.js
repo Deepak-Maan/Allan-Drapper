@@ -1,7 +1,4 @@
 import CommonHeader from "@/components/common/CommonHeader";
-import Footer from "@/components/common/Footer";
-// import GrabPdf from "@/components/common/GrabPdf";
-import ScrollToTop from "@/components/common/ScrollToTop";
 import Keynote from "@/components/speaking/Keynote";
 import Memories from "@/components/speaking/Memories";
 import React from "react";
@@ -16,9 +13,6 @@ const page = () => {
       background='bg-speakingHeaderBg' />
     <Keynote />
     <Memories />
-    {/* < GrabPdf/> */}
-    <Footer />
-    <ScrollToTop />
   </>;
 };
 

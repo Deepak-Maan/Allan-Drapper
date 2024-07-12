@@ -7,7 +7,7 @@ import CommonButton from '../common/CommonButton';
 const Keynote = () => {
     return (
         <section>
-            <div className='max-w-[1164px] px-3 mx-auto py-12 sm:py-16 md:py-20 lg:py-[100px]'>
+            <div className='max-w-[1164px] px-3 mx-auto py-12 sm:py-14 md:py-16 lg:py-24 xl:py-[100px]'>
                 <div className="flex flex-col-reverse md:flex-row items-center gap-5  justify-between">
                     <div className='border-gray border-[10px] md:border-[20px]'>
                         <Image

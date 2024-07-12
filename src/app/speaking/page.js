@@ -1,3 +1,4 @@
+import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
 import Keynote from "@/components/speaking/Keynote";
 import Memories from "@/components/speaking/Memories";
@@ -13,6 +14,7 @@ const page = () => {
       background='bg-speakingHeaderBg' />
     <Keynote />
     <Memories />
+    <GrabPdf/>
   </>;
 };
 

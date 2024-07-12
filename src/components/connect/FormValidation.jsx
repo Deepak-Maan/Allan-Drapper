@@ -53,9 +53,9 @@ const FormValidation = () => {
     return (
         <div className='xl:my-[120px] lg:my-24 md:my-16 sm:py-14 my-12'>
             <div className='max-w-[1160px] mx-auto px-3'>
-                <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px]'>
+                <div className='bg-gray lg:py-[88px] p-8 sm:p-12 md:p-20 lg:px-[110px] max-h-[838px]'>
                     <form className='lg:px-9 p-5 sm:p-8 lg:py-[41px] bg-white w-full' onSubmit={handleSubmit}>
-                        <div className='flex items-center md:flex-row flex-col gap-3 sm:gap-4 w-full'>
+                        <div className='flex items-center md:flex-row flex-col gap-2 sm:gap-3 md:gap-4 w-full'>
                             <div className='w-full relative'>
                                 <Input
                                     name="Full Name"
@@ -78,7 +78,7 @@ const FormValidation = () => {
                                 {errors.email && <span className="text-red-500 absolute">{errors.email}</span>}
                             </div>
                         </div>
-                        <div className='sm:pt-4 pt-3 relative'>
+                        <div className=' md:pt-4 pt-2 sm:pt-3 relative'>
                             <Input
                                 name="Phone Number"
                                 type='number'
@@ -87,7 +87,7 @@ const FormValidation = () => {
                             />
                             {errors.phoneNumber && <span className="text-red-500 absolute">{errors.phoneNumber}</span>}
                         </div>
-                        <div className='flex flex-col gap-[6.5px] mt-3 sm:mt-4'>
+                        <div className='flex flex-col gap-[6.5px] sm:mt-3 mt-2 md:mt-4'>
                             <p className='font-medium text-lg sm:text-xl md:text-2xl'>Message</p>
                             <textarea
                                 value={message}
@@ -96,14 +96,14 @@ const FormValidation = () => {
                             ></textarea>
                         </div>
                         <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 mt-3 sm:mt-5'>Opt In</p>
-                        <label className="inline-flex items-center mt-1.5 sm:mt-[10.5px]">
+                        <label className="inline-flex items-center mt-1.5 sm:mt-2.5">
                             <input
                                 type="checkbox"
                                 className="form-checkbox"
                                 checked={newsletterOptIn}
                                 onChange={(e) => setNewsletterOptIn(e.target.checked)}
                             />
-                            <span className="ml-3 cursor-pointer text-lg sm:text-xl md:text-2xl font-medium text-black leading-130">Newsletter and Updates</span>
+                            <span className="ml-3 cursor-pointer text-lg sm:text-xl md:text-2xl font-medium text-black !leading-130">Newsletter and Updates</span>
                         </label>
                         <div className='sm:pt-8 pt-5 md:pt-[46px]'>
                             <CommonButton text='CONNECT' type='submit' />

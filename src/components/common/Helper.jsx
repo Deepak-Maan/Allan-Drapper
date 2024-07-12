@@ -273,7 +273,7 @@ export const IMAGES = [
   { img: "/assets/images/portfolio/svg/wealth.svg", width: 234, height: 103, alt: 'wealth' },
   { img: "/assets/images/portfolio/svg/bug-buxt.svg", width: 178, height: 100, alt: 'bugbuxt' },
   { img: "/assets/images/portfolio/svg/podcast.svg", width: 100, height: 100, alt: 'podcast' },
-  { img: "/assets/images/portfolio/svg/real-Estate.svg", width: 163, height: 96, alt: 'real' }
+  { img: "/assets/images/portfolio/svg/real-estate.svg", width: 163, height: 96, alt: 'real' }
 ];
 
 // curtomer reviews

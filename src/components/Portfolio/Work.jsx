@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
-import CommonButton from "../common/CommonButton";
+import CommonButton from "../common/Button";
 
 const Work = () => {
   return (

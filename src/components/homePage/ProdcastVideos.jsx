@@ -1,7 +1,7 @@
 import React from 'react'
 import { H2 } from '../common/Heading'
 import ProdcastVideoMap from '../common/ProdcastVideoMap'
-import CommonButton from '../common/CommonButton'
+import CommonButton from '../common/Button'
 
 const ProdcastVideos = () => {
     return (

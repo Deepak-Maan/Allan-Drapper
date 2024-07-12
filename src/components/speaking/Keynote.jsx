@@ -2,7 +2,7 @@ import React from 'react'
 import { H2 } from '../common/Heading'
 import Image from "next/image";
 import { Bluesquare } from '../common/Icons';
-import CommonButton from '../common/CommonButton';
+import CommonButton from '../common/Button';
 
 const Keynote = () => {
     return (

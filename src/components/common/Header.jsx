@@ -1,20 +1,29 @@
 import React from 'react'
 import Navbar from './Navbar'
+import CommonButton from './Button'
+import Image from 'next/image'
 
-const Header = () => {
-  return (
-    <div className='bg-black bg-coachingHeaderBg bg-center bg-cover bg-no-repeat '>
-      <Navbar />
-      <div className='max-w-[1164px] mx-auto px-3 pt-[100px] min-h-[500px]'>
-        <div className='flex flex-col flex-wrap items-center justify-center -mx-3'>
-          <h1 className='font-bold text-5xl1 leading-110 text-white pb-4 text-center'>
-            Coaching with Allan Draper
-          </h1>
-          <p className=' text-white text-center font-medium text-2xl leading-130 max-w-[601px]'>Welcome to Allan Draper&apos;s coaching, offering strategies, insights, and motivation to elevate your business and success.</p>
+const Header = (header) => {
+    return (
+        <div className={`${header.background} bg-cover bg-center bg-no-repeat lg:min-h-[500px] max-w-[1920px] mx-auto`}>
+            <Navbar />
+            <div className={`max-w-[1164px] mx-auto px-3 ${header.paddingYclass}`}>
+                <div className={`${header.content}`}>
+                    <div className='text-white'>
+                        <h1 className={`font-bold text-4xl1 md:text-5xl lg:text-5xl1 leading-110 text-center ${header.headingclass}`}>
+                            {header.heading}
+                        </h1>
+                        <p className={`${header.paraclass} font-medium text-lg sm:text-xl md:text-2xl leading-130 text-center mx-auto pt-4`}>{header.para}</p>
+                    </div>
+                    <div className={`${header.button} hidden md:mt-0 mt-6`}><CommonButton text={header.btntext} /></div>
+                </div>
+                <span className={`${header.signature} hidden mt-10`}>
+                    <Image
+                        src="/assets/images/svg/meetAllan/sign.svg" width={308} height={79} alt='sign' />
+                </span>
+            </div>
         </div>
-      </div>
-    </div>
-  )
+    )
 }
 
 export default Header

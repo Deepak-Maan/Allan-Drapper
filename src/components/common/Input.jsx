@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CommonInput = (input) => {
+const Input = (input) => {
     return (
         <div className='flex flex-col gap-[6.5px]'>
             <p className='font-medium text-lg sm:text-xl md:text-2xl'>{input.name}</p>
@@ -9,4 +9,4 @@ const CommonInput = (input) => {
     )
 }
 
-export default CommonInput
+export default Input

@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from 'react';
-import CommonInput from '../common/CommonInput';
-import CommonButton from '../common/CommonButton';
+import CommonButton from '../common/Button';
 import { EMAIL, PHONENUMBER } from '@/utils/Regex';
 import FormValidationModal from '../common/FormValidationModal';
+import Input from '../common/Input';
 
 const FormValidation = () => {
     const [fullName, setFullName] = useState('');
@@ -57,7 +57,7 @@ const FormValidation = () => {
                     <form className='lg:px-9 p-5 sm:p-8 lg:py-[41px] bg-white w-full' onSubmit={handleSubmit}>
                         <div className='flex items-center md:flex-row flex-col gap-3 sm:gap-4 w-full'>
                             <div className='w-full relative'>
-                                <CommonInput
+                                <Input
                                     name="Full Name"
                                     type='text'
                                     className='md:max-w-[414px]'
@@ -67,7 +67,7 @@ const FormValidation = () => {
                                 {errors.fullName && <span className="text-red-500 absolute">{errors.fullName}</span>}
                             </div>
                             <div className='w-full relative '>
-                                <CommonInput
+                                <Input
                                     name="Email Address"
                                     type='email'
                                     id="email"
@@ -79,7 +79,7 @@ const FormValidation = () => {
                             </div>
                         </div>
                         <div className='sm:pt-4 pt-3 relative'>
-                            <CommonInput
+                            <Input
                                 name="Phone Number"
                                 type='number'
                                 value={phoneNumber}

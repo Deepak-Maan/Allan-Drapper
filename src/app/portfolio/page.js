@@ -1,6 +1,6 @@
-import CommonHeader from "@/components/common/CommonHeader";
 import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
+import Header from "@/components/common/Header";
 import ScrollToTop from "@/components/common/ScrollToTop";
 import Companies from "@/components/Portfolio/Companies";
 import Hustle from "@/components/Portfolio/Hustle";
@@ -11,7 +11,7 @@ import React from "react";
 const page = () => {
   return (
     <div className=" text">
-      <CommonHeader
+      <Header
         heading="My Brands"
         para="I have built multiple brands in different industries. I have built amazing teams and couldn’t have done it alone."
         paddingYclass="lg:pt-[100px] lg:pb-[180px] py-16 sm:py-20 md:py-28"

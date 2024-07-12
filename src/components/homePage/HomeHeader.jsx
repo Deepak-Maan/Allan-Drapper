@@ -1,5 +1,5 @@
 import React from 'react'
-import CommonButton from '../common/CommonButton'
+import CommonButton from '../common/Button'
 import Image from 'next/image'
 import Navbar from '../common/Navbar'
 

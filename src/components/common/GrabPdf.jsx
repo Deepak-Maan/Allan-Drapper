@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { H2 } from './Heading';
-import CommonButton from './CommonButton';
+import CommonButton from './Button';
 
 const GrabPdf = () => {
     const [name, setName] = useState('');

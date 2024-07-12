@@ -6,7 +6,7 @@ import ReviewSwiperCards from '../common/ReviewSwiperCards'
 const ReviewSwiper = () => {
     return (
         <>
-        <div className='xl:pt-40 xl:pb-[140px] lg:pt-12 md:pt-8 sm:pt-7 pt-6 lg:pb-24 md:pb-16 sm:pb-14 pb-12 overflow-hidden'>
+        <div className='xl:pt-40 xl:pb-[140px] lg:py-24 md:py-16 sm:py-14 py-12 overflow-hidden'>
             <div className='container  mx-auto px-3 max-w-[1164px]'>
                 <H2 heading="Podcast Reviews" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2" />
                 <ReviewSwiperCards />

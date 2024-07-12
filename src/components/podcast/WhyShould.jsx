@@ -9,7 +9,7 @@ const WhyShould = () => {
     const secondHalf = WHYSHOULDCARD.slice(2);
     return (
         <>
-            <div className='pt-[50px]'>
+            <div className='lg:pt-10 pt-5 sm:pt-6 md:pt-8 xl:pt-[50px]'>
                 <div className='flex flex-row flex-wrap -mx-3 justify-between'>
                     <div className='w-full lg:w-[56%] px-3'>
                         <h3 className='font-bold text-3xl1 sm:text-4xl md:text-4xl1 text-center lg:text-start !leading-105 text-lightBlack lg:max-w-[616px]'>Why Should You Have Allan On Your Show?</h3>
@@ -28,11 +28,11 @@ const WhyShould = () => {
                         </div>
                     </div>
                     <div className='w-full lg:w-[44%] px-3 mt-6 lg:mt-0'>
-                        <div className='flex lg:gap-6 lg:flex-row  gap-4 justify-center lg:justify-between'>
-                            <div className='flex flex-col gap-4 lg:gap-6 max-w-[236px]'>
+                        <div className='flex lg:gap-6 lg:flex-row gap-3 sm:gap-4 justify-center lg:justify-between'>
+                            <div className='flex flex-col gap-3 sm:gap-4 lg:gap-6 max-w-[236px]'>
                                 <WhyshouldCards cards={firstHalf} />
                             </div>
-                            <div className='flex flex-col gap-4 lg:gap-6 max-w-[236px] sm:mt-12 lg:mt-[66px]'>
+                            <div className='flex flex-col gap-3 sm:gap-4 lg:gap-6 max-w-[236px] sm:mt-12 lg:mt-[66px]'>
                                 <WhyshouldCards cards={secondHalf} />
                             </div>
                         </div>

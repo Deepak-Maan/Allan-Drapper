@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import { H2 } from './Heading';
+import { Heading } from './Heading';
 import CommonButton from './Button';
 
 const GrabPdf = () => {
@@ -46,7 +46,7 @@ const GrabPdf = () => {
     return (
         <div className='bg-grabPdf bg-no-repeat bg-cover bg-darkGray py-12 sm:py-16 md:py-20 lg:py-[115px]'>
             <div className="container mx-auto px-3">
-                <H2 heading="Grab Your Free PDF Now" className="text-white after:hidden text-center" />
+                <Heading heading="Grab Your Free PDF Now" className="text-white after:hidden text-center" />
                 <p className='text-white font-medium text-base leading-130 pt-3 max-w-[485px] text-center pb-8 mx-auto'>
                     The complete entrepreneur’s guide to building a successful business. Sign up with your email address to receive weekly resources and tips to help scale your business.
                 </p>
@@ -74,7 +74,7 @@ const GrabPdf = () => {
                             />
                             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                         </div>
-                        <CommonButton text='START NOW' classesbtn="w-full mt-8" />
+                        <CommonButton text='START NOW' className="w-full mt-8" />
                     </form>
                 </div>
             </div>

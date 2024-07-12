@@ -6,9 +6,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
-import slider1 from "../../../public/assets/images/webp/portfolio/swiperFistphoto.webp";
-import slider2 from "../../../public/assets/images/webp/portfolio/basebollPlayer.webp";
-import slider3 from "../../../public/assets/images/webp/portfolio/blackSuitPeople.webp";
+import slider1 from "../../../public/assets/images/portfolio/webp/swiper-fist-photo.webp";
+import slider2 from "../../../public/assets/images/portfolio/webp/base-boll-Player.webp";
+import slider3 from "../../../public/assets/images/portfolio/webp/black-Suit-People.webp";
 import CommonButton from "../common/CommonButton";
 
 const Work = () => {

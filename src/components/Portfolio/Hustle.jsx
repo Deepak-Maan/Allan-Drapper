@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import signature from '../../../public/assets/images/svg/portfolio/signature.svg'
+import signature from '../../../public/assets/images/portfolio/svg/signature.svg'
 
 const Hustle = () => {
   return (

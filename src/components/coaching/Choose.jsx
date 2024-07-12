@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { H2 } from '../common/Heading'
+import { Heading } from '../common/Heading'
 
 const Choose = () => {
         return (
@@ -10,7 +10,7 @@ const Choose = () => {
                                                 <Image src="/assets/images/webp/coaching/choosePeople.webp" alt='choosePeople' width={464} height={603} className='min-h-[400px] w-[300px] md:w-[464px] md:min-h-[603px]' />
                                         </div>
                                         <div className='flex items-center flex-col justify-center'>
-                                                <H2 className="text-3xl1 sm:text-4xl md:text-4xl1 pt-3 !lg:pt-0 text-center lg:text-start after:bg-yellow !leading-105" heading="Why Choose Allan Draper as Your Coach?" />
+                                                <Heading className="text-3xl1 sm:text-4xl md:text-4xl1 pt-3 !lg:pt-0 text-center lg:text-start after:bg-yellow !leading-105" heading="Why Choose Allan Draper as Your Coach?" />
                                                 <div className='flex items-start gap-3 mt-[52px] mb-4'>
                                                         <Image src="/assets/images/svg/coaching/chooseTriangleBox.svg" alt='triangleBox' width={24} height={24} />
                                                         <p className='font-medium text-lightBlack opacity-80 text-lg sm:text-xl md:text-2xl leading-130 '><span className='font-bold text-lg sm:text-xl md:text-2xl'>Proven Track Record:</span> Allan has built multimillion-dollar companies in home services, digital marketing, real estate, and legal services.</p>

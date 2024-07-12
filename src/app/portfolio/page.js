@@ -27,8 +27,6 @@ const page = () => {
       <Work />
       <Hustle />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </div>
   );
 };

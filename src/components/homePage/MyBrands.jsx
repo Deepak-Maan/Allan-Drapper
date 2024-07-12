@@ -1,14 +1,16 @@
 import React from 'react'
 import BrandLogo from '../common/BrandLogo'
-import { H2 } from '../common/Heading'
+import { Heading } from '../common/Heading'
 
 const MyBrands = () => {
     return (
-        <div className='lg:pt-[74px] py-12 sm:py-16 md:py-20 lg:pb-[92px] '>
+        <div className='xl:pt-[74px] py-12 sm:py-14 md:py-16 lg:py-18 xl:pb-[110px] '>
             <div className="container mx-auto px-3 ">
-                <H2 heading="My Brands" className="after:!bg-offBlue after:left-1/2 text-center after:-translate-x-1/2 mb-[66px]" />
+                <Heading heading="My Brands" className="after:!bg-offBlue after:left-1/2 text-center after:-translate-x-1/2 " />
             </div>
-            <BrandLogo />
+            <div className='md:mt-12 mt-8 lg:mt-16 xl:mt-20'>
+                <BrandLogo />
+            </div>
         </div>
     )
 }

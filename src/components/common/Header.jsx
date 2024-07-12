@@ -18,8 +18,7 @@ const Header = (header) => {
                     <div className={`${header.button} hidden md:mt-0 mt-6`}><CommonButton text={header.btntext} /></div>
                 </div>
                 <span className={`${header.signature} hidden mt-10`}>
-                    <Image
-                        src="/assets/images/meetAllan/svg/sign.svg" width={308} height={79} alt='sign' />
+                    <Image src="/assets/images/meetAllan/svg/sign.svg" width={310} height={79} alt='sign' />
                 </span>
             </div>
         </div>

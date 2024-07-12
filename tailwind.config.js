@@ -8,17 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        doYou: "url(/assets/images/webp/podCast/do-you-bg.webp)",
+        doYou: "url(/assets/images/podCast/webp/do-you-bg.webp)",
         principle: "url('/assets/images/meetAllan/webp/principle-bg.webp')",
         hustle: "url('/assets/images/webp/portfolio/bgPortfolio.webp')",
-        whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.webp')",
-        grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.webp')",
+        whoAllan: "url('/assets/images/homePage/webp/bgWhoAllan.webp')",
+        grabPdf: "url('/public/assets/images/homePage/webp/bgGrabPdf.webp')",
         podcastHeaderBg: "url(/assets/images/podCast/webp/podcast-bg-header.webp)",
         connectHeaderBg: "url(/assets/images/podCast/webp/connect-bg-header.webp)",
         libraryHeaderBg: "url(/assets/images/podCast/webp/library-bg-header.webp)",
         speakingHeaderBg: "url(/assets/images/podCast/webp/speaking-bg-header.webp)",
         coachingHeaderBg: "url(/assets/images/podCast/webp/coaching-bg-header.webp)",
-        portFolioHeaderBg: "url(/assets/images/podCast/webp/portFolio-bg-header.webp)",
+        portFolioHeaderBg: "url(/assets/images/podCast/webp/port-folio-bg-header.webp)",
         meetAllanHeaderBg: "url(/assets/images/podCast/webp/meetallan-bg-header.webp)",
       },
       colors: {
@@ -48,7 +48,7 @@ module.exports = {
         "5xl1": "56px",
         "6xl1": "72px",
         "10xl": "86px",
-        "12xl":"120px"
+        "12xl": "120px"
       },
       boxShadow: {
         worldCard: "0px 0px 20px 1px #00000012",

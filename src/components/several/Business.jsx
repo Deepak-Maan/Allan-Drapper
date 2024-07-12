@@ -1,5 +1,5 @@
 import React from 'react'
-import { H2 } from '../common/Heading'
+import { Heading } from '../common/Heading'
 import evaluateMan from '../../../public/assets/images/webp/several/evaluateMan.webp'
 import analyzeMan from '../../../public/assets/images/webp/several/analyzeMan.webp'
 import navigate from '../../../public/assets/images/webp/several/navigateMan.webp'
@@ -12,7 +12,7 @@ const Business = () => {
                         <div className='container max-w-[1140px] mx-auto px-3'>
                                 <div className='flex flex-col lg:flex-row gap-4 md:gap-8 relative'>
                                         <div className=' pt-6 md:pt-14 order-2 lg:order-1'>
-                                                <H2 className="text-4xl md:text-5xl lg:text-5xl1 !max-w-[653px] !leading-110" heading="I Have Several Business Ideas. What Should I Do?" />
+                                                <Heading className="text-4xl md:text-5xl lg:text-5xl1 !max-w-[653px] !leading-110" heading="I Have Several Business Ideas. What Should I Do?" />
                                                 <p className='pt-8 font-medium text-lg sm:text-xl leading-130 mb-[71px]'>Published: 11 December, 2023</p>
                                                 <div className=' mb-6 md:mb-[60px]'>
                                                         <Image src={evaluateMan} alt='analyzeMan' className=' w-full md:max-w-[758px] md:h-[393px]' />

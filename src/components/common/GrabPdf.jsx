@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import { H2 } from './Heading';
+import { Heading } from './Heading';
 import CommonButton from './Button';
 
 const GrabPdf = () => {
@@ -46,8 +46,8 @@ const GrabPdf = () => {
     return (
         <div className='bg-grabPdf bg-no-repeat bg-cover bg-darkGray py-12 sm:py-16 md:py-20 lg:py-[115px]'>
             <div className="container mx-auto px-3">
-                <H2 heading="Grab Your Free PDF Now" className="text-white after:hidden text-center" />
-                <p className='text-white font-medium text-base leading-130 pt-3 max-w-[485px] text-center pb-8 mx-auto'>
+                <Heading heading="Grab Your Free PDF Now" className="text-white after:hidden text-center" />
+                <p className='text-white font-medium tet-lg sm:text-xl md:text-2xl !leading-130 pt-3 max-w-[485px] text-center pb-8 mx-auto'>
                     The complete entrepreneur’s guide to building a successful business. Sign up with your email address to receive weekly resources and tips to help scale your business.
                 </p>
                 <div className='max-w-[330px] mx-auto'>
@@ -59,18 +59,18 @@ const GrabPdf = () => {
                                 placeholder="Name"
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
-                                className={`border border-offGray text-base leading-150 h-[50px] font-normal px-4 py-2 text-offGray bg-darkGray w-full placeholder:text-offGray focus:outline-none ${errors.name ? 'border-red-500' : ''}`}
+                                className={`border border-offGray text-base leading-150 h-[50px] font-normal px-4 py-2 text-offGray !bg-darkGray w-full placeholder:text-offGray focus:outline-none autofill:!bg-transparent ${errors.name ? 'border-red-500' : ''}`}
                             />
                             {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
                         </div>
-                        <div className='mb-3'>
+                        <div>
                             <input
                                 id='email'
                                 type="email"
                                 placeholder="Email Address"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                className={`border mt-3 border-offGray text-base leading-150 h-[50px] font-normal px-4 py-2 text-offGray bg-darkGray w-full placeholder:text-offGray focus:outline-none ${errors.email ? 'border-red-500' : ''}`}
+                                className={`border border-offGray text-base leading-150 h-[50px] font-normal px-4 py-2 text-offGray !bg-darkGray w-full placeholder:text-offGray focus:outline-none autofill:!bg-transparent ${errors.email ? 'border-red-500' : ''}`}
                             />
                             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                         </div>

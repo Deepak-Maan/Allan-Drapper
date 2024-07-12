@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { H2 } from "../common/Heading";
+import { Heading } from "../common/Heading";
 import Image from "next/image";
 import { images } from "../common/Helper";
 import Marquee from "react-fast-marquee";
@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 const Companies = () => {
   return (
     <div className="max-w-[1220px] mx-auto px-3 md:pt-[74px] md:mt-[76px] mt-0 sm:pt-16 pt-12">
-      <H2
+      <Heading
         className="text-center after:left-1/2 after:-translate-x-1/2 after:!bg-offBlue"
         heading="Companies Allan Founded"
       />
@@ -18,7 +18,7 @@ const Companies = () => {
             <Image
               className=" duration-300 hover:scale-90"
               key={index}
-              src={image.src}
+              src={image.img}
               width={image.width}
               height={image.height}
               alt={image.alt}
@@ -32,7 +32,7 @@ const Companies = () => {
             <Image
               className=" duration-300 hover:scale-90"
               key={index}
-              src={image.src}
+              src={image.img}
               width={image.width}
               height={image.height}
               alt={image.alt}
@@ -43,7 +43,7 @@ const Companies = () => {
       <div className="flex justify-center sm:pt-20 pt-16 mb-1">
         <Image
           className=" duration-300 hover:scale-90"
-          src={images[10].src}
+          src={images[10].img}
           width={images[10].width}
           height={images[10].height}
           alt={images[10].alt}

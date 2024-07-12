@@ -6,7 +6,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Autoplay, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { H2 } from '../common/Heading'
+import { Heading } from '../common/Heading'
 import { relatedSliderList } from '../common/Helper'
 
 
@@ -16,7 +16,7 @@ const Related = () => {
     <div className='py-12 sm:py-16 md:py-20 lg:py-[120px]'>
       <div className='container mx-auto max-w-[1172px] px-4'>
         <div className='flex flex-col items-center justify-center'>
-          <H2 className="text-3xl1 sm:text-4xl md:text-4xl1 !text-center after:left-1/2 after:-translate-x-1/2 after:bg-yellow" heading="Related Articles" />
+          <Heading className="text-3xl1 sm:text-4xl md:text-4xl1 !text-center after:left-1/2 after:-translate-x-1/2 after:bg-yellow" heading="Related Articles" />
           <p className='opacity-80 max-w-[601px] pt-6 md:pt-9 pb-6 md:pb-14 text-lightBlack font-medium text-lg sm:text-xl md:text-2xl leading-130 text-center'>Eget mattis ac venenatis m. Sem diam facilisi scelerisque tellus suscipit felis a tempus. arius at pulvinar dictum</p>
         </div>
         <Swiper className='memories'

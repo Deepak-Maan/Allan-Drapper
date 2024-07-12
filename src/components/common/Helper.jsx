@@ -41,37 +41,38 @@ export const podcasts = [
     id: 1,
     src: '/assets/images/svg/podCast/applePodCast.svg',
     title: 'Apple Podcasts',
-    buttonText: 'Listen',
+    buttonText: 'LISTEN',
   },
   {
     id: 2,
     src: '/assets/images/svg/podCast/spotifyIcon.svg',
     title: 'Spotify',
-    buttonText: 'Listen',
+    buttonText: 'LISTEN',
   },
   {
     id: 3,
     src: '/assets/images/svg/podCast/podCastAddict.svg',
     title: 'Podcast Addict',
-    buttonText: 'Listen',
+    buttonText: 'LISTEN',
   },
   {
     id: 4,
     src: '/assets/images/svg/podCast/googlePodCasts.svg',
     title: 'Google Podcasts',
-    buttonText: 'Listen',
+    buttonText: 'LISTEN',
   },
   {
     id: 5,
     src: '/assets/images/svg/podCast/amazonMusic.svg',
     title: 'Amazon Music',
-    buttonText: 'Listen',
+    buttonText: 'LISTEN',
   },
   {
     id: 6,
     src: '/assets/images/svg/podCast/iHeartRadio.svg',
     title: 'iheart Radio',
-    buttonText: 'Listen',
+    buttonText: 'LISTEN',
+    img: 'w-[82.43px] h-[50px]'
   },
 ];
 // ============================= allandaper data =============================//

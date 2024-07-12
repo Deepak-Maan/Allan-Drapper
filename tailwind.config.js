@@ -12,6 +12,7 @@ module.exports = {
         principle: "url('/assets/images/webp/meetAllan/principleBg.webp')",
         hustle: "url('/assets/images/portfolio/webp/bg-port-folio.webp')",
         doYou: "url(/assets/images/webp/podCast/doYouBg.webp)",
+        doYou: "url(/assets/images/webp/podCast/do-you-bg.webp)",
         principle: "url('/assets/images/meetAllan/webp/principle-bg.webp')",
         hustle: "url('/assets/images/webp/portfolio/bgPortfolio.webp')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.webp')",

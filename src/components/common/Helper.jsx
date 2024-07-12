@@ -1,14 +1,3 @@
-// import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
-// import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
-// import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
-// import give from '../../../public/assets/images/svg/portfolio/giveBack.svg';
-// import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
-// import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
-// import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
-// import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
-// import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
-// import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
-
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
   {
@@ -126,7 +115,7 @@ export const REVIEWSWIPERDATA = [
 // ============================= allan's brand data =============================//
 export const ALLANBRAND = [
   {
-    src: "/assets/images/svg/portfolio/proof.svg",
+    src: "/assets/images/portfolio/svg/proof.svg",
     width: 100,
     height: 100,
   },
@@ -141,7 +130,7 @@ export const ALLANBRAND = [
     height: 96,
   },
   {
-    src: "/assets/images/svg/portfolio/lizard.svg",
+    src: "/assets/images/portfolio/svg/lizard.svg",
     width: 118,
     height: 100,
   }
@@ -149,7 +138,6 @@ export const ALLANBRAND = [
 // ---=========================Allan_meet======================================== //
 export const CARDDATA = [
   {
-    image: "/assets/images/svg/meetAllan/start-now.svg",
     image: "/assets/images/meetAllan/svg/start-now.svg",
     title: "Start Now",
     description: "Don't wait until you know 100% of what you need, get started already.",

@@ -54,7 +54,7 @@ const Work = () => {
             <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src="/assets/images/portfolio/webp/base-boll-player.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
-            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover " src="/assets/images/portfolio/webp/black-Suit-people.webp" width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover " src="/assets/images/portfolio/webp/black-suit-people.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
             <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover " src="/assets/images/portfolio/webp/swiper-fist-photo.webp" width={528} height={384} alt="sliderImage" />
@@ -63,7 +63,7 @@ const Work = () => {
             <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src="/assets/images/portfolio/webp/base-boll-player.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
           <SwiperSlide >
-            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src="/assets/images/portfolio/webp/black-Suit-people.webp" width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src="/assets/images/portfolio/webp/black-suit-people.webp" width={528} height={384} alt="sliderImage" />
           </SwiperSlide>
         </Swiper>
         <div className=" flex justify-center items-center mt-12">

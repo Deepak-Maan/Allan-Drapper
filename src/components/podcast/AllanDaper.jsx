@@ -1,5 +1,5 @@
 import React from 'react'
-import { H2 } from '../common/Heading'
+import {  Heading } from '../common/Heading'
 import Image from 'next/image'
 import { ALLANDAPPERIMG } from '../common/Helper'
 import WhyShould from './WhyShould'
@@ -10,7 +10,7 @@ const AllanDaper = () => {
         <>
         <div className='lg:pt-[76px] md:py-16 sm:py-14 py-12 lg:pb-24 xl:pb-[124px] bg-gray'>
             <div className='lg:pb-3 container  mx-auto px-3 max-w-[1164px]'>
-                <H2 heading="Allan Draper" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2 mb-8 sm:mb-10 md:mb-[57px]" />
+                <Heading heading="Allan Draper" className="after:bg-yellow text-lightBlack flex justify-center after:left-1/2 after:-translate-x-1/2 mb-8 sm:mb-10 md:mb-[57px]" />
                 <div className='flex flex-row justify-center items-center flex-wrap gap-3 sm:gap-6 lg:gap-0'>
                     <div className='flex items-center border-r border-solid border-black h-[18px]'>
                         <p className='font-medium text-lg sm:text-xl md:text-2xl leading-130 text-lightBlack opacity-80 pr-3 lg:pr-6'>ANGEL INVESTOR</p>

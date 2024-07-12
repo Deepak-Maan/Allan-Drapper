@@ -1,5 +1,5 @@
 'use client'
-import { H2 } from "../common/Heading";
+import {  Heading } from "../common/Heading";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -12,7 +12,7 @@ const Work = () => {
     <>
       <div className=" overflow-hidden">
         <div className=" max-w-[594px] mx-auto sm:pb-16 pb-4">
-          <H2 className="text-center after:left-1/2 after:-translate-x-1/2" heading="Work with Allan" />
+          <Heading className="text-center after:left-1/2 after:-translate-x-1/2" heading="Work with Allan" />
           <p className=" font-medium text-center text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 pt-9 max-w-[470px] mx-auto">
             My companies are always hiring. Send me your info and let me know what
             type of work you are looking for.

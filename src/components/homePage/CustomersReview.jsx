@@ -10,7 +10,6 @@ import 'swiper/css/autoplay';
 import 'swiper/css';
 import { ReviewData } from '../common/Helper';
 import { BigInvertedComaIcon, StartIcon } from '../common/Icons';
-import { H2 } from '../common/Heading';
 
 const CustomerReviewCards
     = () => {

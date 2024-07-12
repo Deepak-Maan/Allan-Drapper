@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 const Companies = () => {
   return (
-    <div className="max-w-[1220px] mx-auto px-3 md:pt-[74px] md:mt-[76px] mt-0 sm:pt-[64px] pt-[48px]">
+    <div className="max-w-[1220px] mx-auto px-3 md:pt-[74px] md:mt-[76px] mt-0 sm:pt-16 pt-12">
       <H2
         className="text-center after:left-1/2 after:-translate-x-1/2 after:!bg-offBlue"
         heading="Companies Allan Founded"

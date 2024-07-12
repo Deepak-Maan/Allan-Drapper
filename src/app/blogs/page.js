@@ -1,7 +1,5 @@
-import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
-import ScrollToTop from "@/components/common/ScrollToTop";
 import Library from "@/components/several/Library";
 import React from "react";
 
@@ -15,8 +13,6 @@ const page = () => {
       />
       <Library />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </>
   );
 };

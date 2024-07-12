@@ -5,36 +5,37 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import Image from 'next/image';
 import { H2 } from '../common/Heading';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const Memories = () => {
     return (
         <section>
             <div className='max-w-[1164px] px-3 mx-auto'>
                 <div className="pb-8 sm:pb-9">
-                    <H2 heading={"Our Speaking memories"} className={"text-center after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
+                    <H2 heading={"Our Speaking memories"} className={"text-center capitalize after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
                 </div>
                 <div className="pb-12 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
                     <Swiper
-                        className='memories'
-                        spaceBetween={20}
-                        slidesPerView={1}
-                        loop={true}
-                        pagination={{
-                            clickable: true,
-                            renderBullet: (index, className) => `<span className="${className} custom-bullet"></span>`,
-                        }}
+                        spaceBetween={24}
+                        slidesPerView={2}
+                        pagination={{ clickable: true }}
                         autoplay={{
                             delay: 3000,
-                            disableOnInteraction: true,
+                            disableOnInteraction: false,
+                            speed: 0,
                         }}
+                        loop={true}
+                        modules={[Pagination, Autoplay]} S
+                        className='memories  max-w-[1164px]'
                         breakpoints={{
+                            320: {
+                                slidesPerView: 1,
+                            },
                             640: {
                                 slidesPerView: 2,
-                                spaceBetween: 20,
                             },
                             1024: {
                                 slidesPerView: 3,
-                                spaceBetween: 30,
                             },
                         }}
                     >
@@ -129,6 +130,7 @@ const Memories = () => {
                             />
                         </SwiperSlide>
                     </Swiper>
+                    <div className="custom-pagination "></div>
                 </div>
             </div>
         </section>

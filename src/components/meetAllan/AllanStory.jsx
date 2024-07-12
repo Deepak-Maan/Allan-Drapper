@@ -4,7 +4,7 @@ import Image from "next/image";
 const AllanStory = () => {
     return (
         <section>
-            <div className='max-w-[1164px] px-3 mx-auto pb-12 sm:pb-16 md:pb-20  lg:pt-[63px] lg:pb-[104px]'>
+            <div className='max-w-[1164px] px-3 mx-auto pb-7 sm:pb-10 md:pb-[52px] lg:pt-0 xl:pt-[63px] lg:pb-[120px]'>
                 <div className="flex flex-col md:flex-row items-center justify-between gap-5">
                     <div className='xl:pt-7'>
                         <div className='mb-8 sm:mb-12'>

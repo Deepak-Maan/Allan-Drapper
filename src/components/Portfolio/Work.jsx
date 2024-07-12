@@ -1,8 +1,7 @@
 'use client'
 import { H2 } from "../common/Heading";
-import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'; 
+import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import Image from "next/image";
@@ -51,8 +50,7 @@ const Work = () => {
               }}
 
             modules={[Pagination]}
-            className="portfolioSwiper mx-auto !pt-5 "
-            
+            className="portfolioSwiper mx-auto !pt-5 "  
             
           >
             <SwiperSlide >
@@ -70,12 +68,11 @@ const Work = () => {
             <SwiperSlide >
             <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
-
-          </Swiper>
-          <div className=" flex justify-center items-center mt-12">
-              <CommonButton text='APPLY' classesbtn=" w-[105px]" />
-          </div>
-          </div>
+        </Swiper>
+        <div className=" flex justify-center items-center mt-12">
+          <CommonButton text='APPLY' classesbtn=" w-[105px]" />
+        </div>
+      </div>
     </>
   );
 };

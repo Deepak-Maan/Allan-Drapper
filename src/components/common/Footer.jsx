@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className='lg:pb-0 pb-8'>
                         <Link href="/">
-                            <Image className='pb-8' src="/assets/images/svg/podCast/pageLogo.svg" width={264} height={48} alt="page logo " />
+                            <Image className='pb-8' src="/assets/images/podCast/svg/page-logo.svg" width={264} height={48} alt="page logo " />
                         </Link>
                         <Image src="/assets/images/webp/homePage/allanFooterImage.webp" width={386} height={245} alt="allan's image" />
                     </div>

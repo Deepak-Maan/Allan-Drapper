@@ -17,7 +17,7 @@ const AllanPrinciple = () => {
                         className="sm:max-w-[400px] md:max-w-[600px] md:absolute bottom-0 -left-[14%] lg:left-[-3%] xl:left-0 relative z-40 lg:max-w-[652px] xl:w-[752px] xl:min-h-[755px] sm:max-h-[500px] md:max-h-[600px] object-cover lg:h-[583px]"
                     />
 
-                    <div className="pb-12 sm:pb-8 lg:pb-20 S xl:pb-[138px] md:absolute right-2 pt-8 sm:pt-20 md:pt-[100px] lg:pt-[140px] xl:pt-[150px]">
+                    <div className="pb-12 sm:pb-8 lg:pb-20 mx-auto xl:pb-[138px] md:absolute right-2 pt-8 sm:pt-20 md:pt-[100px] lg:pt-[140px] xl:pt-[150px]">
                         <div className="w-full text-left mr-auto ml-0">
                             <H2
                                 className={"!text-white after:bg-transparent pb-6 md:pb-9  lg:pb-12"}
@@ -28,7 +28,7 @@ const AllanPrinciple = () => {
                             <div className="relative after:absolute after:w-[2px] after:h-[15px] sm:after:h-12 after:content-[''] after:border-l-2 z-10 after:border-dotted after:border-offBlue after:left-1/2 after:top-[120%]">
                                 <span className="relative z-30"><Someone /></span>
                             </div>
-                            <p className="text-gray text-base sm:text-2xl1 font-medium !leading-120">
+                            <p className="text-gray text-base sm:text-2xl1 font-bold !leading-120">
                                 Take Someone with You
                             </p>
                         </div>
@@ -36,7 +36,7 @@ const AllanPrinciple = () => {
                             <div className="relative after:absolute after:w-[2px] after:h-[15px] sm:after:h-12 after:content-[''] after:border-l-2 z-0 after:border-dotted after:border-offBlue after:left-1/2 after:top-[120%]">
                                 <Scary />
                             </div>
-                            <p className="text-gray text-base sm:text-2xl1 font-medium !leading-120">
+                            <p className="text-gray text-base sm:text-2xl1 font-bold !leading-120">
                                 Risk is less scary than regret
                             </p>
                         </div>
@@ -44,7 +44,7 @@ const AllanPrinciple = () => {
                             <div className="relative after:absolute after:w-[2px] after:h-[15px] sm:after:h-12 after:content-[''] after:border-l-2 z-0 after:border-dotted after:border-offBlue after:left-1/2 after:top-[120%]">
                                 <Happiness />
                             </div>
-                            <p className="text-gray text-base sm:text-2xl1 font-medium !leading-120">
+                            <p className="text-gray text-base sm:text-2xl1 font-bold !leading-120">
                                 Gratitude = Happiness
                             </p>
                         </div>
@@ -52,7 +52,7 @@ const AllanPrinciple = () => {
                             <div className="relative after:absolute after:w-[2px] after:left-1/2 after:top-[120%]">
                                 <Thinking />
                             </div>
-                            <p className="text-gray text-base sm:text-2xl1 font-medium md:max-w-[340px] lg:max-w-[366px] !leading-120">
+                            <p className="text-gray text-base sm:text-2xl1 font-bold md:max-w-[340px] lg:max-w-[366px] !leading-120">
                                 You are not limited by your abilities; you are limited by your thinking
                             </p>
                         </div>

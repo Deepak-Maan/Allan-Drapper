@@ -1,3 +1,14 @@
+import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
+import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
+import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
+import give from '../../../public/assets/images/svg/portfolio/giveBack.svg';
+import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
+import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
+import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
+import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
+import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
+import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
+
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
   {
@@ -23,64 +34,50 @@ export const ProdcastVideoData = [
   },
 ];
 // ============================= worldmost data =============================//
-export const podcasts = [
+export const PODCASTS = [
   {
-    id: 1,
-    src: '/assets/images/svg/podcast/applePodCast.svg',
+    src: '/assets/images/podCast/svg/apple-pod-cast.svg',
     title: 'Apple Podcasts',
-    buttonText: 'Listen',
   },
   {
-    id: 2,
-    src: '/assets/images/svg/podcast/spotifyIcon.svg',
+    src: '/assets/images/podCast/svg/spotify.svg',
     title: 'Spotify',
-    buttonText: 'Listen',
   },
   {
-    id: 3,
-    src: '/assets/images/svg/podcast/podCastAddict.svg',
+    src: '/assets/images/podCast/svg/pod-cast-addict.svg',
     title: 'Podcast Addict',
-    buttonText: 'Listen',
   },
   {
-    id: 4,
-    src: '/assets/images/svg/podcast/googlePodCasts.svg',
+    src: '/assets/images/podCast/svg/google-pod-casts.svg',
     title: 'Google Podcasts',
-    buttonText: 'Listen',
   },
   {
-    id: 5,
-    src: '/assets/images/svg/podcast/amazonMusic.svg',
+    src: '/assets/images/podCast/svg/amazon-music.svg',
     title: 'Amazon Music',
-    buttonText: 'Listen',
   },
   {
-    id: 6,
-    src: '/assets/images/svg/podcast/iHeartRadio.svg',
+    src: '/assets/images/podCast/svg/i-heart-radio.svg',
     title: 'iheart Radio',
-    buttonText: 'Listen',
+    img: 'w-[82.43px] h-[50px]'
   },
 ];
 // ============================= allandaper data =============================//
-export const AllanDaperImg = [
+export const ALLANDAPPERIMG = [
   {
-    id: 1,
-    src: '/assets/images/webp/podcast/allanDaperMan.webp',
+    src: '/assets/images/podCast/webp/allandaper-man.webp',
     alt: 'Allan Daper Man',
   },
   {
-    id: 2,
-    src: '/assets/images/webp/podcast/allanDaperFamily.webp',
+    src: '/assets/images/podCast/webp/allandaper-family.webp',
     alt: 'family',
   },
   {
-    id: 3,
-    src: '/assets/images/webp/podcast/allanDaperManBlackTshirt.webp',
+    src: '/assets/images/podCast/webp/allandaper-man-black-tshirt.webp',
     alt: 'family',
   },
 ];
 // ============================= whyshouldcards data =============================//
-export const WhyShouldcardData = [
+export const WHYSHOULDCARD = [
   {
     title: 'Invested In Others Ideas',
     amount: '$5M',
@@ -102,103 +99,77 @@ export const WhyShouldcardData = [
     LineColor: 'after:bg-lightBlack'
   },
 ];
-export const SwiperCards = [
+// ============================= reviews data =============================//
+export const REVIEWSWIPERDATA = [
   {
-    linefirst: 'Learn to Earn!',
-    linesecond: ' Own a Business or thinking about it!? You Have',
-    linethird: 'to listen to this podcast!!  Great information for',
-    linefourth: 'free!!  You have to learn to earn!',
+    para: (<>Learn to Earn! <br></br> Own a Business or thinking about it!? You Have<br className='hidden lg:block'></br> to listen to this podcast!! Great information for<br className='hidden lg:block'></br> free!! You have to learn to earn!</>),
     name: 'Hayleigh A.'
   },
   {
-    linefirst: 'A Must Listen For Entrepreneurs',
-    linesecond: 'I am very impressed with the quality of the',
-    linethird: 'conversations Allan has with his guests. If you’re a',
-    linefourth: 'start-up entrepreneur, this podcast is filled with',
-    linefifth: 'nuggets to help you grow and succeed.',
+    para: (<> A Must Listen For Entrepreneurs <br></br>  I am very impressed with the quality of the<br className='hidden lg:block'></br> conversations Allan has with his guests. If you’re a<br className='hidden lg:block'></br> start-up entrepreneur, this podcast is filled with<br className='hidden lg:block'></br> nuggets to help you grow and succeed. </>),
     name: 'Andy N.'
   },
   {
-    linefirst: 'Learn to Earn!',
-    linesecond: ' Own a Business or thinking about it!? You Have',
-    linethird: 'to listen to this podcast!!  Great information for',
-    linefourth: 'free!!  You have to learn to earn!',
+    para: (<>Learn to Earn! <br></br> Own a Business or thinking about it!? You Have<br className='hidden lg:block'></br> to listen to this podcast!! Great information for<br className='hidden lg:block'></br> free!! You have to learn to earn!</>),
     name: 'Hayleigh A.'
   },
   {
-    linefirst: 'A Must Listen For Entrepreneurs',
-    linesecond: 'I am very impressed with the quality of the',
-    linethird: 'conversations Allan has with his guests. If you’re a',
-    linefourth: 'start-up entrepreneur, this podcast is filled with',
-    linefifth: 'nuggets to help you grow and succeed.',
+    para: (<> A Must Listen For Entrepreneurs <br></br>  I am very impressed with the quality of the<br className='hidden lg:block'></br> conversations Allan has with his guests. If you’re a<br className='hidden lg:block'></br> start-up entrepreneur, this podcast is filled with<br className='hidden lg:block'></br> nuggets to help you grow and succeed. </>),
     name: 'Andy N.'
   },
   {
-    linefirst: 'A Must Listen For Entrepreneurs',
-    linesecond: 'I am very impressed with the quality of the',
-    linethird: 'conversations Allan has with his guests. If you’re a',
-    linefourth: 'start-up entrepreneur, this podcast is filled with',
-    linefifth: 'nuggets to help you grow and succeed.',
+    para: (<> A Must Listen For Entrepreneurs <br></br>  I am very impressed with the quality of the<br className='hidden lg:block'></br> conversations Allan has with his guests. If you’re a<br className='hidden lg:block'></br> start-up entrepreneur, this podcast is filled with<br className='hidden lg:block'></br> nuggets to help you grow and succeed. </>),
     name: 'Andy N.'
   },
+
 ];
 // ============================= allan's brand data =============================//
-export const AllanBrand = [
+export const ALLANBRAND = [
   {
     src: "/assets/images/svg/portfolio/proof.svg",
     width: 100,
     height: 100,
-    imagewidth: 'max-w-[70px] max-h-[70px] sm:max-w-[100px] sm:max-h-[100px]'
   },
   {
-    src: "/assets/images/svg/podcast/ranaHub.svg",
+    src: "/assets/images/podCast/svg/rana-hub.svg",
     width: 260,
     height: 75,
-    imagewidth: 'max-w-[150px] max-h-[50px] sm:max-w-[260px] sm:max-h-[75px]'
   },
   {
-    src: "/assets/images/svg/podcast/eBD.svg",
+    src: "/assets/images/podCast/svg/ebd.svg",
     width: 175,
     height: 96,
-    imagewidth: 'max-w-[120px] max-h-[70px] sm:max-w-[175px] sm:max-h-[96px]'
   },
   {
     src: "/assets/images/svg/portfolio/lizard.svg",
     width: 118,
     height: 100,
-    imagewidth: 'max-w-[90px] max-h-[70px] sm:max-w-[118px] sm:max-h-[100px]'
   }
 ];
 // ---=========================Allan_meet======================================== //
-// Card data
 export const cardData = [
   {
-    id: 1,
-    image: "/assets/images/svg/meetAllan/startNow.svg",
+    image: "/assets/images/svg/meetAllan/start-now.svg",
     title: "Start Now",
     description: "Don't wait until you know 100% of what you need, get started already.",
   },
   {
-    id: 2,
     image: "/assets/images/svg/meetAllan/debt.svg",
     title: "Good vs Bad Debt",
     description: "Not all debt is bad debt. Know the difference",
   },
   {
-    id: 3,
     image: "/assets/images/svg/meetAllan/cutTies.svg",
     title: "Cut Ties",
     description:
       "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
   },
   {
-    id: 4,
     image: "/assets/images/svg/meetAllan/college.svg",
     title: "College Myth",
     description: "In most cases, college is a waste of time and money.",
   },
   {
-    id: 5,
     image: "/assets/images/svg/meetAllan/payFirst.svg",
     title: "Pay Yourself First",
     description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",

@@ -2,7 +2,7 @@
 import React from "react";
 import { Heading } from "../common/Heading";
 import Image from "next/image";
-import { images } from "../common/Helper";
+import { IMAGES } from "../common/Helper";
 import Marquee from "react-fast-marquee";
 
 const Companies = () => {
@@ -14,7 +14,7 @@ const Companies = () => {
       />
       <Marquee>
         <div className="flex flex-wrap xl:gap-16 gap-10  justify-center sm:pt-[110px] pt-8">
-          {images.slice(0, 5).map((image, index) => (
+          {IMAGES.slice(0, 5).map((image, index) => (
             <Image
               className=" duration-300 hover:scale-90"
               key={index}
@@ -28,7 +28,7 @@ const Companies = () => {
       </Marquee>
       <Marquee direction="ltr">
         <div className="flex flex-wrap xl:gap-[90px] gap-16  justify-center pt-16">
-          {images.slice(5, 10).map((image, index) => (
+          {IMAGES.slice(5, 10).map((image, index) => (
             <Image
               className=" duration-300 hover:scale-90"
               key={index}
@@ -43,10 +43,10 @@ const Companies = () => {
       <div className="flex justify-center sm:pt-20 pt-16 mb-1">
         <Image
           className=" duration-300 hover:scale-90"
-          src={images[10].img}
-          width={images[10].width}
-          height={images[10].height}
-          alt={images[10].alt}
+          src={IMAGES[10].img}
+          width={IMAGES[10].width}
+          height={IMAGES[10].height}
+          alt={IMAGES[10].alt}
         />
       </div>
     </div>

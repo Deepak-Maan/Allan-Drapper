@@ -1,4 +1,3 @@
-import React from 'react'
 import ProdcastVideoMap from '../common/ProdcastVideoMap'
 import { Heading } from '../common/Heading'
 

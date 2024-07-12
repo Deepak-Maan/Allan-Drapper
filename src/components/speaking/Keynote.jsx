@@ -20,12 +20,12 @@ const Keynote = () => {
                     <div className='max-w-[580px] xl:ps-2'>
                         <Heading heading={"Meet Allan Draper: Your Keynote Speaker Solution"} className={"after:bg-yellow !leading-110"} />
                         <p className='text-2xl font-medium !leading-120 max-w-[560px] mt-8 lg:mt-12 mb-0 text-lightBlack opacity-80'>Confession: I&apos;m just an ordinary achiever. Yet, extraordinary accomplishments include...</p>
-                        <div className="flex gap-3 my-3 lg:my-4 ">
+                        <div className="flex lg:items-center gap-3 my-3 lg:my-4 ">
                             <span><BlueSquare /></span>
-                            <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>Remarkable achievements include five 8+ figure businesses.</p>
+                            <p className='text-lg  sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>Remarkable achievements include five 8+ figure businesses.</p>
 
                         </div>
-                        <div className="flex gap-3 mb-3 lg:mb-4 ">
+                        <div className="flex lg:items-center gap-3 mb-3 lg:mb-4 ">
                             <span><BlueSquare /></span>
                             <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold max-w-[544px]'>$100MM+ business empire grown.</p>
 
@@ -36,7 +36,7 @@ const Keynote = () => {
                                 Network with A-listers like Shaquille O&apos;Neal, Drew Brees, and David Melzer.</p>
 
                         </div>
-                        <div className="flex gap-3 mb-3 lg:mb-4 ">
+                        <div className="flex lg:items-center gap-3 mb-3 lg:mb-4 ">
                             <span><BlueSquare /></span>
 
                             <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>

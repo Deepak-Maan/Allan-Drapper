@@ -262,7 +262,7 @@ export const LAWSLIST = [
 
 // companies section
 
-export const images = [
+export const IMAGES = [
   { img: "/assets/images/portfolio/svg/proof.svg", width: 100, height: 100, alt: 'proof' },
   { img: "/assets/images/portfolio/svg/ranahub.svg", width: 255, height: 93, alt: 'ranahub' },
   { img: "/assets/images/portfolio/svg/marketing.svg", width: 240, height: 90, alt: 'marketing' },
@@ -304,100 +304,96 @@ export const ReviewData = [
     Customer: 'Jordan G'
   },
 ];
-export const relatedSliderList = [
+export const RELATEDSLIDERLIST = [
   {
 
-    image: "/assets/images/several/webp/leadership.webp",
+    image: "/assets/images/blockdetail/webp/leader-ship.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
   },
   {
 
-    image: "/assets/images/several/webp/dad.webp",
+    image: "/assets/images/blockdetail/webp/dad-img.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
-    link: "#"
   },
   {
 
-    image: "/assets/images/several/webp/several.webp",
+    image: "/assets/images/blockdetail/webp/several-img.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
   },
   {
 
-    image: "/assets/images/several/webp/several.webp",
+    image: "/assets/images/blockdetail/webp/dad-img.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
   }
 ]
 // ========================= library================================ //
-export const libraryData = [
+export const LIBRARYDATA = [
   {
 
-    image: "/assets/images/several/webp/dad.webp",
+    image: "/assets/images/blockdetail/webp/dad-img.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget  lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/several.webp",
+    image: "/assets/images/blockdetail/webp/several-img.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/leadership.webp",
+    image: "/assets/images/blockdetail/webp/leader-ship.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance ",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/leadership.webp",
+    image: "/assets/images/blockdetail/webp/leader-ship.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/dad.webp",
+    image: "/assets/images/blockdetail/webp/dad-img.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/several.webp",
+    image: "/assets/images/blockdetail/webp/several-img.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/dad.webp",
+    image: "/assets/images/blockdetail/webp/dad-img.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/several.webp",
+    image: "/assets/images/blockdetail/webp/several-img.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
+    href: "#"
   },
   {
 
-    image: "/assets/images/several/webp/leadership.webp",
+    image: "/assets/images/blockdetail/webp/leader-ship.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
-    link: "#"
+    href: "#"
   },
 
 

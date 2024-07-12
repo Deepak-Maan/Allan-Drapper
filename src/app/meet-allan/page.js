@@ -1,3 +1,4 @@
+import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
 import AllanStory from "@/components/meetAllan/AllanStory";
@@ -29,6 +30,8 @@ const page = () => {
     <Opinion />
     <LawMoney />
     <BookAllan />
+    <GrabPdf/>
+   
   </>;
 };
 

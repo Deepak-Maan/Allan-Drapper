@@ -183,57 +183,56 @@ export const AllanBrand = [
   }
 ];
 // ---=========================Allan_meet======================================== //
-// Card data
-export const cardData = [
+export const CARDDATA = [
   {
     id: 1,
-    image: "/assets/images/svg/meetAllan/startNow.svg",
+    image: "/assets/images/meetAllan/svg/start-Now.svg",
     title: "Start Now",
     description: "Don't wait until you know 100% of what you need, get started already.",
   },
   {
     id: 2,
-    image: "/assets/images/svg/meetAllan/debt.svg",
+    image: "/assets/images/meetAllan/svg/debt.svg",
     title: "Good vs Bad Debt",
     description: "Not all debt is bad debt. Know the difference",
   },
   {
     id: 3,
-    image: "/assets/images/svg/meetAllan/cutTies.svg",
+    image: "/assets/images/meetAllan/svg/cut-Ties.svg",
     title: "Cut Ties",
     description:
       "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
   },
   {
     id: 4,
-    image: "/assets/images/svg/meetAllan/college.svg",
+    image: "/assets/images/meetAllan/svg/college.svg",
     title: "College Myth",
     description: "In most cases, college is a waste of time and money.",
   },
   {
     id: 5,
-    image: "/assets/images/svg/meetAllan/payFirst.svg",
+    image: "/assets/images/meetAllan/svg/pay-First.svg",
     title: "Pay Yourself First",
     description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
   },
 ];
 
-export const BooksData = [
+export const BOOKSDATA = [
   {
     category: "Business Leadership/Management",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/greatBook.webp",
+        src: "/assets/images/meetAllan/webp/great-Book.webp",
         title: "Good to Great",
         author: "-Jim Collins"
       },
       {
-        src: "/assets/images/webp/meetAllan/effectiveBook.webp",
+        src: "/assets/images/meetAllan/webp/effective-Book.webp",
         title: "Seven Habits of Highly Effective People",
         author: "-Steven Covey"
       },
       {
-        src: "/assets/images/webp/meetAllan/deliveringBook.webp",
+        src: "/assets/images/meetAllan/webp/delivering-Book.webp",
         title: "Delivering Happiness",
         author: "-Tony Hsieh"
       }
@@ -243,17 +242,17 @@ export const BooksData = [
     category: "Personal Improvement",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/deepBook.webp",
+        src: "/assets/images/meetAllan/webp/deep-Book.webp",
         title: "Deep Work",
         author: "-Cal Newport"
       },
       {
-        src: "/assets/images/webp/meetAllan/simonBook.webp",
+        src: "/assets/images/meetAllan/webp/simon-Book.webp",
         title: "Start with Why",
         author: "-Simon Sinek"
       },
       {
-        src: "/assets/images/webp/meetAllan/purposeBook.webp",
+        src: "/assets/images/meetAllan/webp/purpose-Book.webp",
         title: "Procrastinate on Purpose",
         author: "-Rory Vaden"
       }
@@ -263,17 +262,17 @@ export const BooksData = [
     category: "Inspirational/Motivational",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/dogBook.webp",
+        src: "/assets/images/meetAllan/webp/dog-Book.webp",
         title: "Shoe Dog",
         author: "-Phil Knight"
       },
       {
-        src: "/assets/images/webp/meetAllan/morrieBook.webp",
+        src: "/assets/images/meetAllan/webp/morrie-Book.webp",
         title: "Tuesday with Morrie",
         author: "-Mitch Albom"
       },
       {
-        src: "/assets/images/webp/meetAllan/elonMusk.webp",
+        src: "/assets/images/meetAllan/webp/elon-Musk.webp",
         title: "Elon Musk",
         author: "-Walter Isaacson"
       }
@@ -283,25 +282,24 @@ export const BooksData = [
     category: "Wealth Building",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/flowBook.webp",
+        src: "/assets/images/meetAllan/webp/flow-Book.webp",
         title: "Cashflow Quadrant",
         author: "-Robert Kiyosaki"
       },
       {
-        src: "/assets/images/webp/meetAllan/richBook.webp",
+        src: "/assets/images/meetAllan/webp/rich-Book.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       },
       {
-        src: "/assets/images/webp/meetAllan/nextDoor.webp",
+        src: "/assets/images/meetAllan/webp/next-Door.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       }
     ]
   }
 ];
-// meet allan money card data
-export const Laws = [
+export const LAWSLIST = [
   "In order to accumulate wealth you have to first believe that you are worthy of it.",
   "You must give away at least 10% of everything you make",
   "You must save at least 10% of everything you make and never spend it (investing is not spending)",

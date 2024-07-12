@@ -1,6 +1,6 @@
 import CommonHeader from "@/components/common/CommonHeader";
 import Footer from "@/components/common/Footer";
-import GrabPdf from "@/components/common/GrabPdf";
+// import GrabPdf from "@/components/common/GrabPdf";
 import ScrollToTop from "@/components/common/ScrollToTop";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
 import AllanStory from "@/components/meetAllan/AllanStory";
@@ -32,7 +32,7 @@ const page = () => {
     <Opinion />
     <LawMoney />
     <BookAllan />
-    <GrabPdf />
+    {/* <GrabPdf /> */}
     <Footer />
     <ScrollToTop />
   </>;

@@ -6,7 +6,7 @@ export const BackToTop = () => {
         </svg>
     )
 }
-export const Bluesquare = () => {
+export const BlueSquare = () => {
     return (
         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect opacity="0.3" y="12.7058" width="16.9731" height="16.9731" transform="rotate(-45.9816 0 12.7058)" fill="#A3CCC4" />
@@ -15,7 +15,7 @@ export const Bluesquare = () => {
 
     );
 };
-export const Someone = () => {
+export const Peoples = () => {
     return (
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" fill="#A3CCC4"></rect>
@@ -31,7 +31,7 @@ export const Someone = () => {
 
     );
 };
-export const Scary = () => {
+export const ScaryPrinciple = () => {
     return (
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" fill="#F58505" fillOpacity="0.1" />
@@ -41,7 +41,7 @@ export const Scary = () => {
 
     );
 };
-export const Happiness = () => {
+export const Heart = () => {
     return (
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" fill="#EEE916" fillOpacity="0.1" />
@@ -52,7 +52,7 @@ export const Happiness = () => {
 
     );
 };
-export const Thinking = () => {
+export const ThinkingPrinciple = () => {
     return (
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" fill="#A3CCC4" fillOpacity="0.1" />

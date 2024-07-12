@@ -1,16 +1,16 @@
 import React from 'react';
-import { H2 } from '../common/Heading';
+import {  Heading } from '../common/Heading';
 import Image from "next/image";
-import { BooksData } from '../common/Helper';
+import { BOOKSDATA } from '../common/Helper';
 
 const BookAllan = () => {
     return (
-        <div className='max-w-[1164px] mx-auto px-3 xl:px-0 pb-4 sm:pb-8 pt-7 sm:pt-10 md:pb-3 md:pt-[52px] lg:pb-[60px]  lg:pt-16 xl:pt-[120px]'>
+        <div className='max-w-[1164px] mx-auto px-3 xl:px-0 pb-4 sm:pb-6 pt-0 sm:pt-2 md:pb-6 md:pt-0 lg:pb-12  xl:pt-[120px]  lg:pt-12'>
             <div className='mb-8 md:mb-14 xl:mb-20'>
-                <H2 heading={"Book Recommendations By Allan"} className={"text-center after:left-1/2 after:-translate-x-1/2 mx-auto"} />
+                <Heading heading={"Book Recommendations By Allan"} className={"text-center after:left-1/2 after:-translate-x-1/2 mx-auto"} />
             </div>
 
-            {BooksData.map((section, index) => (
+            {BOOKSDATA.map((section, index) => (
                 <div key={index} >
                     <h3 className="font-bold text-2xl md:text-2xl1 lg:3xl xl:text-3xl1 text-lightBlack sm:pb-6  text-center sm:text-start lg:mb-1.5">{section.category}</h3>
                     <div className="flex flex-row items-center justify-center pb-8 md:pb-10 lg:pb-12 xl:pb-[60px] flex-wrap">

@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        doYou: "url(/assets/images/podCast/webp/do-you-bg.webp)",
-        principle: "url('/assets/images/webp/meetAllan/principleBg.webp')",
-        hustle: "url('/assets/images/portfolio/webp/bg-port-folio.webp')",
+        doYou: "url(/assets/images/webp/podCast/do-you-bg.webp)",
+        principle: "url('/assets/images/meetAllan/webp/principle-bg.webp')",
+        hustle: "url('/assets/images/webp/portfolio/bgPortfolio.webp')",
         whoAllan: "url('/assets/images/webp/homePage/bgWhoAllan.webp')",
         grabPdf: "url('/assets/images/webp/homePage/bgGrabPdf.webp')",
         podcastHeaderBg: "url(/assets/images/podCast/webp/podcast-bg-header.webp)",
@@ -47,6 +47,8 @@ module.exports = {
         "4xl1": "42px",
         "5xl1": "56px",
         "6xl1": "72px",
+        "10xl": "86px",
+        "12xl":"120px"
       },
       boxShadow: {
         worldCard: "0px 0px 20px 1px #00000012",

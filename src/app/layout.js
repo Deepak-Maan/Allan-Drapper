@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ScrollToTop from "@/components/common/ScrollToTop";
+import Footer from "@/components/common/Footer";
+import GrabPdf from "@/components/common/GrabPdf";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +21,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+        <ScrollToTop/>
+        {/* <GrabPdf/> */}
+        <Footer/>
+      </body>
     </html>
   );
 }

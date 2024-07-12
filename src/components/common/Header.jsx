@@ -19,7 +19,7 @@ const Header = (header) => {
                 </div>
                 <span className={`${header.signature} hidden mt-10`}>
                     <Image
-                        src="/assets/images/svg/meetAllan/sign.svg" width={308} height={79} alt='sign' />
+                        src="/assets/images/meetAllan/svg/sign.svg" width={308} height={79} alt='sign' />
                 </span>
             </div>
         </div>

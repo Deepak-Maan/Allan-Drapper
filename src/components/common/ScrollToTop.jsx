@@ -1,7 +1,6 @@
 "use client"
 import { useState, useEffect } from "react";
 import { BackToTop } from "./Icons";
-// import { BackToTop } from "./Icons"; // Uncomment this line if you have a BackToTop icon component
 
 const ScrollToTop = () => {
     const [scrollValue, setScrollValue] = useState(0);

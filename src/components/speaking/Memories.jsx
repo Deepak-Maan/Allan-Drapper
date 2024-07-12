@@ -4,29 +4,41 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import Image from 'next/image';
-import { H2 } from '../common/Heading';
+import { Heading } from '../common/Heading';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 const Memories = () => {
+    const renderBullet = (index, className) => {
+        const totalDots = 5;
+        const middleDot = Math.floor(totalDots / 2);
+        if (index < totalDots) {
+            return `<span class="${className} ${index === middleDot ? 'large-bullet' : ''}"></span>`;
+        }
+        return '';
+    };
+
     return (
         <section>
             <div className='max-w-[1164px] px-3 mx-auto'>
                 <div className="pb-8 sm:pb-9">
-                    <H2 heading={"Our Speaking memories"} className={"text-center capitalize after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
+                    <Heading heading={"Our Speaking memories"} className={"text-center capitalize after:left-1/2 after:-translate-x-1/2 after:!bg-white"} />
                 </div>
-                <div className="pb-12 sm:pb-5 mx-auto md:pb-8 xl:pt-5 lg:pb-[120px]">
+                <div className="pb-12 sm:pb-14 mx-auto md:pb-16 xl:pt-5 lg:pb-24 xl:pb-[120px]">
                     <Swiper
                         spaceBetween={24}
                         slidesPerView={2}
-                        pagination={{ clickable: true }}
+                        pagination={{
+                            clickable: true,
+                            renderBullet: renderBullet,
+                        }}
                         autoplay={{
                             delay: 3000,
                             disableOnInteraction: false,
                             speed: 0,
                         }}
                         loop={true}
-                        modules={[Pagination, Autoplay]} S
-                        className='memories  max-w-[1164px]'
+                        modules={[Pagination, Autoplay]}
+                        className='memories max-w-[1164px]'
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,
@@ -41,7 +53,7 @@ const Memories = () => {
                     >
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/singer.webp"
+                                src="/assets/images/speaking/webp/singer.webp"
                                 alt="Singers"
                                 width={534}
                                 height={905}
@@ -51,7 +63,7 @@ const Memories = () => {
                         <SwiperSlide>
                             <div className="grid grid-rows-2 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/webp/speaking/twoPersonTalking.webp"
+                                    src="/assets/images/speaking/webp/two-person-talking.webp"
                                     alt="MenTalking"
                                     width={534}
                                     height={905}
@@ -59,14 +71,14 @@ const Memories = () => {
                                 />
                                 <div className="grid grid-cols-2 gap-4 lg:gap-6">
                                     <Image
-                                        src="/assets/images/webp/speaking/singerMen.webp"
+                                        src="/assets/images/speaking/webp/singer-men.webp"
                                         alt="SingerMen"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[360px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                     />
                                     <Image
-                                        src="/assets/images/webp/speaking/aMenSinging.webp"
+                                        src="/assets/images/speaking/webp/a-men-singing.webp"
                                         alt="menSinging"
                                         width={534}
                                         height={905}
@@ -77,7 +89,7 @@ const Memories = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/reporter.webp"
+                                src="/assets/images/speaking/webp/reporter.webp"
                                 alt="Reporter"
                                 width={534}
                                 height={905}
@@ -86,7 +98,7 @@ const Memories = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/singer.webp"
+                                src="/assets/images/speaking/webp/singer.webp"
                                 alt="Singer"
                                 width={534}
                                 height={905}
@@ -96,7 +108,7 @@ const Memories = () => {
                         <SwiperSlide>
                             <div className="grid grid-rows-2 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/webp/speaking/twoPersonTalking.webp"
+                                    src="/assets/images/speaking/webp/two-person-talking.webp"
                                     alt="TwoPersontalking"
                                     width={534}
                                     height={905}
@@ -104,14 +116,14 @@ const Memories = () => {
                                 />
                                 <div className="grid grid-cols-2 gap-4 lg:gap-6">
                                     <Image
-                                        src="/assets/images/webp/speaking/singerMen.webp"
+                                        src="/assets/images/speaking/webp/singer-men.webp"
                                         alt="singermen"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[358px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                     />
                                     <Image
-                                        src="/assets/images/webp/speaking/aMenSinging.webp"
+                                        src="/assets/images/speaking/webp/a-men-singing.webp"
                                         alt="Mensinging"
                                         width={534}
                                         height={905}
@@ -122,7 +134,7 @@ const Memories = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                                src="/assets/images/webp/speaking/reporter.webp"
+                                src="/assets/images/speaking/webp/reporter.webp"
                                 alt="reporter_Image"
                                 width={534}
                                 height={905}

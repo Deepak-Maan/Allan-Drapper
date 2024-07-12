@@ -1,13 +1,13 @@
-import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
-import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
-import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
-import give from '../../../public/assets/images/svg/portfolio/giveBack.svg';
-import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
-import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
-import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
-import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
-import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
-import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
+// import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
+// import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
+// import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
+// import give from '../../../public/assets/images/svg/portfolio/giveBack.svg';
+// import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
+// import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
+// import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
+// import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
+// import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
+// import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
 
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
@@ -147,51 +147,53 @@ export const ALLANBRAND = [
   }
 ];
 // ---=========================Allan_meet======================================== //
-export const cardData = [
+export const CARDDATA = [
   {
     image: "/assets/images/svg/meetAllan/start-now.svg",
+    image: "/assets/images/meetAllan/svg/start-now.svg",
     title: "Start Now",
     description: "Don't wait until you know 100% of what you need, get started already.",
   },
   {
-    image: "/assets/images/svg/meetAllan/debt.svg",
+    image: "/assets/images/meetAllan/svg/debt.svg",
     title: "Good vs Bad Debt",
     description: "Not all debt is bad debt. Know the difference",
   },
   {
-    image: "/assets/images/svg/meetAllan/cutTies.svg",
+    image: "/assets/images/meetAllan/svg/cut-ties.svg",
     title: "Cut Ties",
     description:
       "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
   },
   {
-    image: "/assets/images/svg/meetAllan/college.svg",
+    image: "/assets/images/meetAllan/svg/college.svg",
     title: "College Myth",
     description: "In most cases, college is a waste of time and money.",
   },
   {
-    image: "/assets/images/svg/meetAllan/payFirst.svg",
+    image: "/assets/images/meetAllan/svg/pay-first.svg",
     title: "Pay Yourself First",
     description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
   },
 ];
 
-export const BooksData = [
+
+export const BOOKSDATA = [
   {
     category: "Business Leadership/Management",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/greatBook.webp",
+        src: "/assets/images/meetAllan/webp/great-book.webp",
         title: "Good to Great",
         author: "-Jim Collins"
       },
       {
-        src: "/assets/images/webp/meetAllan/effectiveBook.webp",
+        src: "/assets/images/meetAllan/webp/effective-book.webp",
         title: "Seven Habits of Highly Effective People",
         author: "-Steven Covey"
       },
       {
-        src: "/assets/images/webp/meetAllan/deliveringBook.webp",
+        src: "/assets/images/meetAllan/webp/delivering-book.webp",
         title: "Delivering Happiness",
         author: "-Tony Hsieh"
       }
@@ -201,17 +203,17 @@ export const BooksData = [
     category: "Personal Improvement",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/deepBook.webp",
+        src: "/assets/images/meetAllan/webp/deep-book.webp",
         title: "Deep Work",
         author: "-Cal Newport"
       },
       {
-        src: "/assets/images/webp/meetAllan/simonBook.webp",
+        src: "/assets/images/meetAllan/webp/simon-book.webp",
         title: "Start with Why",
         author: "-Simon Sinek"
       },
       {
-        src: "/assets/images/webp/meetAllan/purposeBook.webp",
+        src: "/assets/images/meetAllan/webp/purpose-book.webp",
         title: "Procrastinate on Purpose",
         author: "-Rory Vaden"
       }
@@ -221,17 +223,17 @@ export const BooksData = [
     category: "Inspirational/Motivational",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/dogBook.webp",
+        src: "/assets/images/meetAllan/webp/dog-book.webp",
         title: "Shoe Dog",
         author: "-Phil Knight"
       },
       {
-        src: "/assets/images/webp/meetAllan/morrieBook.webp",
+        src: "/assets/images/meetAllan/webp/morrie-book.webp",
         title: "Tuesday with Morrie",
         author: "-Mitch Albom"
       },
       {
-        src: "/assets/images/webp/meetAllan/elonMusk.webp",
+        src: "/assets/images/meetAllan/webp/elon-musk.webp",
         title: "Elon Musk",
         author: "-Walter Isaacson"
       }
@@ -241,25 +243,24 @@ export const BooksData = [
     category: "Wealth Building",
     items: [
       {
-        src: "/assets/images/webp/meetAllan/flowBook.webp",
+        src: "/assets/images/meetAllan/webp/flow-book.webp",
         title: "Cashflow Quadrant",
         author: "-Robert Kiyosaki"
       },
       {
-        src: "/assets/images/webp/meetAllan/richBook.webp",
+        src: "/assets/images/meetAllan/webp/rich-book.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       },
       {
-        src: "/assets/images/webp/meetAllan/nextDoor.webp",
+        src: "/assets/images/meetAllan/webp/next-door.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       }
     ]
   }
 ];
-// meet allan money card data
-export const Laws = [
+export const LAWSLIST = [
   "In order to accumulate wealth you have to first believe that you are worthy of it.",
   "You must give away at least 10% of everything you make",
   "You must save at least 10% of everything you make and never spend it (investing is not spending)",

@@ -29,7 +29,6 @@ const page = () => {
     <Opinion />
     <LawMoney />
     <BookAllan />
-   
   </>;
 };
 

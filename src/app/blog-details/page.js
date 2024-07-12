@@ -13,8 +13,6 @@ const page = () => {
       <Business />
       <Related />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </>
   );
 };

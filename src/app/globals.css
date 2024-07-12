@@ -44,7 +44,7 @@
 
 @media (min-width: 576px) {
   .swiper-pagination {
-    margin-top: 32px !important;
+    margin-top: 67px !important;
   }
 }
 
@@ -85,7 +85,7 @@
 }
 
 .footerLinks {
-  @apply font-medium text-base sm:text-2xl duration-300 hover:text-orange text-gray leading-130;
+  @apply font-medium text-base sm:text-2xl duration-300 hover:text-orange text-gray !leading-130;
 }
 
 input[type="checkbox"] {
@@ -170,4 +170,15 @@ input::-webkit-inner-spin-button {
 
 .reviews .swiper-slide.swiper-slide-next {
   transform: scaleY(1) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1D1D1D inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: #8E8E8E !important;
 }

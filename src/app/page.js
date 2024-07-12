@@ -18,8 +18,6 @@ export default function Home() {
       <MyBrands />
       <Review />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </>
   );
 }

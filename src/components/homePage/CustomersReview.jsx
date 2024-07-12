@@ -6,7 +6,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
-// Import Swiper styles
 import 'swiper/css';
 import { ReviewData } from '../common/Helper';
 import { BigInvertedComa, Star } from '../common/Icons';
@@ -35,7 +34,7 @@ const CustomerReviewCards
                 }}
                 loop={true}
                 modules={[Pagination, Autoplay]}
-                className='md:!pt-20 !pt-10 sm:!pt-16 !pb-5 sm:!pb-8 px-4 mx-auto reviews max-w-[1050px]'
+                className='md:!pt-20 !pt-10 sm:!pt-16 !pb-5 sm:!pb-8 px-4 mx-auto reviews max-w-[1030px]'
                 breakpoints={{
                     320: {
                         slidesPerView: 1,
@@ -51,7 +50,7 @@ const CustomerReviewCards
 
                 {ReviewData.map((data, index) => (
                     <SwiperSlide key={index}>
-                        <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 max-w-[650px] lg:max-w-[487px] w-full mx-auto min-h-[230px] sm:min-h-[240px] md:min-h-[312px] flex flex-col justify-between'>
+                        <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 lg:max-w-[487px] w-full mx-auto min-h-[230px] sm:min-h-[240px] md:min-h-[322px] flex flex-col justify-between'>
                             <div>
                                 <div className='flex items-center gap-1'>
                                     <Star />
@@ -63,9 +62,9 @@ const CustomerReviewCards
                                 <p className='lg:max-w-[433px] font-medium text-lg sm:text-xl md:text-2xl leading-130 opacity-80 text-lightBlack mt-4'>{data.Review}</p>
                             </div>
                             <div className='flex justify-between'>
-                                <div>
-                                    <p className='font-bold text-xl sm:text-2xl md:text-2xl1 leading-120 text-lightBlack pb-[2px]'>{data.Customer}</p>
-                                    <p className='font-medium text-lg sm:text-xl md:text-2xl leading-120 text-offGray pb-[2px]'>{data.CustomerProfession}</p>
+                                <div className='pt-8'>
+                                    <p className='font-bold text-xl sm:text-2xl md:text-2xl1 !leading-120 text-lightBlack pb-[2px]'>{data.Customer}</p>
+                                    <p className='font-medium text-lg sm:text-xl md:text-2xl !leading-120 text-offGray pb-[2px]'>{data.CustomerProfession}</p>
                                 </div>
                                 <span className='-mt-10'>
                                     <BigInvertedComa />

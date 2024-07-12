@@ -15,8 +15,6 @@ const page = () => {
       />
       <Library />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </>
   );
 };

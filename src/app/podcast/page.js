@@ -24,8 +24,6 @@ background='bg-podcastHeaderBg'/>
   <ReviewSwiper/>
   <AllanDaper/>
   <GrabPdf/>
-  <Footer/>
-  <ScrollToTop/>
   </>
 };
 

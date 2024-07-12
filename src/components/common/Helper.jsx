@@ -1,21 +1,21 @@
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
   {
-    img: "/assets/images/webp/homePage/collageThumbnail.webp",
+    img: "/assets/images/homePage/webp/collageThumbnail.webp",
     title: "Leadership Lessons From Legendary… College Coaches",
     description: "In today's episode, ESPN storyteller & interviewer Marty Smith chats with Allan about his new book, SIDELINE CEO: LEADERSHIP PRINCIPLES FROM…",
     episodeNumber: "S2 - Ep: 145",
     date: "Dec 4, 2023",
   },
   {
-    img: "/assets/images/webp/homePage/videoThumbnail146.webp",
+    img: "/assets/images/homePage/webp/videoThumbnail146.webp",
     title: "Lead Generation Secrets For Success",
     description: "In today's episode, Allan speaks with Philip Smith, a serial entrepreneur, investor, and author. Smith has made the Inc. 5000 list of fastest growing private",
     episodeNumber: "S2 - Ep: 146",
     date: "Dec 4, 2023",
   },
   {
-    img: "/assets/images/webp/homePage/videoThumbnail147.webp",
+    img: "/assets/images/homePage/webp/videoThumbnail147.webp",
     title: "From ‘Weakness’ To Superhero Skill",
     description: "In Today's episode, Allan speaks with multi platinum record producing DJ and Telzio Founder & CEO Peter Schroeder. Topics include: 1:22 Surviving a literal…",
     episodeNumber: "S2 - Ep: 147",
@@ -115,22 +115,22 @@ export const REVIEWSWIPERDATA = [
 // ============================= allan's brand data =============================//
 export const ALLANBRAND = [
   {
-    src: "/assets/images/portfolio/svg/proof.svg",
+    img: "/assets/images/portfolio/svg/proof.svg",
     width: 100,
     height: 100,
   },
   {
-    src: "/assets/images/podCast/svg/rana-hub.svg",
+    img: "/assets/images/podCast/svg/rana-hub.svg",
     width: 260,
     height: 75,
   },
   {
-    src: "/assets/images/podCast/svg/ebd.svg",
+    img: "/assets/images/podCast/svg/ebd.svg",
     width: 175,
     height: 96,
   },
   {
-    src: "/assets/images/portfolio/svg/lizard.svg",
+    img: "/assets/images/portfolio/svg/lizard.svg",
     width: 118,
     height: 100,
   }
@@ -164,7 +164,6 @@ export const CARDDATA = [
     description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
   },
 ];
-
 
 export const BOOKSDATA = [
   {
@@ -264,17 +263,17 @@ export const LAWSLIST = [
 // companies section
 
 export const images = [
-  { src: "/assets/images/portfolio/svg/proof.svg", width: 100, height: 100, alt: 'proof' },
-  { src: "/assets/images/portfolio/svg/ranahub.svg", width: 255, height: 93, alt: 'ranahub' },
-  { src: "/assets/images/portfolio/svg/marketing.svg", width: 240, height: 90, alt: 'marketing' },
-  { src: "/assets/images/portfolio/svg/give-back.svg", width: 172, height: 100, alt: 'give' },
-  { src: "/assets/images/portfolio/svg/lizard.svg", width: 118, height: 100, alt: 'lizard' },
-  { src: "/assets/images/portfolio/svg/jad.svg", width: 87, height: 102, alt: 'jad' },
-  { src: "/assets/images/portfolio/svg/brown.svg", width: 172, height: 96, alt: 'brown' },
-  { src: "/assets/images/portfolio/svg/wealth.svg", width: 234, height: 103, alt: 'wealth' },
-  { src: "/assets/images/portfolio/svg/bug-buxt.svg", width: 178, height: 100, alt: 'bugbuxt' },
-  { src: "/assets/images/portfolio/svg/podcast.svg", width: 100, height: 100, alt: 'podcast' },
-  { src: "/assets/images/portfolio/svg/real-Estate.svg", width: 163, height: 96, alt: 'real' }
+  { img: "/assets/images/portfolio/svg/proof.svg", width: 100, height: 100, alt: 'proof' },
+  { img: "/assets/images/portfolio/svg/ranahub.svg", width: 255, height: 93, alt: 'ranahub' },
+  { img: "/assets/images/portfolio/svg/marketing.svg", width: 240, height: 90, alt: 'marketing' },
+  { img: "/assets/images/portfolio/svg/give-back.svg", width: 172, height: 100, alt: 'give' },
+  { img: "/assets/images/portfolio/svg/lizard.svg", width: 118, height: 100, alt: 'lizard' },
+  { img: "/assets/images/portfolio/svg/jad.svg", width: 87, height: 102, alt: 'jad' },
+  { img: "/assets/images/portfolio/svg/brown.svg", width: 172, height: 96, alt: 'brown' },
+  { img: "/assets/images/portfolio/svg/wealth.svg", width: 234, height: 103, alt: 'wealth' },
+  { img: "/assets/images/portfolio/svg/bug-buxt.svg", width: 178, height: 100, alt: 'bugbuxt' },
+  { img: "/assets/images/portfolio/svg/podcast.svg", width: 100, height: 100, alt: 'podcast' },
+  { img: "/assets/images/portfolio/svg/real-Estate.svg", width: 163, height: 96, alt: 'real' }
 ];
 
 // curtomer reviews
@@ -308,28 +307,28 @@ export const ReviewData = [
 export const relatedSliderList = [
   {
 
-    image: "/assets/images/webp/several/leadership.webp",
+    image: "/assets/images/several/webp/leadership.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/dad.webp",
+    image: "/assets/images/several/webp/dad.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/several.webp",
+    image: "/assets/images/several/webp/several.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/several.webp",
+    image: "/assets/images/several/webp/several.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
@@ -339,63 +338,63 @@ export const relatedSliderList = [
 export const libraryData = [
   {
 
-    image: "/assets/images/webp/several/dad.webp",
+    image: "/assets/images/several/webp/dad.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget  lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/several.webp",
+    image: "/assets/images/several/webp/several.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/leadership.webp",
+    image: "/assets/images/several/webp/leadership.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance ",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/leadership.webp",
+    image: "/assets/images/several/webp/leadership.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/dad.webp",
+    image: "/assets/images/several/webp/dad.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/several.webp",
+    image: "/assets/images/several/webp/several.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/dad.webp",
+    image: "/assets/images/several/webp/dad.webp",
     title: "The Dad Entrepreneurs’ Search for Work-Life Balance",
     description: "The pursuit of work-life balance is a perennial challenge for many entrepreneurs, but perhaps none feel its weight entrepreneurs.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/several.webp",
+    image: "/assets/images/several/webp/several.webp",
     title: "I Have Several Business Ideas. What Should I Do?",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"
   },
   {
 
-    image: "/assets/images/webp/several/leadership.webp",
+    image: "/assets/images/several/webp/leadership.webp",
     title: "Leadership Lessons From Legend… College Coaches",
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
     link: "#"

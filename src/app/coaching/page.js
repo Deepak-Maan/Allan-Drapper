@@ -26,8 +26,6 @@ const page = () => {
       <Brand />
       <Wellsay />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </>
   );
 };

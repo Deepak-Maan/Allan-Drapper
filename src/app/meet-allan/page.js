@@ -1,4 +1,4 @@
-import CommonHeader from "@/components/common/CommonHeader";
+import Header from "@/components/common/Header";
 import AllanPrinciple from "@/components/meetAllan/AllanPrinciple";
 import AllanStory from "@/components/meetAllan/AllanStory";
 import Archivement from "@/components/meetAllan/Archivement";
@@ -9,7 +9,7 @@ import Opinion from "@/components/meetAllan/Opinion";
 import Sacrifice from "@/components/meetAllan/Sacrifice";
 const page = () => {
   return <>
-    <CommonHeader
+    <Header
       heading='Meet Allan'
       para='I have a unique ability to motivate people to make short-term sacrifices to build businesses and wealth. Are you next?'
       paddingYclass='lg:pt-[100px] py-16 sm:py-20 md:py-28 lg:pb-[61px]'

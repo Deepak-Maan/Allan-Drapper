@@ -42,13 +42,13 @@ const Sacrifice = () => {
             <h1 className="text-center text-3xl1 md:text-5xl lg:text-5xl1 text-lightBlack font-bold mb-7 px-3 md:mb-10 xl:mb-14 !leading-110">
                 Never Sacrifice These 3 Things
             </h1>
-            <h2 ref={text2Ref} className="text-white  text-shadow-sky text-4xl sm:text-5xl md:text-6xl lg:text-[84px] xl:text-[120px] text-center font-black uppercase sm:tracking-[12px] tracking-[6px] !leading-120 ">
+            <h2 ref={text2Ref} className="text-white  text-shadow-sky text-4xl sm:text-5xl md:text-6xl lg:text-10xl xl:text-12xl text-center font-black uppercase sm:tracking-[12px] tracking-[6px] !leading-120 ">
                 Your Family
             </h2>
-            <h2 ref={text3Ref} className="lg:text-[84px] xl:text-[120px] text-center font-black uppercase sm:tracking-[12px] text-white  text-shadow-skyblue text-4xl sm:text-5xl md:text-6xl tracking-[6px] !leading-120">
+            <h2 ref={text3Ref} className="lg:text-10xl xl:text-12xl text-center font-black uppercase sm:tracking-[12px] text-white text-shadow-skyblue text-4xl sm:text-5xl md:text-6xl tracking-[6px] !leading-120">
                 Your Heart
             </h2>
-            <h2 ref={text4Ref} className="text-white text-center font-black uppercase sm:tracking-[12px] !leading-120  text-shadow-yellow text-4xl sm:text-5xl md:text-6xl lg:text-[84px] tracking-[6px] xl:text-[120px]">
+            <h2 ref={text4Ref} className="text-white text-center font-black uppercase sm:tracking-[12px] !leading-120  text-shadow-yellow text-4xl sm:text-5xl md:text-6xl lg:text-10xl tracking-[6px] xl:text-12xl">
                 Your Dignity
             </h2>
             <Image

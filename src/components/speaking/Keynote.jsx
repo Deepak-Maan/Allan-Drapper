@@ -1,8 +1,8 @@
 import React from 'react'
-import {  Heading } from '../common/Heading'
+import { Heading } from '../common/Heading'
 import Image from "next/image";
 import { BlueSquare } from '../common/Icons';
-import CommonButton from '../common/CommonButton';
+import Button from '../common/Button';
 
 const Keynote = () => {
     return (
@@ -15,10 +15,10 @@ const Keynote = () => {
                             alt="keyNote"
                             width={464}
                             height={603}
-                            className="md:max-w-[350px] lg:max-w-[464px] md:max-h-[500px] object-cover lg:max-h-[603px] "
+                            className="md:max-w-[320px] lg:max-w-[464px] md:max-h-[500px] object-cover lg:max-h-[603px] "
                         /></div>
                     <div className='max-w-[580px] xl:ps-2'>
-                        <Heading heading={"Meet Allan Draper: Your Keynote Speaker Solution"} className={"after:bg-yellow  !leading-110"} />
+                        <Heading heading={"Meet Allan Draper: Your Keynote Speaker Solution"} className={"after:bg-yellow !leading-110"} />
                         <p className='text-2xl font-medium !leading-120 max-w-[560px] mt-8 lg:mt-12 mb-0 text-lightBlack opacity-80'>Confession: I&apos;m just an ordinary achiever. Yet, extraordinary accomplishments include...</p>
                         <div className="flex gap-3 my-3 lg:my-4 ">
                             <span><BlueSquare /></span>
@@ -42,7 +42,7 @@ const Keynote = () => {
                             <p className='text-lg sm:text-xl md:text-2xl !leading-130 text-lightBlack opacity-80 font-bold'>
                                 400+ restaurants launched.</p>
                         </div>
-                        <CommonButton text='HIRE ALLAN' classesbtn="mt-6" />
+                        <Button text='HIRE ALLAN' className="mt-2 lg:mt-6" />
                     </div>
                 </div></div>
         </section>

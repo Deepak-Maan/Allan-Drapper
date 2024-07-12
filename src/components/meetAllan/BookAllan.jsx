@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Heading } from '../common/Heading';
+import { Heading } from '../common/Heading';
 import Image from "next/image";
 import { BOOKSDATA } from '../common/Helper';
 
@@ -16,7 +16,7 @@ const BookAllan = () => {
                     <div className="flex flex-row items-center justify-center pb-8 md:pb-10 lg:pb-12 xl:pb-[60px] flex-wrap">
                         {section.items.map((book, bookIndex) => (
                             <div key={bookIndex} className='xxs:w-1/2 w-full md:w-1/3 pt-4 xxs:pt-6 px-0 xs:px-3 xl:px-0 md:pt-0'>
-                                <div className="max-[500px]:w-full border xs:min-h-[285px] md:min-h-[335px] pt-8 sm:pt-10 lg:pt-12 xl:pt-[57px] border-offGray hover:border-transparent hover:shadow-worldCard duration-300 xl:max-w-[364px] lg:min-h-[376px] sm:min-h-[310px] min-h-[270px] max-[500px]:min-h-[240px] md:px-2 lg:px-6 px-2 flex flex-col items-center ">
+                                <div className="max-[500px]:w-full border xs:min-h-[285px] md:min-h-[300px] pt-8 sm:pt-10 md:pt-4 lg:pt-12 xl:pt-[57px] border-offGray hover:border-transparent hover:shadow-worldCard duration-300 xl:max-w-[364px] lg:min-h-[376px] sm:min-h-[310px] min-h-[270px] max-[500px]:min-h-[240px] md:px-2 lg:px-6 px-2 flex flex-col items-center ">
                                     <Image
                                         src={book.src}
                                         alt={book.title}

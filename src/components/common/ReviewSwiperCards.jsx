@@ -3,12 +3,11 @@ import React, { useEffect, useState } from 'react';
 import 'swiper/swiper-bundle.css';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { SwiperCards } from './Helper';
+import { REVIEWSWIPERDATA } from './Helper';
 import { BigInvertedComaIcon, StartIcon } from './Icons';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
-// Import Swiper styles
 import 'swiper/css';
 
 const ReviewSwiperCards = () => {
@@ -47,7 +46,7 @@ const ReviewSwiperCards = () => {
                 },
             }}
         >
-            {SwiperCards.map((card, index) => (
+            {REVIEWSWIPERDATA.map((card, index) => (
                 <SwiperSlide key={index}>
                     <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 max-w-[650px] lg:max-w-[487px] w-full min-h-[230px] sm:min-h-[240px] md:min-h-[312px] mx-auto flex flex-col justify-between'>
                         <div className='text-lightBlack'>
@@ -59,11 +58,7 @@ const ReviewSwiperCards = () => {
                                 <StartIcon />
                             </div>
                             <p className='lg:max-w-[438px] font-medium text-lg sm:text-xl md:text-2xl leading-130 opacity-80 mt-4'>
-                                <span className='block'>{card.linefirst}</span>
-                                <span className='lg:block'>{card.linesecond}</span>
-                                <span className='lg:block'>{card.linethird}</span>
-                                <span className='lg:block'>{card.linefourth}</span>
-                                <span className='lg:block'>{card.linefifth}</span>
+                                {card.para}
                             </p>
                         </div>
                         <div className='flex items-end justify-between'>

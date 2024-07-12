@@ -54,6 +54,8 @@ module.exports = {
         "4xl1": "42px",
         "5xl1": "56px",
         "6xl1": "72px",
+        "10xl": "86px",
+        "12xl":"120px"
       },
       opacity: {
         80: "80%",

@@ -8,6 +8,15 @@ import { Heading } from '../common/Heading';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 const Memories = () => {
+    const renderBullet = (index, className) => {
+        const totalDots = 5;
+        const middleDot = Math.floor(totalDots / 2);
+        if (index < totalDots) {
+            return `<span class="${className} ${index === middleDot ? 'large-bullet' : ''}"></span>`;
+        }
+        return '';
+    };
+
     return (
         <section>
             <div className='max-w-[1164px] px-3 mx-auto'>
@@ -18,15 +27,18 @@ const Memories = () => {
                     <Swiper
                         spaceBetween={24}
                         slidesPerView={2}
-                        pagination={{ clickable: true }}
+                        pagination={{
+                            clickable: true,
+                            renderBullet: renderBullet,
+                        }}
                         autoplay={{
                             delay: 3000,
                             disableOnInteraction: false,
                             speed: 0,
                         }}
                         loop={true}
-                        modules={[Pagination, Autoplay]} S
-                        className='memories  max-w-[1164px]'
+                        modules={[Pagination, Autoplay]}
+                        className='memories max-w-[1164px]'
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,

@@ -15,8 +15,6 @@ const page = () => {
       />
       <FormValidation />
       <GrabPdf />
-      <Footer />
-      <ScrollToTop />
     </>
   );
 };

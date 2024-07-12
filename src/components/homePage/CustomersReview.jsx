@@ -52,7 +52,7 @@ const CustomerReviewCards
 
                 {ReviewData.map((data, index) => (
                     <SwiperSlide key={index}>
-                        <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 max-w-[650px] lg:max-w-[487px] w-full mx-auto min-h-[230px] sm:min-h-[240px] md:min-h-[322px] flex flex-col justify-between'>
+                        <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 lg:max-w-[487px] w-full mx-auto min-h-[230px] sm:min-h-[240px] md:min-h-[322px] flex flex-col justify-between'>
                             <div>
                                 <div className='flex pointer-events-none items-center gap-1'>
                                     <StartIcon />

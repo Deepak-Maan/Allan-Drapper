@@ -6,8 +6,8 @@ import CommonButton from '../common/CommonButton'
 const ProdcastVideos = () => {
     return (
         <>
-            <div className="container  mx-auto px-3 md:py-20 sm:py-16 py-12 lg:pt-[154px] lg:pb-[98px] max-w-[1164px]">
-                <H2 heading="Podcasts" className="after:bg-yellow flex justify-center after:left-1/2 after:-translate-x-1/2 mb-[107px]" />
+            <div className="container  mx-auto px-3 py-12 sm:py-14 md:py-16 lg:py-24 xl:pt-[154px] xl:pb-[98px] max-w-[1164px]">
+                <H2 heading="Podcasts" className="after:bg-yellow flex justify-center after:left-1/2 after:-translate-x-1/2 mb-8 md:mb-14 lg:mb-20 xl:mb-[107px]" />
                 <ProdcastVideoMap />
                 <div className="flex flex-wrap gap-4 justify-center sm:mt-11">
                     <CommonButton text='BE A GUEST' classesbtn=' max-sm:w-full' />

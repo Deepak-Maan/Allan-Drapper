@@ -14,7 +14,7 @@ import CommonButton from "../common/CommonButton";
 const Work = () => {
   return (
     <>
-      <div className=" oveflow-hidden">
+      <div className=" oveflow-hidden mx-auto min-[1445px]:container">
           <div className=" max-w-[594px] mx-auto sm:pb-16 pb-4">
             <H2 className="text-center after:left-1/2 after:-translate-x-1/2" heading="Work with Allan" />
             <p className=" font-medium text-center text-lg sm:text-xl md:text-2xl text-lightBlack opacity-80 pt-9 max-w-[470px] mx-auto">
@@ -56,19 +56,19 @@ const Work = () => {
             
           >
             <SwiperSlide >
-                <Image className="sm:!h-[384px] !h-[320px] sm:!w-[528px] !w-[340px] object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
+                <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image className="sm:!h-[384px] !h-[320px] sm:!w-[528px] !w-[340px] object-cover " src={slider3} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover " src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image className="sm:!h-[384px] !h-[320px] sm:!w-[528px] !w-[340px] object-cover " src={slider1} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover " src={slider1} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image className="sm:!h-[384px] !h-[320px] sm:!w-[528px] !w-[340px] object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src={slider2} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
             <SwiperSlide >
-            <Image className="sm:!h-[384px] !h-[320px] sm:!w-[528px] !w-[340px] object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
+            <Image className="!h-[384px] md:!w-[528px] w-full px-3 md:px-0 object-cover" src={slider3} width={528} height={384} alt="sliderImage" />
             </SwiperSlide>
 
           </Swiper>

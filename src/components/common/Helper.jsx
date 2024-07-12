@@ -1,14 +1,3 @@
-import proof from '../../../public/assets/images/svg/portfolio/proof.svg';
-import ranahub from '../../../public/assets/images/svg/portfolio/ranahub.svg';
-import marketing from '../../../public/assets/images/svg/portfolio/marketing.svg';
-import give from '../../../public/assets/images/svg/portfolio/giveBack.svg';
-import lizard from '../../../public/assets/images/svg/portfolio/lizard.svg';
-import jad from '../../../public/assets/images/svg/portfolio/jad.svg';
-import brown from '../../../public/assets/images/svg/portfolio/brown.svg';
-import wealth from '../../../public/assets/images/svg/portfolio/wealth.svg';
-import podcast from '../../../public/assets/images/svg/portfolio/podcast.svg';
-import real from '../../../public/assets/images/svg/portfolio/realEstate.svg';
-
 // =============================ProdcastVideo data ======================//
 export const ProdcastVideoData = [
   {
@@ -126,7 +115,7 @@ export const REVIEWSWIPERDATA = [
 // ============================= allan's brand data =============================//
 export const ALLANBRAND = [
   {
-    src: "/assets/images/svg/portfolio/proof.svg",
+    src: "/assets/images/portfolio/svg/proof.svg",
     width: 100,
     height: 100,
   },
@@ -141,7 +130,7 @@ export const ALLANBRAND = [
     height: 96,
   },
   {
-    src: "/assets/images/svg/portfolio/lizard.svg",
+    src: "/assets/images/portfolio/svg/lizard.svg",
     width: 118,
     height: 100,
   }
@@ -275,17 +264,17 @@ export const Laws = [
 // companies section
 
 export const images = [
-  { src: "/assets/images/svg/portfolio/proof.svg", width: 100, height: 100, alt: 'proof' },
-  { src: "/assets/images/svg/portfolio/ranahub.svg", width: 255, height: 93, alt: 'ranahub' },
-  { src: "/assets/images/svg/portfolio/marketing.svg", width: 240, height: 90, alt: 'marketing' },
-  { src: "/assets/images/svg/portfolio/giveBack.svg", width: 172, height: 100, alt: 'give' },
-  { src: "/assets/images/svg/portfolio/lizard.svg", width: 118, height: 100, alt: 'lizard' },
-  { src: "/assets/images/svg/portfolio/jad.svg", width: 87, height: 102, alt: 'jad' },
-  { src: "/assets/images/svg/portfolio/brown.svg", width: 172, height: 96, alt: 'brown' },
-  { src: "/assets/images/svg/portfolio/wealth.svg", width: 234, height: 103, alt: 'wealth' },
-  { src: "/assets/images/svg/portfolio/bugBuxt.svg", width: 178, height: 100, alt: 'bugbuxt' },
-  { src: "/assets/images/svg/portfolio/podcast.svg", width: 100, height: 100, alt: 'podcast' },
-  { src: "/assets/images/svg/portfolio/realEstate.svg", width: 163, height: 96, alt: 'real' }
+  { src: "/assets/images/portfolio/svg/proof.svg", width: 100, height: 100, alt: 'proof' },
+  { src: "/assets/images/portfolio/svg/ranahub.svg", width: 255, height: 93, alt: 'ranahub' },
+  { src: "/assets/images/portfolio/svg/marketing.svg", width: 240, height: 90, alt: 'marketing' },
+  { src: "/assets/images/portfolio/svg/give-back.svg", width: 172, height: 100, alt: 'give' },
+  { src: "/assets/images/portfolio/svg/lizard.svg", width: 118, height: 100, alt: 'lizard' },
+  { src: "/assets/images/portfolio/svg/jad.svg", width: 87, height: 102, alt: 'jad' },
+  { src: "/assets/images/portfolio/svg/brown.svg", width: 172, height: 96, alt: 'brown' },
+  { src: "/assets/images/portfolio/svg/wealth.svg", width: 234, height: 103, alt: 'wealth' },
+  { src: "/assets/images/portfolio/svg/bug-buxt.svg", width: 178, height: 100, alt: 'bugbuxt' },
+  { src: "/assets/images/portfolio/svg/podcast.svg", width: 100, height: 100, alt: 'podcast' },
+  { src: "/assets/images/portfolio/svg/real-Estate.svg", width: 163, height: 96, alt: 'real' }
 ];
 
 // curtomer reviews

@@ -9,8 +9,7 @@ import 'swiper/css/autoplay';
 // Import Swiper styles
 import 'swiper/css';
 import { ReviewData } from '../common/Helper';
-import { BigInvertedComaIcon, StartIcon } from '../common/Icons';
-import { H2 } from '../common/Heading';
+import { BigInvertedComa, Star } from '../common/Icons';
 
 const CustomerReviewCards
     = () => {
@@ -55,11 +54,11 @@ const CustomerReviewCards
                         <div className='shadow-worldCard bg-white sm:pl-6 sm:pt-6 sm:pr-5 sm:pb-5 p-4 max-w-[650px] lg:max-w-[487px] w-full mx-auto min-h-[230px] sm:min-h-[240px] md:min-h-[312px] flex flex-col justify-between'>
                             <div>
                                 <div className='flex items-center gap-1'>
-                                    <StartIcon />
-                                    <StartIcon />
-                                    <StartIcon />
-                                    <StartIcon />
-                                    <StartIcon />
+                                    <Star />
+                                    <Star />
+                                    <Star />
+                                    <Star />
+                                    <Star />
                                 </div>
                                 <p className='lg:max-w-[433px] font-medium text-lg sm:text-xl md:text-2xl leading-130 opacity-80 text-lightBlack mt-4'>{data.Review}</p>
                             </div>
@@ -69,7 +68,7 @@ const CustomerReviewCards
                                     <p className='font-medium text-lg sm:text-xl md:text-2xl leading-120 text-offGray pb-[2px]'>{data.CustomerProfession}</p>
                                 </div>
                                 <span className='-mt-10'>
-                                    <BigInvertedComaIcon />
+                                    <BigInvertedComa />
                                 </span>
                             </div>
                         </div>

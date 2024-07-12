@@ -33,7 +33,7 @@
   justify-content: center !important;
   align-items: center !important;
   gap: 2px !important;
-  margin-top: 10px !important;
+  margin-top: 20px !important;
 }
 
 @media (min-width: 576px) {
@@ -70,6 +70,7 @@
 
 .swiper-slide.swiper-slide-next {
   transform: scale(1.1) !important;
+  transition: all linear 400ms;
 }
 
 .swiper-wrapper {

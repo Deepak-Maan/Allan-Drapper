@@ -63,7 +63,7 @@ const Memories = () => {
                         <SwiperSlide>
                             <div className="grid grid-rows-2 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/speaking/webp/two-Person-Talking.webp"
+                                    src="/assets/images/speaking/webp/two-person-talking.webp"
                                     alt="MenTalking"
                                     width={534}
                                     height={905}
@@ -71,14 +71,14 @@ const Memories = () => {
                                 />
                                 <div className="grid grid-cols-2 gap-4 lg:gap-6">
                                     <Image
-                                        src="/assets/images/speaking/webp/singer-Men.webp"
+                                        src="/assets/images/speaking/webp/singer-men.webp"
                                         alt="SingerMen"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[360px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                     />
                                     <Image
-                                        src="/assets/images/speaking/webp/a-Men-Singing.webp"
+                                        src="/assets/images/speaking/webp/a-men-singing.webp"
                                         alt="menSinging"
                                         width={534}
                                         height={905}
@@ -108,7 +108,7 @@ const Memories = () => {
                         <SwiperSlide>
                             <div className="grid grid-rows-2 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/speaking/webp/two-Person-Talking.webp"
+                                    src="/assets/images/speaking/webp/two-person-talking.webp"
                                     alt="TwoPersontalking"
                                     width={534}
                                     height={905}
@@ -116,14 +116,14 @@ const Memories = () => {
                                 />
                                 <div className="grid grid-cols-2 gap-4 lg:gap-6">
                                     <Image
-                                        src="/assets/images/speaking/webp/singer-Men.webp"
+                                        src="/assets/images/speaking/webp/singer-men.webp"
                                         alt="singermen"
                                         width={534}
                                         height={905}
                                         className="w-full min-h-[190px] sm:w-[358px] sm:h-[201px] md:w-[352px] md:h-[246px] lg:w-[309px] lg:h-[216px] xl:w-[364px] xl:h-[200px] object-cover h-auto"
                                     />
                                     <Image
-                                        src="/assets/images/speaking/webp/a-Men-Singing.webp"
+                                        src="/assets/images/speaking/webp/a-men-singing.webp"
                                         alt="Mensinging"
                                         width={534}
                                         height={905}

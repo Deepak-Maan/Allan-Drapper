@@ -11,7 +11,7 @@ const Keynote = () => {
                 <div className="flex flex-col-reverse md:flex-row items-center gap-5  justify-between">
                     <div className='border-gray border-[10px] md:border-[20px]'>
                         <Image
-                            src="/assets/images/speaking/webp/keynote-Men.webp"
+                            src="/assets/images/speaking/webp/keynote-men.webp"
                             alt="keyNote"
                             width={464}
                             height={603}

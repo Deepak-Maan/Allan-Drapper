@@ -52,7 +52,7 @@ const Sacrifice = () => {
                 Your Dignity
             </h2>
             <Image
-                src="/assets/images/meetAllan/webp/sacrifice-Family.webp"
+                src="/assets/images/meetAllan/webp/sacrifice-family.webp"
                 alt="Family"
                 width={1140}
                 height={603}

@@ -149,7 +149,7 @@ export const ALLANBRAND = [
 // ---=========================Allan_meet======================================== //
 export const CARDDATA = [
   {
-    image: "/assets/images/meetAllan/svg/start-Now.svg",
+    image: "/assets/images/meetAllan/svg/start-now.svg",
     title: "Start Now",
     description: "Don't wait until you know 100% of what you need, get started already.",
   },
@@ -159,7 +159,7 @@ export const CARDDATA = [
     description: "Not all debt is bad debt. Know the difference",
   },
   {
-    image: "/assets/images/meetAllan/svg/cut-Ties.svg",
+    image: "/assets/images/meetAllan/svg/cut-ties.svg",
     title: "Cut Ties",
     description:
       "Get bad people out of your life, especially if they are related to you. The closer they are, the more damage you allow them to cause.",
@@ -170,7 +170,7 @@ export const CARDDATA = [
     description: "In most cases, college is a waste of time and money.",
   },
   {
-    image: "/assets/images/meetAllan/svg/pay-First.svg",
+    image: "/assets/images/meetAllan/svg/pay-first.svg",
     title: "Pay Yourself First",
     description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
   },
@@ -182,17 +182,17 @@ export const BOOKSDATA = [
     category: "Business Leadership/Management",
     items: [
       {
-        src: "/assets/images/meetAllan/webp/great-Book.webp",
+        src: "/assets/images/meetAllan/webp/great-book.webp",
         title: "Good to Great",
         author: "-Jim Collins"
       },
       {
-        src: "/assets/images/meetAllan/webp/effective-Book.webp",
+        src: "/assets/images/meetAllan/webp/effective-book.webp",
         title: "Seven Habits of Highly Effective People",
         author: "-Steven Covey"
       },
       {
-        src: "/assets/images/meetAllan/webp/delivering-Book.webp",
+        src: "/assets/images/meetAllan/webp/delivering-book.webp",
         title: "Delivering Happiness",
         author: "-Tony Hsieh"
       }
@@ -202,17 +202,17 @@ export const BOOKSDATA = [
     category: "Personal Improvement",
     items: [
       {
-        src: "/assets/images/meetAllan/webp/deep-Book.webp",
+        src: "/assets/images/meetAllan/webp/deep-book.webp",
         title: "Deep Work",
         author: "-Cal Newport"
       },
       {
-        src: "/assets/images/meetAllan/webp/simon-Book.webp",
+        src: "/assets/images/meetAllan/webp/simon-book.webp",
         title: "Start with Why",
         author: "-Simon Sinek"
       },
       {
-        src: "/assets/images/meetAllan/webp/purpose-Book.webp",
+        src: "/assets/images/meetAllan/webp/purpose-book.webp",
         title: "Procrastinate on Purpose",
         author: "-Rory Vaden"
       }
@@ -222,17 +222,17 @@ export const BOOKSDATA = [
     category: "Inspirational/Motivational",
     items: [
       {
-        src: "/assets/images/meetAllan/webp/dog-Book.webp",
+        src: "/assets/images/meetAllan/webp/dog-book.webp",
         title: "Shoe Dog",
         author: "-Phil Knight"
       },
       {
-        src: "/assets/images/meetAllan/webp/morrie-Book.webp",
+        src: "/assets/images/meetAllan/webp/morrie-book.webp",
         title: "Tuesday with Morrie",
         author: "-Mitch Albom"
       },
       {
-        src: "/assets/images/meetAllan/webp/elon-Musk.webp",
+        src: "/assets/images/meetAllan/webp/elon-musk.webp",
         title: "Elon Musk",
         author: "-Walter Isaacson"
       }
@@ -242,17 +242,17 @@ export const BOOKSDATA = [
     category: "Wealth Building",
     items: [
       {
-        src: "/assets/images/meetAllan/webp/flow-Book.webp",
+        src: "/assets/images/meetAllan/webp/flow-book.webp",
         title: "Cashflow Quadrant",
         author: "-Robert Kiyosaki"
       },
       {
-        src: "/assets/images/meetAllan/webp/rich-Book.webp",
+        src: "/assets/images/meetAllan/webp/rich-book.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       },
       {
-        src: "/assets/images/meetAllan/webp/next-Door.webp",
+        src: "/assets/images/meetAllan/webp/next-door.webp",
         title: "Think and Grow Rich",
         author: "-Napoleon Hill"
       }

@@ -8,7 +8,7 @@ const Archivement = () => {
             <div className='max-w-[1164px] px-3 mx-auto py-12 sm:py-14 md:py-16 lg:py-24 xl:pt-[150px] xl:pb-[93px]'>
                 <div className="flex flex-col-reverse md:flex-row items-center gap-5 justify-between">
                     <Image
-                        src="/assets/images/meetAllan/webp/archivement-Men.webp"
+                        src="/assets/images/meetAllan/webp/archivement-men.webp"
                         alt="ArchivementMen"
                         width={464}
                         height={603}

@@ -11,7 +11,7 @@ const Glimpse = () => {
                     <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
                         <div className="col-span-1 !gap-4">
                             <Image
-                                src="/assets/images/meetAllan/webp/men-In-City.webp"
+                                src="/assets/images/meetAllan/webp/men-in-city.webp"
                                 alt="menInCity"
                                 width={534}
                                 height={905}
@@ -25,7 +25,7 @@ const Glimpse = () => {
                         </div>
                         <div className="col-span-1">
                             <Image
-                                src="/assets/images/meetAllan/webp/kid-Play.webp"
+                                src="/assets/images/meetAllan/webp/kid-play.webp"
                                 alt="KidsPlay"
                                 width={534}
                                 height={905}
@@ -34,7 +34,7 @@ const Glimpse = () => {
                         <div className="col-span-1 xs:col-span-2 lg:col-span-1">
                             <div className="grid grid-rows-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-6">
                                 <Image
-                                    src="/assets/images/meetAllan/webp/joint-Family.webp"
+                                    src="/assets/images/meetAllan/webp/joint-family.webp"
                                     alt="AFamily"
                                     width={534}
                                     height={905}

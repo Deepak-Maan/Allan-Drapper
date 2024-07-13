@@ -13,7 +13,7 @@ import { RELATEDSLIDERLIST } from '../common/Helper'
 
 const Related = () => {
   return (
-    <div className='py-12 sm:py-16 md:py-20 lg:py-[120px]'>
+    <div className='py-6 sm:py-16 md:py-20 lg:py-[120px]'>
       <div className='container mx-auto max-w-[1172px] px-4'>
         <div className='flex flex-col items-center justify-center'>
           <H2 className="text-3xl1 sm:text-4xl md:text-4xl1 !text-center after:left-1/2 after:-translate-x-1/2 after:bg-yellow" heading="Related Articles" />

@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const Business = () => {
         return (
-                <div className='pt-12 sm:pt-16 md:pt-20 lg:pt-[110px]'>
+                <div className='pt-6 sm:pt-16 md:pt-20 lg:pt-[110px]'>
                         <div className='container max-w-[1140px] mx-auto px-3'>
                                 <div className='flex flex-col xl:flex-row gap-4 md:gap-8 relative'>
-                                        <div className=' pt-6 md:pt-14 order-2 xl:order-1'>
+                                        <div className=' pt-4 md:pt-14 order-2 xl:order-1'>
                                                 <H2 className="text-4xl md:text-5xl lg:text-5xl1 !max-w-[653px] !leading-110" heading="I Have Several Business Ideas. What Should I Do?" />
                                                 <p className='pt-8 font-medium text-lg sm:text-xl leading-130 mb-6 sm:mb-10 md:mb-[71px]'>Published: 11 December, 2023</p>
                                                 <div className=' mb-6 md:mb-[60px]'>
@@ -34,7 +34,7 @@ const Business = () => {
                                                         <p className='opacity-80 text-lightBlack font-medium text-lg sm:text-xl md:text-2xl leading-130 max-w-[775px] mb-4'>By fostering this mindset, you cultivate a culture of continuous improvement and innovation within your entrepreneurial journey. This approach enables you to refine your strategies, iterate on your ideas, and steer your business towards sustainable growth and success over time.</p>
                                                 </div>
                                         </div>
-                                        <div className='w-full xl:w-[330px] mx-auto order-1 xl:order-2 h-full p-[32px] xl:sticky xl:top-0 border border-offGray '>
+                                        <div className='w-full xl:w-[330px] mx-auto order-1 xl:order-2 h-full p-6 md:p-[32px] xl:sticky xl:top-0 border border-offGray '>
                                                 <h5 className='text-lightBlack font-bold text-2xl md:text-2xl1 leading-120 mb-4'>Table of Contents</h5>
                                                 <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-1 gap-6">
                                                         <div className='flex items-center justify-start gap-[10px]'>

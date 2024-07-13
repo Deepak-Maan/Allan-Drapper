@@ -67,7 +67,7 @@ const Work = () => {
           </SwiperSlide>
         </Swiper>
         <div className=" flex justify-center items-center mt-12">
-          <Button text='APPLY' classesbtn=" w-[105px]" />
+          <Button text='APPLY' className=" w-[105px]" />
         </div>
       </div>
     </>

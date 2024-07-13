@@ -3,10 +3,7 @@ import Gain from "@/components/coaching/Gain";
 import Program from "@/components/coaching/Program";
 import Brand from "@/components/coaching/Brand";
 import Wellsay from "@/components/coaching/Wellsay";
-import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
-import React from "react";
-import ScrollToTop from "@/components/common/ScrollToTop";
 import Header from "@/components/common/Header";
 
 const page = () => {

@@ -12,7 +12,7 @@ const Footer = () => {
                         <Link href="/">
                             <Image className='pb-8' src="/assets/images/podCast/svg/page-logo.svg" width={264} height={48} alt="page logo " />
                         </Link>
-                        <Image src="/assets/images/homePage/webp/allanFooterImage.webp" width={386} height={245} alt="allan's image" />
+                        <Image src="/assets/images/homePage/webp/allan-footer.webp" width={386} height={245} alt="allan's image" />
                     </div>
                     <div className='flex justify-between lg:w-[60%] w-full'>
                         <div>
@@ -40,9 +40,9 @@ const Footer = () => {
                             <ul className='max-w-[180px] ml-auto'>
                                 <li className='text-white text-lg sm:text-xl font-bold !leading-150 mb-4 md:mb-6 uppercase'>Listen On </li>
                                 <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://www.apple.com/in/apple-podcasts/" target="_blank"><PodcastLogo />Apple Podcast</Link></li>
-                                <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://open.spotify.com/" target="_blank"><Image src="/assets/images/svg/spotifyLogo.svg" height={35} width={35} alt='spotify logo' />Spotify</Link></li>
+                                <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://open.spotify.com/" target="_blank"><Image src="/assets/images/homePage/svg/spotify-logo.svg" height={35} width={35} alt='spotify logo' />Spotify</Link></li>
                                 <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://play.google.com/" target="_blank"><GooglePlayIcon />Google Play</Link></li>
-                                <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://www.pandora.com/" target="_blank"><Image src="/assets/images/svg/pandoraLogo.svg" height={35} width={35} alt='spotify logo' />Pandora</Link></li>
+                                <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://www.pandora.com/" target="_blank"><Image src="/assets/images/homePage/svg/pandora-logo.svg" height={35} width={35} alt='spotify logo' />Pandora</Link></li>
                                 <li className='pb-2.5'><Link className='footerLinks flex items-center gap-2' href="https://www.stitcher.com/" target="_blank"><StitcherIcon />Stitcher</Link></li>
                             </ul>
                         </div>

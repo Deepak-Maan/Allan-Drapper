@@ -19,7 +19,7 @@ const HomeHeader = () => {
                     </div>
                     <div className='relative  '>
                         <div className='absolute w-[400px] animate-pulse h-[400px] bg-yellow blur-[200px] top-[10%] left-[20%] z-0'></div>
-                        <Image className='max-lg:mx-auto relative z-10 lg:h-[90%] xl:h-full object-contain ' src="/assets/images/homePage/webp/allanHeaderImage.webp" height={670} width={594} alt='allan image' />
+                        <Image className='max-lg:mx-auto relative z-10 lg:h-[90%] xl:h-full object-contain ' src="/assets/images/homePage/webp/allan-header.webp" height={670} width={594} alt='allan image' />
                     </div>
                 </div>
             </div>

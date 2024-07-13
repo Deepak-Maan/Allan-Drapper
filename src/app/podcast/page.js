@@ -1,8 +1,5 @@
-
-import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
-import ScrollToTop from "@/components/common/ScrollToTop";
 import AllanDaper from "@/components/podcast/AllanDaper";
 import DoYou from "@/components/podcast/DoYou";
 import ReviewSwiper from "@/components/podcast/ReviewSwiper";

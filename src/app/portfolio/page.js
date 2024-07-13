@@ -1,7 +1,5 @@
-import Footer from "@/components/common/Footer";
 import GrabPdf from "@/components/common/GrabPdf";
 import Header from "@/components/common/Header";
-import ScrollToTop from "@/components/common/ScrollToTop";
 import Companies from "@/components/Portfolio/Companies";
 import Hustle from "@/components/Portfolio/Hustle";
 import Investments from "@/components/Portfolio/Investments";

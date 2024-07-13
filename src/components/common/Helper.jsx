@@ -1,5 +1,5 @@
-// =============================ProdcastVideo data ======================//
-export const ProdcastVideoData = [
+// =============================ProdcastVideo data =================================//
+export const PODCASTVIDEODATA = [
   {
     img: "/assets/images/homePage/webp/collage-thumbnail.webp",
     title: "Leadership Lessons From Legendary… College Coaches",
@@ -22,7 +22,7 @@ export const ProdcastVideoData = [
     date: "Dec 4, 2023",
   },
 ];
-// ============================= worldmost data =============================//
+// ================================ worldmost data =================================//
 export const PODCASTS = [
   {
     src: '/assets/images/podCast/svg/apple-pod-cast.svg',
@@ -50,7 +50,7 @@ export const PODCASTS = [
     img: 'w-[82.43px] h-[50px]'
   },
 ];
-// ============================= allandaper data =============================//
+// ================================= allandaper data ================================//
 export const ALLANDAPPERIMG = [
   {
     src: '/assets/images/podCast/webp/allandaper-man.webp',
@@ -65,7 +65,7 @@ export const ALLANDAPPERIMG = [
     alt: 'family',
   },
 ];
-// ============================= whyshouldcards data =============================//
+// =============================== whyshouldcards data ===============================//
 export const WHYSHOULDCARD = [
   {
     title: 'Invested In Others Ideas',
@@ -88,7 +88,7 @@ export const WHYSHOULDCARD = [
     LineColor: 'after:bg-lightBlack'
   },
 ];
-// ============================= reviews data =============================//
+// ================================= reviews data ===================================//
 export const REVIEWSWIPERDATA = [
   {
     para: (<>Learn to Earn! <br></br> Own a Business or thinking about it!? You Have<br className='hidden lg:block'></br> to listen to this podcast!! Great information for<br className='hidden lg:block'></br> free!! You have to learn to earn!</>),
@@ -112,7 +112,7 @@ export const REVIEWSWIPERDATA = [
   },
 
 ];
-// ============================= allan's brand data =============================//
+// =============================== allan's brand data ====================================//
 export const ALLANBRAND = [
   {
     img: "/assets/images/portfolio/svg/proof.svg",
@@ -135,7 +135,7 @@ export const ALLANBRAND = [
     height: 100,
   }
 ];
-// ---=========================Allan_meet======================================== //
+// ---================================Allan meet======================================== //
 export const CARDDATA = [
   {
     image: "/assets/images/meetAllan/svg/start-now.svg",
@@ -164,7 +164,7 @@ export const CARDDATA = [
     description: "Pay yourself 10% first. Even before paying off high interest debt. The lender will make you pay them either way. You have to be the one to make sure to pay yourself.",
   },
 ];
-
+// ---============================ meet allan book ======================================== //
 export const BOOKSDATA = [
   {
     category: "Business Leadership/Management",
@@ -259,9 +259,7 @@ export const LAWSLIST = [
   "You must have multiple streams of income",
   "You must use debt wisely to make incremental growth"
 ];
-
-// companies section
-
+// ---=========================== companies section ======================================== //
 export const IMAGES = [
   { img: "/assets/images/portfolio/svg/proof.svg", width: 100, height: 100, alt: 'proof' },
   { img: "/assets/images/portfolio/svg/ranahub.svg", width: 255, height: 93, alt: 'ranahub' },
@@ -275,9 +273,8 @@ export const IMAGES = [
   { img: "/assets/images/portfolio/svg/podcast.svg", width: 100, height: 100, alt: 'podcast' },
   { img: "/assets/images/portfolio/svg/real-estate.svg", width: 163, height: 96, alt: 'real' }
 ];
-
-// curtomer reviews
-export const ReviewData = [
+// ---=========================== curtomer reviews ======================================== //
+export const REVIEWDATA = [
   {
     Review: 'Allan’s super power is balancing high business acumen and precise decision making all while making you feel seen, heard, and important. He has helped change my life!',
     CustomerProfession: 'Businessman',
@@ -330,7 +327,7 @@ export const RELATEDSLIDERLIST = [
     description: "Lorem ipsum dolor sit amet consectetur. In ultrices urna eget lla nisl duis lectus. Tincidunt pretium odio at scele risque viva.",
   }
 ]
-// ========================= library================================ //
+// ================================ library ============================================ //
 export const LIBRARYDATA = [
   {
 
